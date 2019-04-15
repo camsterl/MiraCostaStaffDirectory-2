@@ -1,0 +1,94 @@
+{"DanceDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Hanada-Rogers, Trisha",
+    "B": "Faculty-Dance",
+    "D": "6526",
+    "F": "OC2707",
+    "H": "phrogers@miracosta.edu"
+  },
+  {
+    "A": "Massey, Dave",
+    "B": "Faculty-Dance",
+    "D": "6302",
+    "F": "OC2705",
+    "H": "dmassey@miracosta.edu"
+  },
+  {
+    "A": "Nemeth, Angelika",
+    "B": "Associate Faculty-Dance",
+    "D": "",
+    "F": "",
+    "H": "anemeth@miracosta.edu"
+  },
+  {
+    "A": "Sprague, Terry",
+    "B": "Associate Faculty-Dance",
+    "D": "",
+    "F": "",
+    "H": "tsprague@miracosta.edu"
+  },
+  {
+    "A": "Tapia, Minerva",
+    "B": "Associate Faculty-Dance",
+    "D": "",
+    "F": "",
+    "H": "mtapia@miracosta.edu"
+  },
+  {
+    "A": "Waali, Jaami",
+    "B": "Associate Faculty-Dance",
+    "D": "",
+    "F": "",
+    "H": "jwaali@miracosta.edu"
+  },
+  {
+    "A": "Weinberg, Sadie",
+    "B": "Associate Faculty-Dance",
+    "D": "",
+    "F": "",
+    "H": "sweinberg@miracosta.edu"
+  },
+  {
+    "A": "Adao, Melissa",
+    "B": "Associate Faculty-Dance",
+    "D": "",
+    "F": "",
+    "H": "Madao@miracosta.edu"
+  },
+  {
+    "A": "Boskin-Mullen, Nancy",
+    "B": "Associate Faculty-Dance",
+    "D": "",
+    "F": "",
+    "H": "nboskin-mullen@miracosta.edu"
+  },
+  {
+    "A": "Davis, Ashley (McConnell)",
+    "B": "Associate Faculty-Dance",
+    "D": "",
+    "F": "",
+    "H": "amcconnell@miracosta.edu"
+  },
+  {
+    "A": "Jankovic, Teresa Avina",
+    "B": "Associate Faculty-Dance",
+    "D": "",
+    "F": "",
+    "H": "tavina@miracosta.edu"
+  },
+  {
+    "A": "Andersen, Adrian",
+    "B": "Instructional Associate-Dance",
+    "D": "6235",
+    "F": "OC2700",
+    "H": "adadmersen@miracosta.edu"
+  }
+]
+}

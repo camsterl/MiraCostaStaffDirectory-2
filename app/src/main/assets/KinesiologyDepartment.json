@@ -1,0 +1,171 @@
+{"KinesiologyDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Fulbright, Robert",
+    "B": "Faculty-Kinesiology",
+    "D": "6423",
+    "F": "OCT536",
+    "H": "rfulbright@miracosta.edu"
+  },
+  {
+    "A": "McFarland, Casey",
+    "B": "Faculty-Health, Kinesiology",
+    "D": "6226",
+    "F": "OCT114",
+    "H": "cmcfarland@miracosta.edu"
+  },
+  {
+    "A": "Meinhold, Gail",
+    "B": "Faculty-Kinesiology/Health",
+    "D": "6566",
+    "F": "OCT411",
+    "H": "gmeinhold@miracosta.edu"
+  },
+  {
+    "A": "Paquette, Leah",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "",
+    "F": "",
+    "H": "lpaquette@miracosta.edu"
+  },
+  {
+    "A": "Shimabukuro, Lauren",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "",
+    "F": "",
+    "H": "lshimabukuro@miracosta.edu"
+  },
+  {
+    "A": "Szyndlar, Nick",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "",
+    "F": "",
+    "H": "nszyndlar@miracosta.edu"
+  },
+  {
+    "A": "Wheatley, Ally",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "",
+    "F": "",
+    "H": "awheatley@miracosta.edu"
+  },
+  {
+    "A": "Baker, Troy",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "",
+    "F": "",
+    "H": "tbaker@miracosta.edu"
+  },
+  {
+    "A": "Conahan, Patrick",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "6242",
+    "F": "OCT410",
+    "H": "pconahan@miracosta.edu"
+  },
+  {
+    "A": "Hackett, Joan",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "6223",
+    "F": "OC4100",
+    "H": "jhackett@miracosta.edu"
+  },
+  {
+    "A": "Jacobs, Alyssa",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "6427",
+    "F": "",
+    "H": "ajacobs@miracosta.edu"
+  },
+  {
+    "A": "Kramer, Alexis",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "",
+    "F": "",
+    "H": "alexiskk@cox.net"
+  },
+  {
+    "A": "Kremer, Susan",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "",
+    "F": "",
+    "H": "skremer@miracosta.edu"
+  },
+  {
+    "A": "Kriebel, Amanda",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "",
+    "F": "",
+    "H": "akriebel@miracosta.edu"
+  },
+  {
+    "A": "Lu-Anderson, Doris",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "",
+    "F": "",
+    "H": "dlu-anderson@miracosta.edu"
+  },
+  {
+    "A": "McCarthy, Stacy",
+    "B": "Associate Faculty-Kinesiology",
+    "D": "",
+    "F": "",
+    "H": "smccarthy@miracosta.edu"
+  },
+  {
+    "A": "Barbera, Amithy",
+    "B": "Associate Faculty-Massage Therapy",
+    "D": "",
+    "F": "",
+    "H": "abarbera@miracosta.edu"
+  },
+  {
+    "A": "Whitfield, Kevin",
+    "B": "Associate Faculty-Massage Therapy",
+    "D": "",
+    "F": "",
+    "H": "kwhitfield@miracosta.edu"
+  },
+  {
+    "A": "Basile, Tammy",
+    "B": "Associate Faculty-Nutrition",
+    "D": "",
+    "F": "",
+    "H": "tbasile@miracosta.edu"
+  },
+  {
+    "A": "Mitchell, Traci",
+    "B": "Associate Faculty-Nutrician",
+    "D": "",
+    "F": "",
+    "H": "tmitchell@miracosta.edu"
+  },
+  {
+    "A": "Pratt, Tabitha",
+    "B": "Associate Faculty-Nutrition",
+    "D": "",
+    "F": "OC",
+    "H": "tpratt@miracosta.edu"
+  },
+  {
+    "A": "Skoda, Erin",
+    "B": "Associate Faculty-Nutrition",
+    "D": "",
+    "F": "",
+    "H": "eskoda@miracosta.edu"
+  },
+  {
+    "A": "Slomka, Catherine",
+    "B": "Associate Faculty-Nutrition",
+    "D": "",
+    "F": "OCN",
+    "H": "cslomka@miracosta.edu"
+  }
+]
+}

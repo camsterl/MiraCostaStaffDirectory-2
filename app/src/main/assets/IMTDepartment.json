@@ -1,0 +1,94 @@
+{"IMTDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Cleveland, Karl",
+    "B": "Faculty-Media Arts & Technologies",
+    "D": "6365",
+    "F": "OC4623",
+    "H": "kcleveland@miracosta.edu"
+  },
+  {
+    "A": "Cotnoir, Leigh",
+    "B": "Faculty-Media Arts & Techologies",
+    "D": "6451",
+    "F": "OC4621",
+    "H": "lcotnoir@miracosta.edu"
+  },
+  {
+    "A": "Malone, Jill",
+    "B": "Faculty-Media, Arts & Technologies",
+    "D": "7780",
+    "F": "SAN602",
+    "H": "jmalone@miracosta.edu"
+  },
+  {
+    "A": "Uhlik, Jeff",
+    "B": "Faculty-IMT",
+    "D": "6394",
+    "F": "OC4623",
+    "H": "juhlik@miracosta.edu"
+  },
+  {
+    "A": "Choi, Min",
+    "B": "Associate Faculty-Media Arts & Technologies",
+    "D": "",
+    "F": "OCN",
+    "H": "mchoi@miracosta.edu"
+  },
+  {
+    "A": "Faulk, Claudia",
+    "B": "Associate Faculty-Media Arts & Technologies",
+    "D": "",
+    "F": "OCN",
+    "H": "cfaulk@miracosta.edu"
+  },
+  {
+    "A": "Jackson, Theresa",
+    "B": "Associate Faculty-Media Arts & Technologies",
+    "D": "",
+    "F": "OCN",
+    "H": "thjackson@miracosta.edu"
+  },
+  {
+    "A": "Kelley, Gregory",
+    "B": "Associate Faculty-Media Arts & Technologies",
+    "D": "",
+    "F": "",
+    "H": "gkelley@miracosta.edu"
+  },
+  {
+    "A": "O'Brien, Alan",
+    "B": "Associate Faculty-Media Arts and Technologies",
+    "D": "",
+    "F": "OCN",
+    "H": "akobrien@miracosta.edu"
+  },
+  {
+    "A": "Silven, Naagen",
+    "B": "Associate Faculty-Media Arts & Technoligies, Art",
+    "D": "1373",
+    "F": "",
+    "H": "nsilven@miracosta.edu"
+  },
+  {
+    "A": "Taylor, Scott",
+    "B": "Associate Faculty-Media Arts & Technologies",
+    "D": "",
+    "F": "OCN",
+    "H": "sctaylor@miracosta.edu"
+  },
+  {
+    "A": "Terry, Melvin",
+    "B": "Associate Faculty-Media Arts & Technologies",
+    "D": "",
+    "F": "OCN",
+    "H": "mterry@miracosta.edu"
+  }
+]
+}

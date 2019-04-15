@@ -1,0 +1,164 @@
+{ "CommunicationStudiesDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Arenivar, Sam",
+    "B": "Faculty-Communication Studies",
+    "D": "7727",
+    "F": "SAN604",
+    "H": "sarenivar@miracosta.edu"
+  },
+  {
+    "A": "Hastings, Rachel",
+    "B": "Faculty-Communication Studies",
+    "D": "6550",
+    "F": "OC3113",
+    "H": "rhastings@miracosta.edu"
+  },
+  {
+    "A": "Ongyod, Anthony",
+    "B": "Faculty-Communication Studies",
+    "D": "6559",
+    "F": "OCT411",
+    "H": "aongyod@miracosta.edu"
+  },
+  {
+    "A": "Powers, Leola",
+    "B": "Faculty-Communication Studies",
+    "D": "6558",
+    "F": "OC3112",
+    "H": "lmcclure@miracosta.edu"
+  },
+  {
+    "A": "Robertson, Eric",
+    "B": "Faculty-Communication Studies",
+    "D": "7741",
+    "F": "SAN608",
+    "H": "erobertson@miracosta.edu"
+  },
+  {
+    "A": "Ross, Keri",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "kross@miracosta.edu"
+  },
+  {
+    "A": "Rostami-Brojerdi, Samira",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "srostami@miracosta.edu"
+  },
+  {
+    "A": "van Wolferen, Michelle",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "mvanwolferen@miracosta.edu"
+  },
+  {
+    "A": "Witmer, Sarah",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "switmer@miracosta.edu"
+  },
+  {
+    "A": "Alford, Chandler",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "calford@miracosta.edu"
+  },
+  {
+    "A": "Anderson, Terez",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "1233",
+    "F": "",
+    "H": "tanderson@miracosta.edu"
+  },
+  {
+    "A": "Brown, Daniel",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "dbrown@miracosta.edu"
+  },
+  {
+    "A": "Corcoran, Kevin",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "kcorcoran@miracosta.edu"
+  },
+  {
+    "A": "Corey, Amy",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "acorey@miracosta.edu"
+  },
+  {
+    "A": "Fanney, Elise",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "efanney@miracosta.edu"
+  },
+  {
+    "A": "Fogle, Ashley",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "afogle@miracosta.edu"
+  },
+  {
+    "A": "Lieberman, Mark",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "mlieberman@miracosta.edu"
+  },
+  {
+    "A": "Long, Robert",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "rlong@miracosta.edu"
+  },
+  {
+    "A": "Magtira, France",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "fmagtira@miracosta.edu"
+  },
+  {
+    "A": "McHan, Michael",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "mmchan@miracosta.edu"
+  },
+  {
+    "A": "Ortiz, Katharine (Hoyer)",
+    "B": "Associate Faculty-Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "khoyer@miracosta.edu"
+  },
+  {
+    "A": "Kincade, Anne",
+    "B": "Associate Faculty - Communication Studies",
+    "D": "",
+    "F": "",
+    "H": "akincade@miracosta.edu"
+  }
+]
+}

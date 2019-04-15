@@ -1,0 +1,346 @@
+{"CounselingDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Askerneese, Adrean",
+    "B": "Faculty-Counseling",
+    "D": "6472",
+    "F": "OC3715",
+    "H": "aaskerneese@miracosta.edu"
+  },
+  {
+    "A": "Burns, Larry",
+    "B": "EOPS Counselor",
+    "D": "6505",
+    "F": "OC3000",
+    "H": "lburns@miracosta.edu"
+  },
+  {
+    "A": "Collins, Laney",
+    "B": "Faculty-Counseling",
+    "D": "6564",
+    "F": "OC3711",
+    "H": "lcollins@miracosta.edu"
+  },
+  {
+    "A": "Diaz, Nancy",
+    "B": "EOPS Counselor",
+    "D": "6335",
+    "F": "OC3020",
+    "H": "ndiaz@miracosta.edu"
+  },
+  {
+    "A": "Dua, Arti",
+    "B": "Counselor-Student Success & Support",
+    "D": "6473",
+    "F": "OC3713",
+    "H": "adua@miracosta.edu"
+  },
+  {
+    "A": "Duarte-Braunstein, Karina",
+    "B": "Counselor-Student Success & Support",
+    "D": "6224",
+    "F": "OC3700",
+    "H": "kduarte-braunstein@miracosta.edu"
+  },
+  {
+    "A": "Farnam, Michelle",
+    "B": "Interim Faculty Director-DSPS",
+    "D": "6348",
+    "F": "OC3009",
+    "H": "mfarnam@miracosta.edu"
+  },
+  {
+    "A": "Flocken, Lise",
+    "B": "Faculty Director/Counselor",
+    "D": "6580",
+    "F": "OC3704",
+    "H": "lflocken@miracosta.edu"
+  },
+  {
+    "A": "Gomez-Zinn, Hilda",
+    "B": "Counselor",
+    "D": "6295",
+    "F": "OC3710",
+    "H": "hgomez@miracosta.edu"
+  },
+  {
+    "A": "Hayek, Laura",
+    "B": "Counselor-Student Success & Support",
+    "D": "6983",
+    "F": "OC3703",
+    "H": "lhayek@miracosta.edu"
+  },
+  {
+    "A": "Horton, Wendy",
+    "B": "Counselor",
+    "D": "6517",
+    "F": "OC3709",
+    "H": "whorton@miracosta.edu"
+  },
+  {
+    "A": "Hughes, Melissa",
+    "B": "Counselor",
+    "D": "6956",
+    "F": "OC3716",
+    "H": "mlhughes@miracosta.edu"
+  },
+  {
+    "A": "Lara, Luke",
+    "B": "Faculty-Counseling",
+    "D": "6563",
+    "F": "OC3708",
+    "H": "llara@miracosta.edu"
+  },
+  {
+    "A": "Lomeli, Sinar",
+    "B": "Faculty-Counseling",
+    "D": "6293",
+    "F": "OC3719",
+    "H": "slomeli@miracosta.edu"
+  },
+  {
+    "A": "Love, Don",
+    "B": "Faculty-Counseling",
+    "D": "6273",
+    "F": "OC3703",
+    "H": "dlove@miracosta.edu"
+  },
+  {
+    "A": "Morgan, Rebecca",
+    "B": "Veterans Counselor",
+    "D": "6774",
+    "F": "OCT100",
+    "H": "rmorgan@miracosta.edu"
+  },
+  {
+    "A": "Morente, Desmond",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "dmorente@miracosta.edu"
+  },
+  {
+    "A": "Munshower, Donny",
+    "B": "Counselor-Veterans",
+    "D": "6982",
+    "F": "OCT106",
+    "H": "dmunshower@miracosta.edu"
+  },
+  {
+    "A": "Owens, Candy",
+    "B": "EOPS Counselor",
+    "D": "6544",
+    "F": "OC3000",
+    "H": "cowens@miracosta.edu"
+  },
+  {
+    "A": "Ramirez, Oswaldo",
+    "B": "Noncredit Counselor",
+    "D": "8780",
+    "F": "CLC142",
+    "H": "oramirez@miracosta.edu"
+  },
+  {
+    "A": "Sandoval, Kevin",
+    "B": "Administrative Support Assistant III-Counseling",
+    "D": "6230",
+    "F": "OC3700",
+    "H": "ksandoval@miracosta.edu"
+  },
+  {
+    "A": "Schlueter, Jed",
+    "B": "Transfer Counselor",
+    "D": "6309",
+    "F": "OC3702",
+    "H": "jschlueter@miracosta.edu"
+  },
+  {
+    "A": "Vasquez Gonzales, Cynthia",
+    "B": "Noncredit Counselor",
+    "D": "8731",
+    "F": "CLC143",
+    "H": "cvasquezgonzales@miracosta.edu"
+  },
+  {
+    "A": "Wish, Kristi",
+    "B": "Transfer Center Counselor",
+    "D": "6545",
+    "F": "OC3701",
+    "H": "kwish@miracosta.edu"
+  },
+  {
+    "A": "Zaman, Afifa",
+    "B": "Counselor-Student Success & Support",
+    "D": "7547",
+    "F": "SAN804",
+    "H": "azaman@miracosta.edu"
+  },
+  {
+    "A": "Zepeda, Magdalena",
+    "B": "Faculty-Counselor",
+    "D": "6299",
+    "F": "OC3717",
+    "H": "mzepeda@miracosta.edu"
+  },
+  {
+    "A": "Bacon, Jamie",
+    "B": "Associate Counselor-VetSuccess on Campus",
+    "D": "6332",
+    "F": "OCT107",
+    "H": "jbacon@miracosta.edu"
+  },
+  {
+    "A": "Halttunen, David",
+    "B": "Associate Faculty-IIP Counselor",
+    "D": "",
+    "F": "",
+    "H": "dhalttunen@miracosta.edu"
+  },
+  {
+    "A": "Osman, Ghada",
+    "B": "Mental Health Counselor",
+    "D": "6752",
+    "F": "OC3322",
+    "H": "gosman@miracosta.edu"
+  },
+  {
+    "A": "Peck, Kris",
+    "B": "Associate Counselor-DSPS",
+    "D": "6300",
+    "F": "OC3010",
+    "H": "kpeck@miracosta.edu"
+  },
+  {
+    "A": "Peck, Paris",
+    "B": "Counselor",
+    "D": "6970",
+    "F": "OC3717",
+    "H": "ppeck@miracosta.edu"
+  },
+  {
+    "A": "Turk, Shaylah",
+    "B": "Counselor-Disabled Students Programs & Services",
+    "D": "6271",
+    "F": "OC3011",
+    "H": "sturk@miracosta.edu"
+  },
+  {
+    "A": "Vilchez, Katherine",
+    "B": "Associate Faculty-EOPS Counselor",
+    "D": "",
+    "F": "",
+    "H": "kvilchez@miracosta.edu"
+  },
+  {
+    "A": "Aparicio, Veronica",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "vaparicio@miracosta.edu"
+  },
+  {
+    "A": "Bader, Elissa",
+    "B": "Associate Faculty-Counseling",
+    "D": "6778",
+    "F": "OC4713",
+    "H": "ebader@miracosta.edu"
+  },
+  {
+    "A": "Bloss, Valerie",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "vbloss@miracosta.edu"
+  },
+  {
+    "A": "Davis, Mitchell",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "mdavis@miracosta.edu"
+  },
+  {
+    "A": "Gebrekristos, Selam",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "sgebrekristos@miracosta.edu"
+  },
+  {
+    "A": "Gonzaga, Jaymie",
+    "B": "Associate Faculty-Counseling",
+    "D": "6335",
+    "F": "",
+    "H": "jgonzaga@miracosta.edu"
+  },
+  {
+    "A": "Lee, Margie",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "OC3714",
+    "H": "mlee@miracosta.edu"
+  },
+  {
+    "A": "Leguizamo, Elizabeth",
+    "B": "Interim Admin. Support Assistant III-Counseling",
+    "D": "6512",
+    "F": "OC3700",
+    "H": "eleguizamo@miracosta.edu"
+  },
+  {
+    "A": "Long, Erin",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "elong@miracosta.edu"
+  },
+  {
+    "A": "McIntosh, Daniela",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "dmcintosh@miracosta.edu"
+  },
+  {
+    "A": "Orrantia, Jose",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "jorrantia@miracosta.edu"
+  },
+  {
+    "A": "Perez, Josilyn",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "jperez@miracosta.edu"
+  },
+  {
+    "A": "Rogers, Ken",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "krogers@miracosta.edu"
+  },
+  {
+    "A": "Solis, Ariana",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "asolis@miracosta.edu"
+  },
+  {
+    "A": "Tirona, Taylor",
+    "B": "Associate Faculty-Counseling",
+    "D": "",
+    "F": "",
+    "H": "ttirona@miracosta.edu"
+  }
+]
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MiraCosta Staff Directory</string>
+    <string name="home">Home</string>
+    <string name="departments">Departments</string>
+    <string name="all_staff">All Staff</string>
+    <string name="name">Name:</string>
+    <string name="title">Department:</string>
+    <string name="extension">Phone Extension:</string>
+    <string name="room">Room Number:</string>
+    <string name="email">Email:</string>
+    <string name="WelcomeMessage">Welcome to the MiraCosta Staff Directory</string>
+</resources>

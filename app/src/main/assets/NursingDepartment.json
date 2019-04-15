@@ -1,0 +1,366 @@
+{"NursingDepartment":[
+ {
+   "A": "Name",
+   "B": "Title",
+   "D": "Phone",
+   "F": "Location",
+   "H": "Email"
+ },
+ {
+   "A": "Dela Cruz, Angelito",
+   "B": "Faculty-Nursing",
+   "D": "6331",
+   "F": "OC4410",
+   "H": "a.delacruz@miracosta.edu"
+ },
+ {
+   "A": "Duncan, Yvette",
+   "B": "Faculty-Nursing/Allied Health",
+   "D": "6440",
+   "F": "OCT423",
+   "H": "yduncan@miracosta.edu"
+ },
+ {
+   "A": "Essman, Marti",
+   "B": "Faculty-Nursing/Allied Health",
+   "D": "6764",
+   "F": "OCT422",
+   "H": "messman@miracosta.edu"
+ },
+ {
+   "A": "Estrella, Roland",
+   "B": "Faculty-Nursing/Allied Health",
+   "D": "6510",
+   "F": "OC4405",
+   "H": "restrella@miracosta.edu"
+ },
+ {
+   "A": "Gardiner, Yana",
+   "B": "Faculty-Nursing",
+   "D": "6420",
+   "F": "OCT421",
+   "H": "ygardiner@miracosta.edu"
+ },
+ {
+   "A": "McDonald, Linda",
+   "B": "Faculty-Nursing",
+   "D": "6447",
+   "F": "OCT423",
+   "H": "lmcdonald@miracosta.edu"
+ },
+ {
+   "A": "Phinney, Alison",
+   "B": "Faculty-Nursing/Allied Health",
+   "D": "6567",
+   "F": "OCT421",
+   "H": "aphinney@miracosta.edu"
+ },
+ {
+   "A": "Simpson, Sue",
+   "B": "Faculty-Nursing",
+   "D": "6572",
+   "F": "OCT422",
+   "H": "ssimpson@miracosta.edu"
+ },
+ {
+   "A": "Tam, Vicky",
+   "B": "Faculty-Nursing/CNA Program",
+   "D": "6384",
+   "F": "OC4403",
+   "H": "vtam@miracosta.edu"
+ },
+ {
+   "A": "Batista-Edwards, Lillian",
+   "B": "Faculty-Surgical Technology",
+   "D": "6435",
+   "F": "OC7056",
+   "H": "lbatista-edwards@miracosta.edu"
+ },
+ {
+   "A": "Barrett, Rachael",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "rbarrett@miracosta.edu"
+ },
+ {
+   "A": "Bautista, Rex",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "rbautista@miracosta.edu"
+ },
+ {
+   "A": "Bender, Jaque",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "jbender@miracosta.edu"
+ },
+ {
+   "A": "Blundell, Stephanie",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "sblundell@miracosta.edu"
+ },
+ {
+   "A": "Boren, Denise",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "dboren@miracosta.edu"
+ },
+ {
+   "A": "Brown, Karen Lynn",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "klbrown@miracosta.edu"
+ },
+ {
+   "A": "Barkley, Leslie",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "lbarkley@miracosta.edu"
+ },
+ {
+   "A": "Barragan, Aimee",
+   "B": "Administrative Assistant to the Dean-Nursing",
+   "D": "6796",
+   "F": "OCT420",
+   "H": "abarragan@miracosta.edu"
+ },
+ {
+   "A": "Brown, Valerie",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "vbrown@miracosta.edu"
+ },
+ {
+   "A": "Carey, Giana",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "OCN",
+   "H": "gcarey@miracosta.edu"
+ },
+ {
+   "A": "Barden, Rita",
+   "B": "Associate Faculty-Pharmacology",
+   "D": "",
+   "F": "",
+   "H": "rbarden@miracosta.edu"
+ },
+ {
+   "A": "Kolt, Tom",
+   "B": "Associate Faculty-Pharmacology",
+   "D": "",
+   "F": "",
+   "H": "tkolt@miracosta.edu"
+ },
+ {
+   "A": "Narisma-Estabillo, Gigi",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "vnarisma-estabillo@miracosta.edu"
+ },
+ {
+   "A": "Nelson, Nicole",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "nnelson@miracosta.edu"
+ },
+ {
+   "A": "Odom, Michelle",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "OC",
+   "H": "modom@miracosta.edu"
+ },
+ {
+   "A": "Omitt, Denise",
+   "B": "Instructional Associate-Nursing",
+   "D": "6269",
+   "F": "OC4403",
+   "H": "domitt@miracosta.edu"
+ },
+ {
+   "A": "Perkins, Allison",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "OC",
+   "H": "aperkins@miracosta.edu"
+ },
+ {
+   "A": "Rivas, Katie",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "krivas@miracosta.edu"
+ },
+ {
+   "A": "Roberts, Susan",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "sroberts@miracosta.edu"
+ },
+ {
+   "A": "Rowland, Michelle",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "mrowland@miracosta.edu"
+ },
+ {
+   "A": "Sayre, Lisa",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "lsayre@miracosta.edu"
+ },
+ {
+   "A": "Stuckert, Leah",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "lstuckert@miracosta.edu"
+ },
+ {
+   "A": "Van Nostran, Melissa",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "mvannostran@miracosta.edu"
+ },
+ {
+   "A": "Yager, Melissa",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "myager@miracosta.edu"
+ },
+ {
+   "A": "Zirzow, Jennifer",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "jzirzow@miracosta.edu"
+ },
+ {
+   "A": "Concors, Suzanne",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "sconcors@miracosta.edu"
+ },
+ {
+   "A": "Cottam, Julie",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "jcottam@miracosta.edu"
+ },
+ {
+   "A": "Dalton, Olivia",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "odalton@miracosta.edu"
+ },
+ {
+   "A": "Duralde, Maria",
+   "B": "Associate Faculty-Nursing",
+   "D": "6384",
+   "F": "",
+   "H": "mduralde@miracosta.edu"
+ },
+ {
+   "A": "Fitzpatrick, Bill",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "bfitzpatrick@miracosta.edu"
+ },
+ {
+   "A": "Fore, Mallory",
+   "B": "Administrative Support Assistant III-Nursing",
+   "D": "6466",
+   "F": "OCT420",
+   "H": "mfore@miracosta.edu"
+ },
+ {
+   "A": "French, Jenessa",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "jfrench@miracosta.edu"
+ },
+ {
+   "A": "Fritts, Jacqueline",
+   "B": "Instructional Associate-Nursing",
+   "D": "6419",
+   "F": "OC4401",
+   "H": "jfritts@miracosta.edu"
+ },
+ {
+   "A": "Goulette, Korey",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "kgoulette@miracosta.edu"
+ },
+ {
+   "A": "Hansen, Darlene",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "dhansen@miracosta.edu"
+ },
+ {
+   "A": "Hargas, Gail",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "ghargas@miracosta.edu"
+ },
+ {
+   "A": "Hernandez, Robert",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "rdhernandez@miracosta.edu"
+ },
+ {
+   "A": "Jennings, Tamrah",
+   "B": "Associate Faculty-Nursing",
+   "D": "",
+   "F": "",
+   "H": "tjennings@miracosta.edu"
+ },
+ {
+   "A": "Hickey, Kristen",
+   "B": "Instructional Associate-Surgical Technology",
+   "D": "6419",
+   "F": "OC4406",
+   "H": "khickey@miracosta.edu"
+ },
+ {
+   "A": "Turner, Tanisha",
+   "B": "Instructional Associate-Surgical Tech",
+   "D": "6476",
+   "F": "OC4410",
+   "H": "tturner@miracosta.edu"
+ },
+ {
+   "A": "White, Kendrick",
+   "B": "Instructional Associate-Surgical Technology",
+   "D": "6901",
+   "F": "OC4405",
+   "H": "kbwhite@miracosta.edu"
+ }
+]}

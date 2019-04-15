@@ -1,0 +1,227 @@
+{"PhysicalScienceDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "French, Rica",
+    "B": "Faculty-Astronomy",
+    "D": "6506",
+    "F": "OC4512",
+    "H": "rfrench@miracosta.edu"
+  },
+  {
+    "A": "Meldahl, Keith",
+    "B": "Faculty-Geology/Oceanography",
+    "D": "6412",
+    "F": "SAN512",
+    "H": "kmeldahl@miracosta.edu"
+  },
+  {
+    "A": "Turbeville, John",
+    "B": "Faculty-Geology/Oceanography",
+    "D": "6413",
+    "F": "OC4609",
+    "H": "jturbeville@miracosta.edu"
+  },
+  {
+    "A": "Cole, Jonathan",
+    "B": "Faculty-Physics",
+    "D": "6390",
+    "F": "OC4508",
+    "H": "jcole@miracosta.edu"
+  },
+  {
+    "A": "Peters, Erika",
+    "B": "Faculty-Physics",
+    "D": "7740",
+    "F": "SAN604",
+    "H": "eartukovic@miracosta.edu"
+  },
+  {
+    "A": "Salamon, Joe",
+    "B": "Faculty-Physical Science",
+    "D": "6401",
+    "F": "OC4519",
+    "H": "jsalamon@miracosta.edu"
+  },
+  {
+    "A": "Beck, Sara",
+    "B": "Associate Faculty-Physical Science",
+    "D": "",
+    "F": "",
+    "H": "sbeck@miracosta.edu"
+  },
+  {
+    "A": "Bergmanis, Eric",
+    "B": "Associate Faculty-Physical Sciences",
+    "D": "",
+    "F": "",
+    "H": "ebergmanis@miracosta.edu"
+  },
+  {
+    "A": "Falero, Roberto",
+    "B": "Associate Faculty - Physical Sciences",
+    "D": "",
+    "F": "",
+    "H": "rfalero@miracosta.edu"
+  },
+  {
+    "A": "Gomes, Cari",
+    "B": "Associate Faculty - Physical Sciences",
+    "D": "",
+    "F": "",
+    "H": "cgomes@miracosta.edu"
+  },
+  {
+    "A": "Harrison, Collin",
+    "B": "Instructional Associate-Physical Sciences",
+    "D": "7707",
+    "F": "SAN502",
+    "H": "charrison@miracosta.edu"
+  },
+  {
+    "A": "Hernandez, Larry",
+    "B": "Instructional Associate-Physical Science",
+    "D": "6329",
+    "F": "OC4527",
+    "H": "lhernandez@miracosta.edu"
+  },
+  {
+    "A": "Krezoski, Jill",
+    "B": "Associate Faculty - Physical Sciences",
+    "D": "",
+    "F": "",
+    "H": "jkrezoski@miracosta.edu"
+  },
+  {
+    "A": "Mellinger, Richard",
+    "B": "Associate Faculty - Physical Sciences",
+    "D": "",
+    "F": "",
+    "H": "rmellinger@miracosta.edu"
+  },
+  {
+    "A": "Schubel, Kathryn",
+    "B": "Associate Faculty - Physical Sciences",
+    "D": "",
+    "F": "",
+    "H": "kschubel@miracosta.edu"
+  },
+  {
+    "A": "Stoffer, Philip",
+    "B": "Associate Faculty - Physical Sciences",
+    "D": "",
+    "F": "",
+    "H": "pstoffer@miracosta.edu"
+  },
+  {
+    "A": "Williams, Curtis",
+    "B": "Associate Faculty-Physical Science",
+    "D": "",
+    "F": "",
+    "H": "cwilliams@miracosta.edu"
+  },
+  {
+    "A": "Zapata Pichon, Jesus",
+    "B": "Associate Faculty-Physical Science",
+    "D": "",
+    "F": "",
+    "H": "jzapatapichon@miracosta.edu"
+  },
+  {
+    "A": "Brownell, Douglas",
+    "B": "Associate Faculty-Physics",
+    "D": "",
+    "F": "",
+    "H": "dbrownell@miracosta.edu"
+  },
+  {
+    "A": "Cota, Luke",
+    "B": "Associate Faculty-Physics",
+    "D": "",
+    "F": "",
+    "H": "lcota@miracosta.edu"
+  },
+  {
+    "A": "Gabler, Christopher",
+    "B": "Associate Faculty-Physics",
+    "D": "",
+    "F": "",
+    "H": "cgabler@miracosta.edu"
+  },
+  {
+    "A": "Haavig, David",
+    "B": "Associate Faculty-Physics",
+    "D": "",
+    "F": "",
+    "H": "dhaavig@miracosta.edu"
+  },
+  {
+    "A": "Haavig, Lisa",
+    "B": "Associate Faculty-Physics",
+    "D": "",
+    "F": "",
+    "H": "lhaavig@miracosta.edu"
+  },
+  {
+    "A": "Hirano, Conrad",
+    "B": "Associate Faculty-Physics/Astronomy",
+    "D": "",
+    "F": "",
+    "H": "chirano@miracosta.edu"
+  },
+  {
+    "A": "Markey, John",
+    "B": "Associate Faculty-Physics",
+    "D": "",
+    "F": "",
+    "H": "jmarkey@miracosta.edu"
+  },
+  {
+    "A": "Peters, Erika",
+    "B": "Faculty-Physics",
+    "D": "7740",
+    "F": "SAN604",
+    "H": "eartukovic@miracosta.edu"
+  },
+  {
+    "A": "Reyzer, Kendall",
+    "B": "Associate Faculty-Physics",
+    "D": "",
+    "F": "",
+    "H": "kreyzer@miracosta.edu"
+  },
+  {
+    "A": "Said, Asma",
+    "B": "Associate Faculty - Astronomy",
+    "D": "",
+    "F": "",
+    "H": "asaid@miracosta.edu"
+  },
+  {
+    "A": "Eastmond, Dan",
+    "B": "Associate Faculty-Oceanography/Geology",
+    "D": "",
+    "F": "",
+    "H": "deastmond@miracosta.edu"
+  },
+  {
+    "A": "Garza, Jessica",
+    "B": "Associate Faculty-Oceanography",
+    "D": "",
+    "F": "",
+    "H": "jgarza@miracosta.edu"
+  },
+  {
+    "A": "Rector, R. Ray",
+    "B": "Associate Faculty-Oceanography",
+    "D": "",
+    "F": "",
+    "H": "oceanprof@seascisurf.com"
+  }
+]
+}

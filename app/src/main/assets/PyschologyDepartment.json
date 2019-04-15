@@ -1,0 +1,241 @@
+{ "PhysicalDepartment.json":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Byrd, Krista",
+    "B": "Faculty-Psychology",
+    "D": "7790",
+    "F": "SAN513",
+    "H": "kbyrd@miracosta.edu"
+  },
+  {
+    "A": "Eso, Steve",
+    "B": "Faculty-Psychology",
+    "D": "6503",
+    "F": "OC3121",
+    "H": "seso@miracosta.edu"
+  },
+  {
+    "A": "Fast, Lisa",
+    "B": "Faculty-Psychology",
+    "D": "6515",
+    "F": "OC3124",
+    "H": "lfast@miracosta.edu"
+  },
+  {
+    "A": "Kelley, Robert",
+    "B": "Faculty-Psychology",
+    "D": "6262",
+    "F": "OC3110",
+    "H": "rkelley@miracosta.edu"
+  },
+  {
+    "A": "McPherson, Barbara",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "bmcpherson@miracosta.edu"
+  },
+  {
+    "A": "Milner, Alanna",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "Oceanside",
+    "H": "Amilner@miracosta.edu"
+  },
+  {
+    "A": "Misch, Regina",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "rmisch@miracosta.edu"
+  },
+  {
+    "A": "Mulholland, Michele",
+    "B": "Associate Faculty-Psychology, Sociology",
+    "D": "",
+    "F": "",
+    "H": "mmulholland@miracosta.edu"
+  },
+  {
+    "A": "Olson-Bermudez, Laura",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "LOlsonBermudez@miracosta.edu"
+  },
+  {
+    "A": "Patton, Gillian",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "gpatton@miracosta.edu"
+  },
+  {
+    "A": "Phillips, Judith",
+    "B": "Associate Faculty-Psychology, Gerontology",
+    "D": "6292",
+    "F": "--",
+    "H": "judithphillips@miracosta.edu"
+  },
+  {
+    "A": "Ricci, Janet",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "San Elijo",
+    "H": "jricci@miracosta.edu"
+  },
+  {
+    "A": "Smilo, Pamela",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "psmilo@miracosta.edu"
+  },
+  {
+    "A": "Taylor, Lisa",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "ltaylor@miracosta.edu"
+  },
+  {
+    "A": "Apegian, Diane",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "dapegian@miracosta.edu"
+  },
+  {
+    "A": "Ariadne, Patricia",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "pariadne@miracosta.edu"
+  },
+  {
+    "A": "Ashlyn, Jahna",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "jashlyn@miracosta.edu"
+  },
+  {
+    "A": "Bettencourt, Alisha",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "abettencourt@miracosta.edu"
+  },
+  {
+    "A": "Bourdages, Joline",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "jbourdages@miracosta.edu"
+  },
+  {
+    "A": "Caro, Francis",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "fcaro@miracosta.edu"
+  },
+  {
+    "A": "Coronado, Curtis",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "ccoronado@miracosta.edu"
+  },
+  {
+    "A": "Craig, Rebecca",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "rcraig@miracosta.edu"
+  },
+  {
+    "A": "Curtiss, Wendy",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "wcurtiss@miracosta.edu"
+  },
+  {
+    "A": "DeLaRosa, Gabriel",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "gdelarosa@miracosta.edu"
+  },
+  {
+    "A": "Dow, Helena",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "hdow@miracosta.edu"
+  },
+  {
+    "A": "Drecun-Cox, Aleksandra",
+    "B": "Associate Faculty-Psychology",
+    "D": "1328",
+    "F": "",
+    "H": "adrecun@miracosta.edu"
+  },
+  {
+    "A": "Geiss, Elisa",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "egeiss@miracosta.edu"
+  },
+  {
+    "A": "Griffin, Genevieve",
+    "B": "Associate Faculty-Psychology",
+    "D": "1231",
+    "F": "",
+    "H": "gmelenyk@miracosta.edu"
+  },
+  {
+    "A": "Hallett, Maureen",
+    "B": "Associate Faculty-Psychology/Sociology",
+    "D": "",
+    "F": "",
+    "H": "mhallett@miracosta.edu"
+  },
+  {
+    "A": "Hawkins, Whitney",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "whawkins@miracosta.edu"
+  },
+  {
+    "A": "Hepburn, Bonnie",
+    "B": "Associate Faculty-Psychology",
+    "D": "1277",
+    "F": "",
+    "H": "bhepburn@miracosta.edu"
+  },
+  {
+    "A": "McCoy, Kerry",
+    "B": "Associate Faculty-Psychology",
+    "D": "",
+    "F": "",
+    "H": "kmccoy@miracosta.edu"
+  },
+  {
+    "A": "Hallett, Maureen",
+    "B": "Associate Faculty-Psychology/Sociology",
+    "D": "",
+    "F": "",
+    "H": "mhallett@miracosta.edu"
+  }
+]
+}

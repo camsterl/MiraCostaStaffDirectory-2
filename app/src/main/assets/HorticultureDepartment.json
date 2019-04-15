@@ -1,0 +1,94 @@
+{"HorticultureDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Allison, Megan",
+    "B": "Faculty-Horticulture",
+    "D": "6838",
+    "F": "OC7058",
+    "H": "mallison@miracosta.edu"
+  },
+  {
+    "A": "Ehrlinger, Claire",
+    "B": "Faculty-Horticulture",
+    "D": "6704",
+    "F": "OC7057",
+    "H": "cehrlinger@miracosta.edu"
+  },
+  {
+    "A": "Ferrieri, Abigail",
+    "B": "Associate Faculty-Horticulture",
+    "D": "",
+    "F": "OC",
+    "H": "aferrieri@miracosta.edu"
+  },
+  {
+    "A": "Gerson, Jennifer",
+    "B": "Associate Faculty-Horticulture",
+    "D": "",
+    "F": "",
+    "H": "jgerson@miracosta.edu"
+  },
+  {
+    "A": "Messina, John",
+    "B": "Associate Faculty-Horticulture",
+    "D": "",
+    "F": "OCN",
+    "H": "jmessina@miracosta.edu"
+  },
+  {
+    "A": "Nelson, Alicen",
+    "B": "Associate Faculty-Horticulture",
+    "D": "",
+    "F": "OC",
+    "H": "anelson@miracosta.edu"
+  },
+  {
+    "A": "Stehly, Alysha",
+    "B": "Associate Faculty-Horticulture",
+    "D": "",
+    "F": "",
+    "H": "astehly@miracosta.edu"
+  },
+  {
+    "A": "Bender, Gary",
+    "B": "Associate Faculty-Horticulture",
+    "D": "",
+    "F": "",
+    "H": "gbender@miracosta.edu"
+  },
+  {
+    "A": "Brown, Rajan",
+    "B": "Associate Faculty-Horticulture",
+    "D": "",
+    "F": "",
+    "H": "rbrown@miracosta.edu"
+  },
+  {
+    "A": "Kinnon, Carolyn",
+    "B": "Instructional Associate-Horticulture",
+    "D": "6482",
+    "F": "OC7054",
+    "H": "ckinnon@miracosta.edu"
+  },
+  {
+    "A": "Lague, Stephen",
+    "B": "Horticulture Assistant",
+    "D": "6491",
+    "F": "OC7000",
+    "H": "slague@miracosta.edu"
+  },
+  {
+    "A": "Ryan, Leslie",
+    "B": "Associate Faculty - Horticulture",
+    "D": "",
+    "F": "OCN",
+    "H": "lryan@miracosta.edu"
+  }
+]
+}

@@ -1,0 +1,304 @@
+{"BusinessDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Carstensen, Eric",
+    "B": "Faculty-Business",
+    "D": "6556",
+    "F": "OC4813",
+    "H": "ecarstensen@miracosta.edu"
+  },
+  {
+    "A": "Deschamps, Michael",
+    "B": "Faculty-Accounting",
+    "D": "6488",
+    "F": "OC4815",
+    "H": "mdeschamps@miracosta.edu"
+  },
+  {
+    "A": "Loedel, Delores",
+    "B": "Faculty-Accounting",
+    "D": "6366",
+    "F": "OCT111",
+    "H": "dloedel@miracosta.edu"
+  },
+  {
+    "A": "Ngo, Annie",
+    "B": "Faculty-Business Administration",
+    "D": "6190",
+    "F": "OC4813",
+    "H": "ango@miracosta.edu"
+  },
+  {
+    "A": "Scharff, Nate",
+    "B": "Faculty-Business Administration",
+    "D": "2394",
+    "F": "OC4820",
+    "H": "nscharff@miracosta.edu"
+  },
+  {
+    "A": "Sharp, Christina",
+    "B": "Faculty-Business",
+    "D": "6399",
+    "F": "OC4810",
+    "H": "csharp@miracosta.edu"
+  },
+  {
+    "A": "Agatha, Rachelle",
+    "B": "Associate Faculty-Accounting",
+    "D": "1381",
+    "F": "",
+    "H": "ragatha@miracosta.edu"
+  },
+  {
+    "A": "Bryant, Gabriela",
+    "B": "Associate Faculty-Accounting",
+    "D": "1382",
+    "F": "",
+    "H": "gbryant@miracosta.edu"
+  },
+  {
+    "A": "Carr, Shana",
+    "B": "Associate Faculty-Accounting",
+    "D": "",
+    "F": "Online",
+    "H": "scarr@miracosta.edu"
+  },
+  {
+    "A": "Chamberlain, Robert",
+    "B": "Associate Faculty-Accounting",
+    "D": "1341",
+    "F": "OCN",
+    "H": "rchamberlain@miracosta.edu"
+  },
+  {
+    "A": "Diskin, Dawn",
+    "B": "Associate Faculty-Accounting",
+    "D": "1383",
+    "F": "",
+    "H": "ddiskin@miracosta.edu"
+  },
+  {
+    "A": "Etemad, Said",
+    "B": "Associate Faculty-Accounting",
+    "D": "1407",
+    "F": "",
+    "H": "setemad@miracosta.edu"
+  },
+  {
+    "A": "Fusco, John",
+    "B": "Associate Faculty-Accounting",
+    "D": "1408",
+    "F": "OCN",
+    "H": "jfusco@miracosta.edu"
+  },
+  {
+    "A": "Hajiha, Hamed",
+    "B": "Associate Faculty-Accounting",
+    "D": "1298",
+    "F": "",
+    "H": "hhajiha@miracosta.edu"
+  },
+  {
+    "A": "Hartley, Patricia",
+    "B": "Associate Faculty-Accounting",
+    "D": "1225",
+    "F": "",
+    "H": "phartley@miracosta.edu"
+  },
+  {
+    "A": "Krupinski, Larry",
+    "B": "Associate Faculty-Accounting",
+    "D": "1384",
+    "F": "",
+    "H": "lkrupinski@miracosta.edu"
+  },
+  {
+    "A": "Taccone, Albert",
+    "B": "Associate Faculty-Accounting",
+    "D": "6807",
+    "F": "OC4819",
+    "H": "ataccone@miracosta.edu"
+  },
+  {
+    "A": "Vera, Stacey",
+    "B": "Associate Faculty-Accounting",
+    "D": "",
+    "F": "Online",
+    "H": "svera@miracosta.edu"
+  },
+  {
+    "A": "Baker, Jed",
+    "B": "Associate Faculty-Business",
+    "D": "",
+    "F": "",
+    "H": "jedbaker@miracosta.edu"
+  },
+  {
+    "A": "Burns, Lisa",
+    "B": "Associate Faculty-Business",
+    "D": "1403",
+    "F": "",
+    "H": "lisaburns@miracosta.edu"
+  },
+  {
+    "A": "Cole, Alan",
+    "B": "Associate Faculty-Business",
+    "D": "1256",
+    "F": "",
+    "H": "acole@miracosta.edu"
+  },
+  {
+    "A": "Daniels, Michael",
+    "B": "Associate Faculty-Business",
+    "D": "",
+    "F": "",
+    "H": "mdaniels@miracosta.edu"
+  },
+  {
+    "A": "Drasco, Mitch",
+    "B": "Associate Faculty-Business",
+    "D": "1390",
+    "F": "",
+    "H": "mdrasco@miracosta.edu"
+  },
+  {
+    "A": "Green, Jack",
+    "B": "Associate Faculty-Business",
+    "D": "1391",
+    "F": "",
+    "H": "jgreen@miracosta.edu"
+  },
+  {
+    "A": "Herrera, Lizzette",
+    "B": "Associate Faculty-Business",
+    "D": "",
+    "F": "",
+    "H": "lherrera@miracosta.edu"
+  },
+  {
+    "A": "Horner, Amanda",
+    "B": "Associate Faculty-Business",
+    "D": "1254",
+    "F": "",
+    "H": "ahorner@miracosta.edu"
+  },
+  {
+    "A": "Kalescky, Don",
+    "B": "Associate Faculty-Business",
+    "D": "1249",
+    "F": "",
+    "H": "dkalescky@miracosta.edu"
+  },
+  {
+    "A": "Lambeth, Ashley",
+    "B": "Associate Faculty-Business",
+    "D": "1435",
+    "F": "",
+    "H": "alambeth@miracosta.edu"
+  },
+  {
+    "A": "Lindstrom, Zhenya",
+    "B": "Associate Faculty-Business",
+    "D": "6678",
+    "F": "OC4705A",
+    "H": "zlindstrom@miracosta.edu"
+  },
+  {
+    "A": "Milstein, Louis",
+    "B": "Associate Faculty-Business",
+    "D": "1324",
+    "F": "",
+    "H": "lmilstein@miracosta.edu"
+  },
+  {
+    "A": "Mohareri, Alic",
+    "B": "Associate Faculty-Business",
+    "D": "1338",
+    "F": "",
+    "H": "amohareri@miracosta.edu"
+  },
+  {
+    "A": "Ovwiovwio, Peter",
+    "B": "Associate Faculty-Business",
+    "D": "",
+    "F": "OCN",
+    "H": "povwiovwio@miracosta.edu"
+  },
+  {
+    "A": "Smith, Sean",
+    "B": "Associate Faculty-Business",
+    "D": "1396",
+    "F": "",
+    "H": "seansmith@miracosta.edu"
+  },
+  {
+    "A": "Soza, Rita",
+    "B": "Associate Faculty-Business",
+    "D": "",
+    "F": "",
+    "H": "rsoza@miracosta.edu"
+  },
+  {
+    "A": "Wadeson, Cheryl",
+    "B": "Associate Faculty-Business",
+    "D": "1361",
+    "F": "",
+    "H": "cwadeson@miracosta.edu"
+  },
+  {
+    "A": "Zavodny, Anastasia",
+    "B": "Associate Faculty-Business",
+    "D": "",
+    "F": "OC",
+    "H": "azavodny@miracosta.edu"
+  },
+  {
+    "A": "Jenkins Orr, Lisa",
+    "B": "Associate Faculty-Hospitality",
+    "D": "",
+    "F": "OCN",
+    "H": "ljenkinsorr@miracosta.edu"
+  },
+  {
+    "A": "Blackmon, Lyle",
+    "B": "Associate Faculty-Hospitality",
+    "D": "",
+    "F": "",
+    "H": "lblackmon@miracosta.edu"
+  },
+  {
+    "A": "Patel, Jennifer",
+    "B": "Associate Faculty-Hospitality",
+    "D": "",
+    "F": "",
+    "H": "jpatel@miracosta.edu"
+  },
+  {
+    "A": "Sharp, Christina",
+    "B": "Associate Faculty-Hospitality",
+    "D": "",
+    "F": "",
+    "H": "csharp@miracosta.edu"
+  },
+  {
+    "A": "Wadeson, Cheryl",
+    "B": "Associate Faculty-Hospitality",
+    "D": "",
+    "F": "Online",
+    "H": "cwadeson@miracosta.edu"
+  },
+  {
+    "A": "Walker-Pinneo, Amy",
+    "B": "Associate Faculty-Hospitality",
+    "D": "",
+    "F": "",
+    "H": "awalkerpinneo@miracosta.edu"
+  }
+]
+}

@@ -1,0 +1,101 @@
+{"SociologyDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Ha, Thao",
+    "B": "Faculty-Sociology",
+    "D": "6258",
+    "F": "OCT115",
+    "H": "tha@miracosta.edu"
+  },
+  {
+    "A": "Hoskins, Bruce",
+    "B": "Faculty-Sociology",
+    "D": "6305",
+    "F": "OC3121",
+    "H": "bhoskins@miracosta.edu"
+  },
+  {
+    "A": "Lopez, Alicia",
+    "B": "Faculty-Sociology",
+    "D": "6228",
+    "F": "OC3615",
+    "H": "alopez@miracosta.edu"
+  },
+  {
+    "A": "Nealon, Denise",
+    "B": "Associate Faculty-Sociology",
+    "D": "",
+    "F": "Oceanside",
+    "H": "dnealon@miracosta.edu"
+  },
+  {
+    "A": "Niuatoa, Amber",
+    "B": "Associate Faculty-Sociology",
+    "D": "",
+    "F": "",
+    "H": "aniuatoa@miracosta.edu"
+  },
+  {
+    "A": "Trousset, Nicole",
+    "B": "Associate Faculty-Sociology",
+    "D": "",
+    "F": "",
+    "H": "ntrousset@miracosta.edu"
+  },
+  {
+    "A": "Williams, Edwina",
+    "B": "Associate Faculty-Sociology",
+    "D": "",
+    "F": "",
+    "H": "ewilliams@miracosta.edu"
+  },
+  {
+    "A": "Allyn, Robin",
+    "B": "Associate Faculty-Sociology",
+    "D": "",
+    "F": "",
+    "H": "rallyn@miracosta.edu"
+  },
+  {
+    "A": "Arce, Michael",
+    "B": "Associate Faculty-Sociology",
+    "D": "",
+    "F": "",
+    "H": "marce@miracosta.edu"
+  },
+  {
+    "A": "Blunt, Travis",
+    "B": "Associate Faculty-Sociology",
+    "D": "",
+    "F": "SAN",
+    "H": "tblunt@miracosta.edu"
+  },
+  {
+    "A": "Conner, Chris",
+    "B": "Associate Faculty-Sociology",
+    "D": "",
+    "F": "",
+    "H": "cconner@miracosta.edu"
+  },
+  {
+    "A": "Kathleen, Soto-Gomez",
+    "B": "Associate Faculty-Sociology",
+    "D": "",
+    "F": "OC",
+    "H": "ksotogomez@miracosta.edu"
+  },
+  {
+    "A": "Hallett, Maureen",
+    "B": "Associate Faculty-Psychology/Sociology",
+    "D": "",
+    "F": "",
+    "H": "mhallett@miracosta.edu"
+  }
+]
+}

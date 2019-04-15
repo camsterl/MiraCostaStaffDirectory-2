@@ -1,0 +1,451 @@
+{"EnglishDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Ante-Contreras, Daniel",
+    "B": "Faculty-English",
+    "D": "6489",
+    "F": "OC3615",
+    "H": ""
+  },
+  {
+    "A": "Burman, Tony",
+    "B": "Faculty-English",
+    "D": "7737",
+    "F": "SAN609",
+    "H": "aburman@miracosta.edu"
+  },
+  {
+    "A": "Diaz, Zulema",
+    "B": "Faculty-English",
+    "D": "6379",
+    "F": "OC3616",
+    "H": "zdiaz@miracosta.edu"
+  },
+  {
+    "A": "Figueroa-Chacon, Maria",
+    "B": "Faculty-English",
+    "D": "6238",
+    "F": "OCT311",
+    "H": "mfigueroa@miracosta.edu"
+  },
+  {
+    "A": "Guinon, Teresa",
+    "B": "Faculty-English",
+    "D": "6521",
+    "F": "OCT316",
+    "H": "tguinon@miracosta.edu"
+  },
+  {
+    "A": "Hagen, Kelly",
+    "B": "Faculty-English",
+    "D": "7784",
+    "F": "SANT148",
+    "H": "khagen@miracosta.edu"
+  },
+  {
+    "A": "Herrmann, Susan",
+    "B": "Faculty-English",
+    "D": "6218",
+    "F": "OC3618",
+    "H": "sherrmann@miracosta.edu"
+  },
+  {
+    "A": "Hidle, Jade",
+    "B": "Faculty-English",
+    "D": "6266",
+    "F": "OCT112",
+    "H": "jhidle@miracosta.edu"
+  },
+  {
+    "A": "Jara, Jose",
+    "B": "Faculty-English",
+    "D": "6217",
+    "F": "OC3619",
+    "H": "jjara@miracosta.edu"
+  },
+  {
+    "A": "Kirwan, John",
+    "B": "Faculty-English",
+    "D": "6416",
+    "F": "OC3618",
+    "H": "jkirwan@miracosta.edu"
+  },
+  {
+    "A": "Lambert, Luke",
+    "B": "Faculty-Reading",
+    "D": "7825",
+    "F": "SAN602",
+    "H": "llambert@miracosta.edu"
+  },
+  {
+    "A": "Mitchell, Curry",
+    "B": "Faculty-Letters",
+    "D": "6221",
+    "F": "OCT311",
+    "H": "cmitchell@miracosta.edu"
+  },
+  {
+    "A": "Mushinsky, Jane",
+    "B": "Faculty-English",
+    "D": "7792",
+    "F": "SAN504",
+    "H": "jmush@miracosta.edu"
+  },
+  {
+    "A": "Nagai, Tyrone",
+    "B": "Faculty-English",
+    "D": "6195",
+    "F": "OCT314",
+    "H": "tnagai@miracosta.edu"
+  },
+  {
+    "A": "Sanchez, Violeta",
+    "B": "Faculty-English",
+    "D": "6196",
+    "F": "OC3614",
+    "H": "vsanchez@miracosta.edu"
+  },
+  {
+    "A": "Strona, Jake",
+    "B": "Faculty-English",
+    "D": "6270",
+    "F": "OCT112",
+    "H": "jstrona@miracosta.edu"
+  },
+  {
+    "A": "Sullivan, Jim",
+    "B": "Faculty-English",
+    "D": "6303",
+    "F": "OCT318",
+    "H": "jimsullivan@miracosta.edu"
+  },
+  {
+    "A": "Tsuyuki, Chad",
+    "B": "Faculty-English",
+    "D": "6229",
+    "F": "OC3619",
+    "H": "ctsuyuki@miracosta.edu"
+  },
+  {
+    "A": "Perales, Dara",
+    "B": "Faculty-English",
+    "D": "6428",
+    "F": "OC3618",
+    "H": "dara@miracosta.edu"
+  },
+  {
+    "A": "Alessi, Anna",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "aalessi@miracosta.edu"
+  },
+  {
+    "A": "Bolt, Kellen",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "kbolt@miracosta.edu"
+  },
+  {
+    "A": "Braman, Jayne",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "jbraman@miracosta.edu"
+  },
+  {
+    "A": "Burns, Sarah",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "sburns@miracosta.edu"
+  },
+  {
+    "A": "Cordero, Karla",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "kcordero@miracosta.edu"
+  },
+  {
+    "A": "Crum, Jason",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "jcrum@miracosta.edu"
+  },
+  {
+    "A": "Davis, John \"Randy\"",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "jdavis@miracosta.edu"
+  },
+  {
+    "A": "Dolce, Craig",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "cdolce@miracosta.edu"
+  },
+  {
+    "A": "Ericksen, Linda",
+    "B": "Associate Faculty-English",
+    "D": "1203",
+    "F": "",
+    "H": "lericksen@miracosta.edu"
+  },
+  {
+    "A": "Faulkner, Sarah",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "sfaulkner@miracosta.edu"
+  },
+  {
+    "A": "Fazio-DiBenedetto, Donna",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "ddibenedetto@miracosta.edu"
+  },
+  {
+    "A": "Figueroa-Chacon, Maria",
+    "B": "Faculty-English",
+    "D": "6238",
+    "F": "OCT311",
+    "H": "mfigueroa@miracosta.edu"
+  },
+  {
+    "A": "Freedman, Andrew",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "afreedman@miracosta.edu"
+  },
+  {
+    "A": "Gutierrez, Sonia",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "sgutierrez@miracosta.edu"
+  },
+  {
+    "A": "Hannon, Richard Hal",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "rhannon@miracosta.edu"
+  },
+  {
+    "A": "Hanson, Cynthia",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "chanson@miracosta.edu"
+  },
+  {
+    "A": "Headley, Cyndi",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "cheadley@miracosta.edu"
+  },
+  {
+    "A": "Hetrick, Kyle",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "khetrick@miracosta.edu"
+  },
+  {
+    "A": "Ho, Jen-Yong",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "jho@miracosta.edu"
+  },
+  {
+    "A": "Homer, Shelli",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "shomer@miracosta.edu"
+  },
+  {
+    "A": "Keehn, Jeffery",
+    "B": "Faculty-English",
+    "D": "7751",
+    "F": "SAN511",
+    "H": "jkeehn@miracosta.edu"
+  },
+  {
+    "A": "Larson, Janette",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "jlarson@miracosta.edu"
+  },
+  {
+    "A": "Ligorsky, Debra",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "dligorsky@miracosta.edu"
+  },
+  {
+    "A": "Magargal, Kelli",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "kmagargal@miracosta.edu"
+  },
+  {
+    "A": "Martinez, Melissa",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "memartinez@miracosta.edu"
+  },
+  {
+    "A": "McGuinness, John",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "jmcguinness@miracosta.edu"
+  },
+  {
+    "A": "Mogil, Blaine",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "bmogil@miracosta.edu"
+  },
+  {
+    "A": "Montagna, Katie",
+    "B": "Associate Faculty-English",
+    "D": "1332",
+    "F": "",
+    "H": "kmontagna@miracosta.edu"
+  },
+  {
+    "A": "O'Donnell, Megen",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "modonnell@miracosta.edu"
+  },
+  {
+    "A": "Onofrey, Karen",
+    "B": "Associate Faculty-English, Associate Faculty-Reading",
+    "D": "",
+    "F": "",
+    "H": "konofrey@miracosta.edu"
+  },
+  {
+    "A": "Potratz, Donna",
+    "B": "Associate Faculty-English",
+    "D": "1219",
+    "F": "",
+    "H": "dpotratz@miracosta.edu"
+  },
+  {
+    "A": "Prescott, Katharine",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "kprescott@miracosta.edu"
+  },
+  {
+    "A": "Rawleigh, Lori",
+    "B": "Associate Faculty-English, Associate Faculty-Reading",
+    "D": "",
+    "F": "",
+    "H": "lrawleigh@miracosta.edu"
+  },
+  {
+    "A": "Scaduto, Enza",
+    "B": "Associate Faculty-English",
+    "D": "1235",
+    "F": "",
+    "H": "pscaduto@miracosta.edu"
+  },
+  {
+    "A": "Stark, Heather",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "hstark@miracosta.edu"
+  },
+  {
+    "A": "Underwood, Scott",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "seunderwoood@miracosta.edu"
+  },
+  {
+    "A": "Venegas, Yolanda",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "yvenegas@miracosta.edu"
+  },
+  {
+    "A": "Whittinghill, Erin",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "ewhittinghill@miracosta.edu"
+  },
+  {
+    "A": "Wilkinson, Sean",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "swilkinson@miracosta.edu"
+  },
+  {
+    "A": "Williams, Jason",
+    "B": "Associate Faculty-English",
+    "D": "1317",
+    "F": "",
+    "H": "professor.jwilliams@gmail.com"
+  },
+  {
+    "A": "Williams, Marla",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "mwilliams@miracosta.edu"
+  },
+  {
+    "A": "Wood, Syndee",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "swood@miracosta.edu"
+  },
+  {
+    "A": "Zimmerman, Michael",
+    "B": "Associate Faculty-English",
+    "D": "",
+    "F": "",
+    "H": "mzimmerman@miracosta.edu"
+  },
+  {
+    "A": "Sanchez, Alejandra",
+    "B": "Associate Faculty - English",
+    "D": "",
+    "F": "",
+    "H": "alsanchez@miracosta.edu"
+  }
+]
+}

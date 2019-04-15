@@ -1,0 +1,241 @@
+{"LibraryScienceDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Deineh, Steven",
+    "B": "Librarian, Instruction & Student Engagement",
+    "D": "",
+    "F": "",
+    "H": ""
+  },
+  {
+    "A": "Ma, Richard",
+    "B": "CLC Outreach, Media Acquisitions & Displays Librarian",
+    "D": "6851",
+    "F": "OC1286",
+    "H": "rma@miracosta.edu"
+  },
+  {
+    "A": "McFall, Lauren",
+    "B": "Web Services & Emerging Technologies Librarian",
+    "D": "7836",
+    "F": "SAN110B",
+    "H": "lmcfall@miracosta.edu"
+  },
+  {
+    "A": "Paris, Jennifer",
+    "B": "Electronic Resources Librarian",
+    "D": "6244",
+    "F": "OC1287",
+    "H": "jparis@miracosta.edu"
+  },
+  {
+    "A": "Perry, Pamela",
+    "B": "Online Education Librarian",
+    "D": "7824",
+    "F": "SAN110A",
+    "H": "pperry@miracosta.edu"
+  },
+  {
+    "A": "Sipman, Glorian",
+    "B": "Technical Services & Collection Development Librarian",
+    "D": "6722",
+    "F": "OC1278",
+    "H": "gsipman@miracosta.edu"
+  },
+  {
+    "A": "Tamanaha, Laura",
+    "B": "Associate Faculty-Library",
+    "D": "7864",
+    "F": "SAN100",
+    "H": "ltamanaha@miracosta.edu"
+  },
+  {
+    "A": "Valente, Mario",
+    "B": "Dean of Library, AIS & Chief Technology Officer",
+    "D": "6720",
+    "F": "OC1274",
+    "H": "mvalente@miracosta.edu"
+  },
+  {
+    "A": "Velati Tirona, Virginia",
+    "B": "Associate Faculty-Library",
+    "D": "6716",
+    "F": "OC1200",
+    "H": "vvelati@miracosta.edu"
+  },
+  {
+    "A": "von Winckelmann, Stacey",
+    "B": "Associate Faculty-Library",
+    "D": "6716",
+    "F": "OC1200",
+    "H": "svonwinckelmann@miracosta.edu"
+  },
+  {
+    "A": "Weitman, Alison",
+    "B": "Associate Faculty-Library",
+    "D": "6716",
+    "F": "OC1200",
+    "H": "aweitman@miracosta.edu"
+  },
+  {
+    "A": "Wilder Stern, Camille",
+    "B": "Library Technician II, Technical Services",
+    "D": "6310",
+    "F": "OC1277",
+    "H": "cwilder@miracosta.edu"
+  },
+  {
+    "A": "Xuereb, Bobbie",
+    "B": "Associate Faculty-Library",
+    "D": "7864",
+    "F": "SAN100",
+    "H": "bxuereb@miracosta.edu"
+  },
+  {
+    "A": "Bartolotti, Maria",
+    "B": "Associate Faculty-Library",
+    "D": "",
+    "F": "",
+    "H": ""
+  },
+  {
+    "A": "Cassetti, Sara",
+    "B": "Library Technician III, Public Services",
+    "D": "",
+    "F": "",
+    "H": ""
+  },
+  {
+    "A": "Feinberg, Melissa",
+    "B": "Associate Faculty-Library",
+    "D": "6716",
+    "F": "OC1200",
+    "H": "mfeinberg@miracosta.edu"
+  },
+  {
+    "A": "Gangani, Dulce",
+    "B": "Library Technician I, Public Services",
+    "D": "6913",
+    "F": "OC1280",
+    "H": "dgangani@miracosta.edu"
+  },
+  {
+    "A": "Ganguli, Victoria",
+    "B": "Associate Faculty-Library",
+    "D": "7864",
+    "F": "SAN100",
+    "H": "vganguli@miracosta.edu"
+  },
+  {
+    "A": "Hannon, Richard \"Hal\"",
+    "B": "Associate Faculty-Library",
+    "D": "6716",
+    "F": "OC1200",
+    "H": "rhannon@miracosta.edu"
+  },
+  {
+    "A": "Hartzell, Jay",
+    "B": "Library Technician I, Public Services",
+    "D": "6962",
+    "F": "OC1280",
+    "H": "jhartzell@miracosta.edu"
+  },
+  {
+    "A": "Hope, Laurie",
+    "B": "Associate Faculty-Library",
+    "D": "6716",
+    "F": "OC1200",
+    "H": "lhope@miracosta.edu"
+  },
+  {
+    "A": "Kalish, Amanda",
+    "B": "Associate Faculty-Library",
+    "D": "7864",
+    "F": "SAN100",
+    "H": "akalish@miracosta.edu"
+  },
+  {
+    "A": "Kilrain, Robin",
+    "B": "Library Technician I, Public Services",
+    "D": "7750",
+    "F": "SAN102",
+    "H": "rkilrain@miracosta.edu"
+  },
+  {
+    "A": "Matlin, Talitha",
+    "B": "Associate Librarian",
+    "D": "7864",
+    "F": "--",
+    "H": "tmatlin@miracosta.edu"
+  },
+  {
+    "A": "Miko, Stephanie",
+    "B": "Library Technician II, Public Services",
+    "D": "6313",
+    "F": "OC1280",
+    "H": "smiko@miracosta.edu"
+  },
+  {
+    "A": "Nataraj, Lalitha",
+    "B": "Associate Faculty-Library",
+    "D": "6716",
+    "F": "OC1200",
+    "H": "lnataraj@miracosta.edu"
+  },
+  {
+    "A": "Ohnstad, Michelle",
+    "B": "Manager, Library Operations",
+    "D": "6709",
+    "F": "OC1279",
+    "H": "mohnstad@miracosta.edu"
+  },
+  {
+    "A": "Opdahl, Judy",
+    "B": "Associate Faculty-Library",
+    "D": "6716",
+    "F": "OC1200",
+    "H": "jopdahl@miracosta.edu"
+  },
+  {
+    "A": "Ordaz, Giselle",
+    "B": "Library Technician I, Public Services",
+    "D": "7850",
+    "F": "SAN102",
+    "H": "gordaz@miracosta.edu"
+  },
+  {
+    "A": "Peak, Erin",
+    "B": "Associate Faculty-Library",
+    "D": "6716",
+    "F": "OC1200",
+    "H": "epeak@miracosta.edu"
+  },
+  {
+    "A": "Pennant-Jones, Tiffany",
+    "B": "Library Technician I, Technical Services",
+    "D": "6785",
+    "F": "OC1277",
+    "H": "tpennant-jones@miracosta.edu"
+  },
+  {
+    "A": "Pitcher, Corinne",
+    "B": "Associate Faculty-Library",
+    "D": "6716",
+    "F": "OC1200",
+    "H": "cpitcher@miracosta.edu"
+  },
+  {
+    "A": "Schwartz, Danielle",
+    "B": "Library Technician I, Public Services",
+    "D": "7850",
+    "F": "SAN102",
+    "H": "dschwartz@miracosta.edu"
+  }
+]
+}

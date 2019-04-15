@@ -1,0 +1,465 @@
+{"MathDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Apalatea, Janeen",
+    "B": "Faculty-Mathematics",
+    "D": "7731",
+    "F": "SAN511",
+    "H": "japalatea@miracosta.edu"
+  },
+  {
+    "A": "Atmai, Rachid",
+    "B": "Faculty-Mathematics",
+    "D": "6281",
+    "F": "OC3622",
+    "H": "ratmai@miracosta.edu"
+  },
+  {
+    "A": "Beltran-Aguilar, Angela",
+    "B": "Faculty-Mathematics",
+    "D": "6540",
+    "F": "OC3621",
+    "H": "abeltran-aguilar@miracosta.edu"
+  },
+  {
+    "A": "Bonds, David",
+    "B": "Faculty-Mathematics",
+    "D": "6497",
+    "F": "OCT315",
+    "H": "dbonds@miracosta.edu"
+  },
+  {
+    "A": "Dunbar, Keith",
+    "B": "Faculty-Mathematics",
+    "D": "6418",
+    "F": "OC3623",
+    "H": "kdunbar@miracosta.edu"
+  },
+  {
+    "A": "Firouzian, Shawn",
+    "B": "Faculty-Mathematics",
+    "D": "6485",
+    "F": "OCT113",
+    "H": "sfirouzian@miracosta.edu"
+  },
+  {
+    "A": "Harland, Julie",
+    "B": "Faculty-Mathematics",
+    "D": "6387",
+    "F": "OC3622",
+    "H": "jharland@miracosta.edu"
+  },
+  {
+    "A": "Headlee, Mary Beth",
+    "B": "Faculty-Mathematics",
+    "D": "6227",
+    "F": "OC3616",
+    "H": "mheadlee@miracosta.edu"
+  },
+  {
+    "A": "Laurel, Mark",
+    "B": "Faculty-Mathematics",
+    "D": "6249",
+    "F": "OC3620",
+    "H": "mlaurel@miracosta.edu"
+  },
+  {
+    "A": "Mercado, Serena",
+    "B": "Faculty-Mathematics",
+    "D": "6437",
+    "F": "OC3623",
+    "H": "smercado@miracosta.edu"
+  },
+  {
+    "A": "Myers, Shannon",
+    "B": "Faculty-Mathematics",
+    "D": "6306",
+    "F": "OCT539",
+    "H": "smyers@miracosta.edu"
+  },
+  {
+    "A": "Nakamura, Lemee",
+    "B": "Faculty-Mathematics",
+    "D": "6219",
+    "F": "OC3621",
+    "H": "lnakamura@miracosta.edu"
+  },
+  {
+    "A": "Noddings, Victoria",
+    "B": "Faculty-Mathematics",
+    "D": "7728",
+    "F": "SAN504",
+    "H": "vnoddings@miracosta.edu"
+  },
+  {
+    "A": "Perovic, Zika",
+    "B": "Faculty-Mathematics",
+    "D": "6256",
+    "F": "OC3620",
+    "H": "zperovic@miracosta.edu"
+  },
+  {
+    "A": "Pickett, Brent",
+    "B": "Faculty-Mathematics",
+    "D": "6490",
+    "F": "OC3623",
+    "H": "bpickett@miracosta.edu"
+  },
+  {
+    "A": "Powell, Beth",
+    "B": "Faculty-Mathematics",
+    "D": "6398",
+    "F": "OC3616",
+    "H": "bpowell@miracosta.edu"
+  },
+  {
+    "A": "Safaralian, Leila",
+    "B": "Faculty-Mathematics",
+    "D": "6304",
+    "F": "OC3617",
+    "H": "lsafaralian@miracosta.edu"
+  },
+  {
+    "A": "Mariscal, Eduardo",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "emariscal@miracosta.edu"
+  },
+  {
+    "A": "Mariscal, Polo",
+    "B": "Faculty-Mathematics",
+    "D": "7471",
+    "F": "SAN605",
+    "H": "amariscal@miracosta.edu"
+  },
+  {
+    "A": "Alvarez, Francis",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "fralvarez@miracosta.edu"
+  },
+  {
+    "A": "Bertens, Matt",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "mbertens@miracosta.edu"
+  },
+  {
+    "A": "Busken, Tim",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "tbusken@miracosta.edu"
+  },
+  {
+    "A": "Butenko, Anton",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "abutenko@miracosta.edu"
+  },
+  {
+    "A": "Chantrill, Christina",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "cchantrill@miracosta.edu"
+  },
+  {
+    "A": "Charnholm, Lisa",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "lcharnholm@miracosta.edu"
+  },
+  {
+    "A": "Congleton, Carol",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "ccongleton@miracosta.edu"
+  },
+  {
+    "A": "Dubinin, Svetlana",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "sdubinin@miracosta.edu"
+  },
+  {
+    "A": "Ferreirae, Kerry",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "kferreirae@miracosta.edu"
+  },
+  {
+    "A": "Garbanati, Dennis",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "dgarbanati@miracosta.edu"
+  },
+  {
+    "A": "Guerrero, Luis",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "lguerrero@miracosta.edu"
+  },
+  {
+    "A": "Ha, Wesley",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "wha@miracosta.edu"
+  },
+  {
+    "A": "Humaciu, Matthew",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "mhumaciu@miracosta.edu"
+  },
+  {
+    "A": "Johnson, D. Joyce",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "djohnson@miracosta.edu"
+  },
+  {
+    "A": "Kashyap, Nirmala",
+    "B": "Associate Faculty-Mathematics",
+    "D": "1310",
+    "F": "",
+    "H": "nkashyap@miracosta.edu"
+  },
+  {
+    "A": "Kay, Will",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "wkay@miracosta.edu"
+  },
+  {
+    "A": "Komancheck, Jan",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "jkomancheck@miracosta.edu"
+  },
+  {
+    "A": "Lederman, Barry",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "blederman@miracosta.edu"
+  },
+  {
+    "A": "Lee, Sam",
+    "B": "Associate Faculty - Mathematics",
+    "D": "",
+    "F": "",
+    "H": "samlee@miracosta.edu"
+  },
+  {
+    "A": "Lee, Yuan-Lin",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "ylee@miracosta.edu"
+  },
+  {
+    "A": "Lochard, Cassondra",
+    "B": "Associate Faculty - Mathematics",
+    "D": "",
+    "F": "",
+    "H": "clochard@miracosta.edu"
+  },
+  {
+    "A": "Milbourne, Hayley",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "hmilbourne@miracosta.edu"
+  },
+  {
+    "A": "Morrow, Stacy",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "smorrow@miracosta.edu"
+  },
+  {
+    "A": "Mullins, Larry",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "lmullins@miracosta.edu"
+  },
+  {
+    "A": "Nelipovich, Jill",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "jnelipovich@miracosta.edu"
+  },
+  {
+    "A": "Nguyen, Vee",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "vnguyen@miracosta.edu"
+  },
+  {
+    "A": "Noguez de la Cerda, Juan",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "JNoguezdelaCerda@miracosta.edu"
+  },
+  {
+    "A": "Orloff, Mai",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "morloff@miracosta.edu"
+  },
+  {
+    "A": "Rajah, Mohammed",
+    "B": "Faculty-Mathematics",
+    "D": "6406",
+    "F": "OC3616",
+    "H": "mrajah@miracosta.edu"
+  },
+  {
+    "A": "Rayan, Maha",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "mrayan@miracosta.edu"
+  },
+  {
+    "A": "Rivera, Juan",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "jrivera@miracosta.edu"
+  },
+  {
+    "A": "Rosen, Andrew",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "arosen@miracosta.edu"
+  },
+  {
+    "A": "Saadat, Ali",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "asaadat@miracosta.edu"
+  },
+  {
+    "A": "Sadatmand, Dean",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "dsadatmand@miracosta.edu"
+  },
+  {
+    "A": "Sadeghipour, Farid",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "fsadeghipour@miracosta.edu"
+  },
+  {
+    "A": "Schmitt, Jeremy",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "jschmitt@miracosta.edu"
+  },
+  {
+    "A": "Shay, Brian",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "bshay@miracosta.edu"
+  },
+  {
+    "A": "Udupa, Srikrishna",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "sudupa@miracosta.edu"
+  },
+  {
+    "A": "Walker, Catherine",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "cwalker@miracosta.edu"
+  },
+  {
+    "A": "Wilkinson, Jason",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "jwilkinson@miracosta.edu"
+  },
+  {
+    "A": "Williams, Christopher",
+    "B": "Associate Faculty-Mathematics",
+    "D": "1319",
+    "F": "",
+    "H": "cwilliams@miracosta.edu"
+  },
+  {
+    "A": "Williamson, Gary",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "gwilliamson@miracosta.edu"
+  },
+  {
+    "A": "Yan, Genevieve",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "gyan@miracosta.edu"
+  },
+  {
+    "A": "Zahedani, Heydar",
+    "B": "Associate Faculty-Mathematics",
+    "D": "1205",
+    "F": "",
+    "H": "hzahedani@miracosta.edu"
+  },
+  {
+    "A": "Ziade, Elia",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "eziade@miracosta.edu"
+  },
+  {
+    "A": "Zyburt, Joe",
+    "B": "Associate Faculty-Mathematics",
+    "D": "",
+    "F": "",
+    "H": "jzyburt@miracosta.edu"
+  }
+]
+}

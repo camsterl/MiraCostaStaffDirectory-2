@@ -1,0 +1,549 @@
+{"ESLDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Gross, Mary",
+    "B": "Faculty-Credit ESL",
+    "D": "6586",
+    "F": "OC4608",
+    "H": "mgross@miracosta.edu"
+  },
+  {
+    "A": "Lloyd-Jones, Melissa",
+    "B": "Faculty-ESL",
+    "D": "6522",
+    "F": "OT314",
+    "H": "mlloydjones@miracosta.edu"
+  },
+  {
+    "A": "Lopez, Maria Eugenia",
+    "B": "Instructional Aide-ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "eulopez@miracosta.edu"
+  },
+  {
+    "A": "Lopez, Mayra",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "mayralopez@miracosta.edu"
+  },
+  {
+    "A": "Lopez-Mercedes, Jose",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "--",
+    "F": "CLC",
+    "H": "jlopezmercedes@miracosta.edu"
+  },
+  {
+    "A": "Lundquist, Irene",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "ilundquist@miracosta.edu"
+  },
+  {
+    "A": "Machuca, Adriana",
+    "B": "Instructional Aide-ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "amachuca@miracosta.edu"
+  },
+  {
+    "A": "Martinez, Sonia",
+    "B": "Instructional Aide-ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "somartinez@miracostsa.edu"
+  },
+  {
+    "A": "McQueen, Dina",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "1413",
+    "F": "CLC",
+    "H": "dimcqueen@miracosta.edu"
+  },
+  {
+    "A": "Meyer, Marisol",
+    "B": "Instructional Aide-ESL",
+    "D": "8710",
+    "F": "CLC",
+    "H": "mmeyer@miracosta.edu"
+  },
+  {
+    "A": "Monge, Brenda",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "8710",
+    "F": "CLC",
+    "H": "bmonge@miracosta.edu"
+  },
+  {
+    "A": "Morgan, M. Lynn",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "lmorgan@miracosta.edu"
+  },
+  {
+    "A": "Morse, Lindsey",
+    "B": "Instructional Aide-ESL",
+    "D": "8710",
+    "F": "CLC",
+    "H": "lmorse@miracosta.edu"
+  },
+  {
+    "A": "Oropesa, Andrew",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "--",
+    "F": "CLC",
+    "H": "aoropesa@miracosta.edu"
+  },
+  {
+    "A": "Packer, Emily",
+    "B": "Associate Faculty-ACE/ESL",
+    "D": "",
+    "F": "",
+    "H": "emeyers@miracosta.edu"
+  },
+  {
+    "A": "Panik, Michelle",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "mpanik@miracosta.edu"
+  },
+  {
+    "A": "Papera, Kasey",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "kpapera@miracosta.edu"
+  },
+  {
+    "A": "Poortenga, Debra",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "dpoortenga@miracosta.edu"
+  },
+  {
+    "A": "Rabinovich, Eliza",
+    "B": "Associate Faculty-ACE/ESL",
+    "D": "",
+    "F": "",
+    "H": "erabinovich@miracosta.edu"
+  },
+  {
+    "A": "Ramirez, Christian",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "cramirez@miracosta.edu"
+  },
+  {
+    "A": "Ramirez, Nohemi",
+    "B": "Instructional Aide-ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "nramirez@miracosta.edu"
+  },
+  {
+    "A": "Ravanbaksh, Hossein",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "hravanbaksh@miracosta.edu"
+  },
+  {
+    "A": "Reyes, Kristi",
+    "B": "Faculty-Noncredit ESL",
+    "D": "8745",
+    "F": "CLC",
+    "H": "kreyes@miracosta.edu"
+  },
+  {
+    "A": "Ricci, Janet",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "jricci@miracosta.edu"
+  },
+  {
+    "A": "Sandoval, Ana",
+    "B": "Instructional Aide-ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "asandoval@miracosta.edu"
+  },
+  {
+    "A": "Silva, Mariana",
+    "B": "Faculty-Noncredit ESL",
+    "D": "8876",
+    "F": "CLC",
+    "H": "msilva@miracosta.edu"
+  },
+  {
+    "A": "Slaughter, Tracy",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "8710",
+    "F": "CLC",
+    "H": "tslaughter@miracosta.edu"
+  },
+  {
+    "A": "Sobti, Ginni",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "gsobti@miracosta.edu"
+  },
+  {
+    "A": "Stoner, Carla",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "--",
+    "F": "CLC",
+    "H": "cstoner@miracosta.edu"
+  },
+  {
+    "A": "Tamura, Katrina",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "ktamura@miracosta.edu"
+  },
+  {
+    "A": "Torrecilla, Anais",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "atorrecilla@miracosta.edu"
+  },
+  {
+    "A": "Treptow, Rosa",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "rtreptow@miracosta.edu"
+  },
+  {
+    "A": "Vanags, Patricia Keller",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "pvanags@miracosta.edu"
+  },
+  {
+    "A": "Vela-Che, Christian",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "cvelache@miracosta.edu"
+  },
+  {
+    "A": "Villegas, Rosa",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "rvillegas@miracosta.edu"
+  },
+  {
+    "A": "Waszak, Carmen",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "cwaszak@miracosta.edu"
+  },
+  {
+    "A": "Webster, Angela",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "awebster@miracosta.edu"
+  },
+  {
+    "A": "Woodson, Alicia",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "awoodson@miracosta.edu"
+  },
+  {
+    "A": "Zimmerman, Del",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "dzimmerman@miracosta.edu"
+  },
+  {
+    "A": "Zorzin, Maria",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "22",
+    "F": "CLC",
+    "H": "mzorzin@miracosta.edu"
+  },
+  {
+    "A": "Afshinpour, Ehsan",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "8710",
+    "F": "CLC",
+    "H": "eafshinpour@miracosta.edu"
+  },
+  {
+    "A": "Alfattal, Eyad",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "ealfattal@miracosta.edu"
+  },
+  {
+    "A": "Alimadadi, Hami",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "halimadadi@miracosta.edu"
+  },
+  {
+    "A": "Alvarado, Giancarlos",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "",
+    "H": "Galvarado@miracosta.edu"
+  },
+  {
+    "A": "Bairstow, Ingrid",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "ibairstow@miracosta.edu"
+  },
+  {
+    "A": "Bell, Dawn",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "dbell@miracosta.edu"
+  },
+  {
+    "A": "Bermudez, Morella",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "mbermudez@miracosta.edu"
+  },
+  {
+    "A": "Berry, Linda",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "San Elijo",
+    "H": "lberry@miracosta.edu"
+  },
+  {
+    "A": "Bookman, Bita",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "",
+    "H": "bbookman@miracosta.edu"
+  },
+  {
+    "A": "Branson, Leslie",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "lbranson@miracosta.edu"
+  },
+  {
+    "A": "Cantu, Julia",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "jcantu@miracosta.edu"
+  },
+  {
+    "A": "Carlin, James",
+    "B": "Instructional Aide-ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "jcarlin@miracosta.edu"
+  },
+  {
+    "A": "Clarke, Elizabeth",
+    "B": "Instructor-Noncredit ESL",
+    "D": "8702",
+    "F": "CLC",
+    "H": "eclarke@miracosta.edu"
+  },
+  {
+    "A": "Cordova, Sandra",
+    "B": "Instructional Aide-ESL",
+    "D": "9710",
+    "F": "CLC",
+    "H": "scordova@miracosta.edu"
+  },
+  {
+    "A": "Cory, Mary",
+    "B": "Instructor-Noncredit ESL",
+    "D": "",
+    "F": "CVMS",
+    "H": "mcory@miracosta.edu"
+  },
+  {
+    "A": "Detwiler, Ryan",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "rdetwiler@miracosta.edu"
+  },
+  {
+    "A": "Donan, Mary",
+    "B": "Instructor-Noncredit ESL",
+    "D": "",
+    "F": "",
+    "H": "mdonan@miracosta.edu"
+  },
+  {
+    "A": "Douglass, Denise",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "ddouglass@miracosta.edu"
+  },
+  {
+    "A": "Espejo, Edison",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "9710",
+    "F": "",
+    "H": "eespejo@miracosta.edu"
+  },
+  {
+    "A": "Farouq, Zakia",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "1318",
+    "F": "CLC",
+    "H": "zfarouq@miracosta.edu"
+  },
+  {
+    "A": "Flores, Rocio",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "9170",
+    "F": "",
+    "H": "rflores@miracosta.edu"
+  },
+  {
+    "A": "Gallagher, Christopher",
+    "B": "Instructor-Noncredit ESL",
+    "D": "",
+    "F": "",
+    "H": "cgallagher@miracosta.edu"
+  },
+  {
+    "A": "Gay, Ruth",
+    "B": "Instructor-Noncredit ESL",
+    "D": "8734",
+    "F": "",
+    "H": "rgay@miracosta.edu"
+  },
+  {
+    "A": "Graboi, Julie",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "",
+    "H": "jgraboi@miracosta.edu"
+  },
+  {
+    "A": "Hartman, Hillary",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "",
+    "H": "hhartman@miracosta.edu"
+  },
+  {
+    "A": "Hawley, Lynn",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "",
+    "H": "lhawley@miracosta.edu"
+  },
+  {
+    "A": "Gutterman, Elissa",
+    "B": "Associate Faculty-ACE/ESL",
+    "D": "",
+    "F": "",
+    "H": "egutterman@miracosta.edu"
+  },
+  {
+    "A": "Helvig, Diane",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "dhelvig@miracosta.edu"
+  },
+  {
+    "A": "Hoste, Tricia",
+    "B": "Instructor-Noncredit ESL",
+    "D": "8778",
+    "F": "CLC",
+    "H": "thoste@miracosta.edu"
+  },
+  {
+    "A": "Ilas, Shannon",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "silas@miracosta.edu"
+  },
+  {
+    "A": "Juarez, Juan",
+    "B": "Instructional Aide-NonCredit ESL",
+    "D": "8710",
+    "F": "CLC",
+    "H": "jjuarez@miracosta.edu"
+  },
+  {
+    "A": "Kyes, Margret",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "mkyes@miracosta.edu"
+  },
+  {
+    "A": "Lackkaty, Sou",
+    "B": "Associate Faculty-ACE/ESL",
+    "D": "",
+    "F": "",
+    "H": "slackkaty@gmail.com"
+  },
+  {
+    "A": "Lohr, Elizabeth",
+    "B": "Instructor - NonCredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "elohr@miracosta.edu"
+  },
+  {
+    "A": "MacLean, Carolyn",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "CLC",
+    "H": "cmaclean@miracosta.edu"
+  },
+  {
+    "A": "Estrada, Luz",
+    "B": "Instructional Aide-Noncredit ESL",
+    "D": "9710",
+    "F": "",
+    "H": "lestrada@miracosta.edu"
+  },
+  {
+    "A": "Fatseas, Ellen",
+    "B": "Associate Faculty-Noncredit ESL",
+    "D": "",
+    "F": "",
+    "H": "efatseas@miracosta.edu"
+  }
+]
+}

@@ -1,0 +1,74 @@
+{
+"AdimOfJustice":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Connolly, Patrick",
+    "B": "Faculty-Administration of Justice",
+    "D": "6554",
+    "F": "OC3116",
+    "H": "pconnolly@miracosta.edu"
+  },
+  {
+    "A": "Diaz, Andrew",
+    "B": "Associate Faculty-Administration of Justice",
+    "D": "",
+    "F": "",
+    "H": "adiaz@miracosta.edu"
+  },
+  {
+    "A": "Manning, Thomas",
+    "B": "Associate Faculty-Administration of Justice",
+    "D": "",
+    "F": "",
+    "H": "tmanning@miracosta.edu"
+  },
+  {
+    "A": "Mehlhoff, David",
+    "B": "Associate Faculty-Administration of Justice",
+    "D": "",
+    "F": "",
+    "H": "dmehlhoff@miracosta.edu"
+  },
+  {
+    "A": "Nyman, Al",
+    "B": "Associate Faculty-Administration of Justice",
+    "D": "",
+    "F": "",
+    "H": "lou3@cox.net"
+  },
+  {
+    "A": "Warfield, Malcolm",
+    "B": "Associate Faculty-Administration of Justice",
+    "D": "",
+    "F": "",
+    "H": "mwarfield@miracosta.edu"
+  },
+  {
+    "A": "Warner-Saadat, Valencia",
+    "B": "Associate Faculty-Administration of Justice",
+    "D": "",
+    "F": "",
+    "H": "vwarnersaadat@miracosta.edu"
+  },
+  {
+    "A": "Whitbread, Brian",
+    "B": "Associate Faculty-Administration of Justice",
+    "D": "1333",
+    "F": "",
+    "H": "bwhitbread@miracosta.edu"
+  },
+  {
+    "A": "Wolfe, William",
+    "B": "Associate Faculty-Administration of Justice",
+    "D": "",
+    "F": "",
+    "H": "bwolfe@miracosta.edu"
+  }
+]
+}

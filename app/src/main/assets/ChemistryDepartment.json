@@ -1,0 +1,276 @@
+{"ChemistryDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Arquero, Kristine",
+    "B": "Faculty-Chemistry",
+    "D": "6411",
+    "F": "OC4502",
+    "H": "karquero@miracosta.edu"
+  },
+  {
+    "A": "Bolanos, Theresa",
+    "B": "Faculty-Chemistry",
+    "D": "6914",
+    "F": "OCT412",
+    "H": "tbolanos@miracosta.edu"
+  },
+  {
+    "A": "Fisher, Kaitlin",
+    "B": "Faculty-Chemistry",
+    "D": "7722",
+    "F": "SAN405",
+    "H": "kfisher@miracosta.edu"
+  },
+  {
+    "A": "Goueth, Pierre",
+    "B": "Faculty-Chemistry",
+    "D": "6560",
+    "F": "OC4502",
+    "H": "pgoueth@miracosta.edu"
+  },
+  {
+    "A": "Johnson, Tina",
+    "B": "Faculty-Chemistry",
+    "D": "7766",
+    "F": "SAN403",
+    "H": "cjohnson@miracosta.edu"
+  },
+  {
+    "A": "McCorkle, Kent",
+    "B": "Faculty-Chemistry",
+    "D": "6417",
+    "F": "OCT412",
+    "H": "kmccorkle@miracosta.edu"
+  },
+  {
+    "A": "Nguyen, Thong",
+    "B": "Faculty-Chemistry",
+    "D": "7739",
+    "F": "SAN405",
+    "H": "tnguyen@miracosta.edu"
+  },
+  {
+    "A": "Palanki, Moorthy",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "mpalanki@miracosta.edu"
+  },
+  {
+    "A": "Park, Manesseh",
+    "B": "Instructional Associate-Chemistry",
+    "D": "6520",
+    "F": "OC4508",
+    "H": "mpark@miracosta.edu"
+  },
+  {
+    "A": "Pickham, Kathleen",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "kpickham@miracosta.edu"
+  },
+  {
+    "A": "Roberson, Russ",
+    "B": "Associate Faculty - Chemistry",
+    "D": "",
+    "F": "",
+    "H": "rroberson@miracosta.edu"
+  },
+  {
+    "A": "Roberts, Anne",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "aroberts@miracosta.edu"
+  },
+  {
+    "A": "Salami, Bahman",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "bsalami@miracosta.edu"
+  },
+  {
+    "A": "Selchau, Lisa",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "lselchau@miracosta.edu"
+  },
+  {
+    "A": "Selchau, Victor",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "vselchau@miracosta.edu"
+  },
+  {
+    "A": "Trzoss, Lynnie",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "ltrzoss@miracosta.edu"
+  },
+  {
+    "A": "Vong, Binh",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "bvong@miracosta.edu"
+  },
+  {
+    "A": "Wang, Skylar",
+    "B": "Senior Science Lab Assistant-Chemistry",
+    "D": "6388",
+    "F": "OC1200",
+    "H": "swang@miracosta.edu"
+  },
+  {
+    "A": "Williford, Amy",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "awilliford@miracosta.edu"
+  },
+  {
+    "A": "Abbas, Rima",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "rabbas@miracosta.edu"
+  },
+  {
+    "A": "Abbas, Sam",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "sabbas@miracosta.edu"
+  },
+  {
+    "A": "Assaderaghi, Farhad",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "fassaderaghi@miracosta.edu"
+  },
+  {
+    "A": "Buyanin, Alex",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "abuyanin@miracosta.edu"
+  },
+  {
+    "A": "Byrnes, Carmela",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "cbyrnes@miracosta.edu"
+  },
+  {
+    "A": "Cohan, Nathaniel",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "ncohan@miracosta.edu"
+  },
+  {
+    "A": "Contreras, Cesar",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "ccontreras@miracosta.edu"
+  },
+  {
+    "A": "Cripps, Stephan",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "scripps@miracosta.edu"
+  },
+  {
+    "A": "Doud, Michael",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "mdoud@miracosta.edu"
+  },
+  {
+    "A": "Dunn, Sarah",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "sedunn@miracosta.edu"
+  },
+  {
+    "A": "Hamaoka, Brent",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "bhamaoka@miracosta.edu"
+  },
+  {
+    "A": "Huang, Wei-Hao",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "whuang@miracosta.edu"
+  },
+  {
+    "A": "Katz, Faith",
+    "B": "Associte Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "fkatz@miracosta.edu"
+  },
+  {
+    "A": "Kolonko, Kenneth",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "kkolonko@miracosta.edu"
+  },
+  {
+    "A": "Laggner, Kelly",
+    "B": "Instructional Associate-Chemistry",
+    "D": "7442",
+    "F": "SAN1003",
+    "H": "klaggner@miracosta.edu"
+  },
+  {
+    "A": "Loomis, Patrice",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "ploomis@miracosta.edu"
+  },
+  {
+    "A": "Maya-Peinl, Micael",
+    "B": "Associate Faculty-Chemistry",
+    "D": "",
+    "F": "",
+    "H": "mmayapeinl@miracosta.edu"
+  },
+  {
+    "A": "McMahon, Sean",
+    "B": "Associate Faculty-Chemistry",
+    "D": "1355",
+    "F": "",
+    "H": "smcmahon@miracosta.edu"
+  },
+  {
+    "A": "Morton-Curl, Sarah",
+    "B": "Senior Science Lab Associate-Chemistry",
+    "D": "7445",
+    "F": "SAN1003",
+    "H": "smorton-curl@miracosta.edu"
+  }
+]
+}

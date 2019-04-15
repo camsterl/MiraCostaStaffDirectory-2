@@ -1,0 +1,171 @@
+{"TheatreAndFilmDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Bishop, Eric",
+    "B": "Faculty-Theatre & Film",
+    "D": "6449",
+    "F": "OC2009",
+    "H": "ebishop@miracosta.edu"
+  },
+  {
+    "A": "Williams, Tracy",
+    "B": "Faculty-Theatre & Film",
+    "D": "6448",
+    "F": "OC2010",
+    "H": "twilliams@miracosta.edu"
+  },
+  {
+    "A": "Gunn, Billy",
+    "B": "Faculty-Film",
+    "D": "6402",
+    "F": "OC2706",
+    "H": "wgunn@miracosta.edu"
+  },
+  {
+    "A": "Mansour, Daoud",
+    "B": "Associate Faculty-Film",
+    "D": "",
+    "F": "",
+    "H": "dmansour@miracosta.edu"
+  },
+  {
+    "A": "Sprague, Terry",
+    "B": "Associate Faculty-Film",
+    "D": "",
+    "F": "",
+    "H": "tsprague@miracosta.edu"
+  },
+  {
+    "A": "Villane, Florene",
+    "B": "Associate Faculty-Film",
+    "D": "",
+    "F": "",
+    "H": "fvillane@miracosta.edu"
+  },
+  {
+    "A": "Walcutt, John",
+    "B": "Associate Faculty-Film",
+    "D": "",
+    "F": "",
+    "H": "jwalcutt@miracosta.edu"
+  },
+  {
+    "A": "Baggett, Angela",
+    "B": "Associate Faculty-Film",
+    "D": "",
+    "F": "",
+    "H": "angelabaggett@miracosta.edu"
+  },
+  {
+    "A": "Boland, Phillip",
+    "B": "Associate Faculty-Film",
+    "D": "",
+    "F": "",
+    "H": "pboland@miracosta.edu"
+  },
+  {
+    "A": "Collins, Melissa",
+    "B": "Associate Faculty-Film",
+    "D": "1218",
+    "F": "",
+    "H": "mcollinsporter@miracosta.edu"
+  },
+  {
+    "A": "Dumais, Lance",
+    "B": "Associate Faculty-Film",
+    "D": "",
+    "F": "",
+    "H": "ldumais@miracosta.edu"
+  },
+  {
+    "A": "Kidwell, Justin",
+    "B": "Instructional Associate-Theatre",
+    "D": "6450",
+    "F": "OC2022",
+    "H": "jkidwell@miracosta.edu"
+  },
+  {
+    "A": "Kidwell, Ashley",
+    "B": "Associate Faculty-Drama",
+    "D": "",
+    "F": "",
+    "H": "akidwell@miracosta.edu"
+  },
+  {
+    "A": "Quivey, Amanda",
+    "B": "Instructional Associate-Theatre",
+    "D": "6453",
+    "F": "OC2018",
+    "H": "aquivey@miracosta.edu"
+  },
+  {
+    "A": "Andersen, Bryon",
+    "B": "Instructional Associate-Theatre",
+    "D": "6628",
+    "F": "OC2000",
+    "H": "bandersen@miracosta.edu"
+  },
+  {
+    "A": "Adkins, Dhyana",
+    "B": "Associate Faculty-Drama",
+    "D": "",
+    "F": "",
+    "H": "dadkins@miracosta.edu"
+  },
+  {
+    "A": "Berger, Lisa",
+    "B": "Associate Faculty-Drama",
+    "D": "",
+    "F": "",
+    "H": "lberger@miracosta.edu"
+  },
+  {
+    "A": "Bradley, Pamela",
+    "B": "Associate Faculty-Drama",
+    "D": "",
+    "F": "",
+    "H": "pbradley@miracosta.edu"
+  },
+  {
+    "A": "Brault, Gerilyn",
+    "B": "Associate Faculty-Drama",
+    "D": "",
+    "F": "",
+    "H": "gbrault@miracosta.edu"
+  },
+  {
+    "A": "Canaletti, Paul",
+    "B": "Associate Faculty-Drama",
+    "D": "",
+    "F": "",
+    "H": "pcanaletti@miracosta.edu"
+  },
+  {
+    "A": "Ingman, Jeffrey",
+    "B": "Associate Faculty-Drama",
+    "D": "",
+    "F": "",
+    "H": "jingman@miracosta.edu"
+  },
+  {
+    "A": "Kissinger, Kelly",
+    "B": "Associate Faculty-Drama",
+    "D": "",
+    "F": "OC2000",
+    "H": "kkissinger@miracosta.edu"
+  },
+  {
+    "A": "Layne, Theresa",
+    "B": "Associate Faculty-Drama",
+    "D": "",
+    "F": "",
+    "H": "theresa.layne@me.com"
+  }
+]
+}

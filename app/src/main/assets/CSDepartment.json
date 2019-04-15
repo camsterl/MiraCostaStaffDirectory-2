@@ -1,0 +1,80 @@
+{"CSDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Chapeton-Lamas, Nery",
+    "B": "Faculty-Computer Science",
+    "D": "6906",
+    "F": "OC4622",
+    "H": "nchapetonlamas@miracosta.edu"
+  },
+  {
+    "A": "Paulding, Michael",
+    "B": "Faculty-Computer Science",
+    "D": "2391",
+    "F": "OCT556",
+    "H": "mpaulding@miracosta.edu"
+  },
+  {
+    "A": "Porto, June",
+    "B": "Faculty-Computer Studies",
+    "D": "6555",
+    "F": "OC4813",
+    "H": "jporto@miracosta.edu"
+  },
+  {
+    "A": "Aloka, Mark",
+    "B": "Associate Faculty-Computer Science",
+    "D": "",
+    "F": "OC",
+    "H": "maloka@miracosta.edu"
+  },
+  {
+    "A": "Castillo, Scotty",
+    "B": "Associate Faculty-Computer Science",
+    "D": "",
+    "F": "",
+    "H": "scastillo@miracosta.edu"
+  },
+  {
+    "A": "Lewis, Kevin",
+    "B": "Associate Faculty-Computer Science",
+    "D": "",
+    "F": "",
+    "H": "kmlewis@miracosta.edu"
+  },
+  {
+    "A": "Merrill, Chris",
+    "B": "Associate Faculty-Computer Science",
+    "D": "",
+    "F": "",
+    "H": "cmerrill@miracosta.edu"
+  },
+  {
+    "A": "Moezzi, Saied",
+    "B": "Associate Faculty-Computer Science",
+    "D": "",
+    "F": "",
+    "H": "smoezzi@miracosta.edu"
+  },
+  {
+    "A": "Patel, Kavita",
+    "B": "Associate Faculty-Computer Science",
+    "D": "",
+    "F": "",
+    "H": "kpatel@miracosta.edu"
+  },
+  {
+    "A": "Stramaglia, Mark",
+    "B": "Associate Faculty-Computer Science",
+    "D": "",
+    "F": "OCN",
+    "H": "mstramaglia@miracosta.edu"
+  }
+]
+}

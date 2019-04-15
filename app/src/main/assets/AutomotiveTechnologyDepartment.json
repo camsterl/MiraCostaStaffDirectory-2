@@ -1,0 +1,59 @@
+{ "AutomotiveTechnologyDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Katson, Paul",
+    "B": "Faculty-Automotive Technology",
+    "D": "6356",
+    "F": "OC4018",
+    "H": "pkatson@miracosta.edu"
+  },
+  {
+    "A": "Vail, Steve",
+    "B": "Faculty-Automotove Technology",
+    "D": "6354",
+    "F": "OC4018",
+    "H": "svail@miracosta.edu"
+  },
+  {
+    "A": "Williams, Arnoldo",
+    "B": "Faculty-Automotive Technology",
+    "D": "6312",
+    "F": "OC4018",
+    "H": "awilliams@miracosta.edu"
+  },
+  {
+    "A": "Genack, Chester",
+    "B": "Associate Faculty-Automotive Technology",
+    "D": "",
+    "F": "",
+    "H": "cgenack@miracosta.edu"
+  },
+  {
+    "A": "Guimond, Kimo",
+    "B": "Associate Faculty-Automotive Technology",
+    "D": "",
+    "F": "",
+    "H": "kguimond@miracosta.edu"
+  },
+  {
+    "A": "Neubauer, Eric",
+    "B": "Associate Faculty-Automotive Technology",
+    "D": "",
+    "F": "",
+    "H": "eneubauer@miracosta.edu"
+  },
+  {
+    "A": "Richer, James",
+    "B": "Associate Faculty-Automotive Technology",
+    "D": "",
+    "F": "",
+    "H": "jricher@miracosta.edu"
+  }
+]
+}

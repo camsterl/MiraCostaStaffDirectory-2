@@ -1,0 +1,129 @@
+{"BiotechnologyDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Ingato, Dominique",
+    "B": "Faculty-Biotechnology",
+    "D": "6352",
+    "F": "OC4608",
+    "H": "dingato@miracosta.edu"
+  },
+  {
+    "A": "Juncosa, Barbara",
+    "B": "Faculty-Biomanufacturing",
+    "D": "6214",
+    "F": "OC4057",
+    "H": "bjuncosa@miracosta.edu"
+  },
+  {
+    "A": "Perez, Wally",
+    "B": "Faculty-Biotechnology",
+    "D": "6499",
+    "F": "OC4057",
+    "H": "waperez@miracosta.edu"
+  },
+  {
+    "A": "Toto, Paula",
+    "B": "Associate Faculty-Biotechnology",
+    "D": "",
+    "F": "",
+    "H": "ptoto@miracosta.edu"
+  },
+  {
+    "A": "Albay, Jonathan",
+    "B": "Associate Faculty-Biotechnology",
+    "D": "",
+    "F": "",
+    "H": "jalbay@miracosta.edu"
+  },
+  {
+    "A": "Brady, Elizabeth",
+    "B": "Associate Faculty-Biotechnology",
+    "D": "",
+    "F": "",
+    "H": "ebrady@miracosta.edu"
+  },
+  {
+    "A": "Freeman, Rod",
+    "B": "Associate Faculty-Biotechnology",
+    "D": "",
+    "F": "",
+    "H": "rfreeman@miracosta.edu"
+  },
+  {
+    "A": "Gebara-Lamb, Maha",
+    "B": "Associate Faculty-Biotechnology",
+    "D": "",
+    "F": "",
+    "H": "mgebara-lamb@miracosta.edu"
+  },
+  {
+    "A": "Holland, Anne",
+    "B": "Associate Faculty-Biotechnology",
+    "D": "1282",
+    "F": "",
+    "H": "aholland@miracosta.edu"
+  },
+  {
+    "A": "Hunt, Kirstie",
+    "B": "Associate Faculty-Biotechnology",
+    "D": "",
+    "F": "",
+    "H": "khunt@miracosta.edu"
+  },
+  {
+    "A": "Kinseth, Matt",
+    "B": "Associate Faculty-Biotechnology",
+    "D": "",
+    "F": "",
+    "H": "mkinseth@miracosta.edu"
+  },
+  {
+    "A": "Marovich, Leslie",
+    "B": "Associate Faculty-Biotechnology",
+    "D": "",
+    "F": "",
+    "H": "lmarovich@miracosta.edu"
+  },
+  {
+    "A": "Ilic, Sanja",
+    "B": "Associate Faculty-Biotechnology",
+    "D": "",
+    "F": "",
+    "H": "silic@miracosta.edu"
+  },
+  {
+    "A": "Esbensen, Pia",
+    "B": "Instructional Associate-Biology & Biotechnology",
+    "D": "6524",
+    "F": "OC4521",
+    "H": "pesbensen@miracosta.edu"
+  },
+  {
+    "A": "Gomez, Joanna",
+    "B": "Instructional Associate-Biotechnology",
+    "D": "6874",
+    "F": "OC4050",
+    "H": "jmgomez@miracosta.edu"
+  },
+  {
+    "A": "Wong, Keau",
+    "B": "Deputy Sector Navigator-Biotechnology",
+    "D": "6250",
+    "F": "OCT533",
+    "H": "kwong@miracosta.edu"
+  },
+  {
+    "A": "Traykova, Daniela",
+    "B": "Instructional Associate-Biomanufacturing",
+    "D": "6328",
+    "F": "OC4050",
+    "H": "dtraykova@miracosta.edu"
+  }
+]
+}

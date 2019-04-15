@@ -1,0 +1,115 @@
+{"DesignDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Clarke, Paul",
+    "B": "Faculty-Drafting",
+    "D": "6405",
+    "F": "OC4536",
+    "H": "pclarke@miracosta.edu"
+  },
+  {
+    "A": "Parker, David",
+    "B": "Faculty-Architecture",
+    "D": "6557",
+    "F": "OC4536",
+    "H": "dparker@miracosta.edu"
+  },
+  {
+    "A": "Reali, Bianca",
+    "B": "Associate Faculty-Design Drafting",
+    "D": "",
+    "F": "",
+    "H": "areali@miracosta.edu"
+  },
+  {
+    "A": "Reilly, Jeannie",
+    "B": "Associate Faculty-Design Drafting, Engineering",
+    "D": "",
+    "F": "",
+    "H": "jreilly@miracosta.edu"
+  },
+  {
+    "A": "Santos, Esther",
+    "B": "Instructional Assistant-Design",
+    "D": "1412",
+    "F": "",
+    "H": "ematsen@miracosta.edu"
+  },
+  {
+    "A": "Schultz, Luisa",
+    "B": "Associate Faculty-Design Drafting",
+    "D": "",
+    "F": "",
+    "H": "lschultz@miracosta.edu"
+  },
+  {
+    "A": "Spittal, Jim",
+    "B": "Associate Faculty-Design Drafting",
+    "D": "",
+    "F": "",
+    "H": "jspittal@miracosta.edu"
+  },
+  {
+    "A": "Sutton, Michael",
+    "B": "Associate Faculty-Design",
+    "D": "",
+    "F": "",
+    "H": "msutton@miracosta.edu"
+  },
+  {
+    "A": "Swift, Kenneth",
+    "B": "Associate Faculty-Design Drafting, Engineering",
+    "D": "",
+    "F": "",
+    "H": "kswift@miracosta.edu"
+  },
+  {
+    "A": "Trousset, Tony",
+    "B": "Associate Faculty-Design Drafting",
+    "D": "",
+    "F": "",
+    "H": "ttrousset@miracosta.edu"
+  },
+  {
+    "A": "Vorkoper, Dale",
+    "B": "Associate Faculty-Design Drafting",
+    "D": "",
+    "F": "OCN",
+    "H": "dvorkoper@miracosta.edu"
+  },
+  {
+    "A": "Waite, Gabe",
+    "B": "Graphic Design Coordinator-Public Information Office",
+    "D": "6614",
+    "F": "OC1057",
+    "H": "gwaite@miracosta.edu"
+  },
+  {
+    "A": "Boehm, Chris",
+    "B": "Instructional Associate-Design Drafting",
+    "D": "6523",
+    "F": "OC4533",
+    "H": "cboehm@miracosta.edu"
+  },
+  {
+    "A": "Du, Thanh",
+    "B": "Associate Faculty-Design Drafting",
+    "D": "",
+    "F": "",
+    "H": "tdu@miracosta.edu"
+  },
+  {
+    "A": "Karvounis, Alex",
+    "B": "Graphic Designer/Photography Coordinator",
+    "D": "6784",
+    "F": "OC1058",
+    "H": "akarvounis@miracosta.edu"
+  }
+]
+}

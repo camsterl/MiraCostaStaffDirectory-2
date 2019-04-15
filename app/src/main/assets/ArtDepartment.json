@@ -1,0 +1,389 @@
+{
+"ArtDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Cluff, Leah",
+    "B": "Faculty-Art",
+    "D": "6934",
+    "F": "OC2112",
+    "H": "lcluff@miracosta.edu"
+  },
+  {
+    "A": "Greenwald, Lauren",
+    "B": "Faculty-Art",
+    "D": "6596",
+    "F": "OC2274",
+    "H": "lgreenwald@miracosta.edu"
+  },
+  {
+    "A": "Hayashi, Yoshimi",
+    "B": "Faculty-Art",
+    "D": "6444",
+    "F": "OC2111",
+    "H": "yhayashi@miracosta.edu"
+  },
+  {
+    "A": "Nemour, Leslie",
+    "B": "Faculty-Art",
+    "D": "6441",
+    "F": "OC2268",
+    "H": "lnemour@miracosta.edu"
+  },
+  {
+    "A": "Neri, Gilbert",
+    "B": "Faculty-Art",
+    "D": "6237",
+    "F": "OC2206",
+    "H": "gneri@miracosta.edu"
+  },
+  {
+    "A": "O'Cain, Anna",
+    "B": "Faculty-Art",
+    "D": "6268",
+    "F": "OC2274",
+    "H": "aocain@miracosta.edu"
+  },
+  {
+    "A": "Ramos, Dean",
+    "B": "Faculty-Art",
+    "D": "6443",
+    "F": "OC2268",
+    "H": "dramos@miracosta.edu"
+  },
+  {
+    "A": "Adams, Diane",
+    "B": "Associate Faculty-Art",
+    "D": "6657",
+    "F": "",
+    "H": "dadams@miracosta.edu"
+  },
+  {
+    "A": "Anderson, Shane",
+    "B": "Associate Faculty-Art",
+    "D": "6211",
+    "F": "",
+    "H": "sanderson@miracosta.edu"
+  },
+  {
+    "A": "Anderson, Shane",
+    "B": "Instructional Associate-Art",
+    "D": "6211",
+    "F": "OC2109",
+    "H": "sanderson@miracosta.edu"
+  },
+  {
+    "A": "Arnold, Siobhan",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "sarnold@miracosta.edu"
+  },
+  {
+    "A": "Beaudry, Allison",
+    "B": "Instructional Assistant-Art",
+    "D": "6816",
+    "F": "",
+    "H": "abeaudry@miracosta.edu"
+  },
+  {
+    "A": "Behling, Erin",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "ebehling@miracosta.edu"
+  },
+  {
+    "A": "Boundin, Frol",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "fboundin@miracosta.edu"
+  },
+  {
+    "A": "Bulis, Ryan",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "rbulis@miracosta.edu"
+  },
+  {
+    "A": "Carrubba, Joanne",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "jcarrubba@miracosta.edu"
+  },
+  {
+    "A": "Christopher, Randall",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "rchristopher@miracosta.edu"
+  },
+  {
+    "A": "Contreras, Julian",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "jcontreras@miracosta.edu"
+  },
+  {
+    "A": "Cornaggia, Dan",
+    "B": "Instructional Assistant-Art",
+    "D": "",
+    "F": "OC2106",
+    "H": "dcornaggia@miracosta.edu"
+  },
+  {
+    "A": "Duffield, Kari",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "Kduffield@miracosta.edu"
+  },
+  {
+    "A": "Eggleton, Joshua",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "jeggleton@miracosta.edu"
+  },
+  {
+    "A": "Eggleton, Xuchi",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "xeggleton@miracosta.edu"
+  },
+  {
+    "A": "Ferreria, Christopher",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "cnferreria_swc@hotmail.com"
+  },
+  {
+    "A": "Goeltzenleuchter, Brian",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "bgoeltzenleuchter@miracosta.edu"
+  },
+  {
+    "A": "Gray, Ryan",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "rgray@miracosta.edu"
+  },
+  {
+    "A": "Gray-Adams, Grace",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "ggrayadams@miracosta.edu"
+  },
+  {
+    "A": "Hernandez, April",
+    "B": "Instructional Associate-Art",
+    "D": "7783",
+    "F": "SAN206",
+    "H": "ahernandez@miracosta.edu"
+  },
+  {
+    "A": "Heyliger, CJ",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "cheyliger@miracosta.edu"
+  },
+  {
+    "A": "Jones, Peggy",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "pjones@miracosta.edu"
+  },
+  {
+    "A": "Khorshid, Lamia",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "lkhorshid@miracosta.edu"
+  },
+  {
+    "A": "Llewellyn, Clayton",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "cllewellyn@miracosta.edu"
+  },
+  {
+    "A": "Lo, Jacqueline",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "jlo@miracosta.edu"
+  },
+  {
+    "A": "Martinez, May-Ling",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "mmartinez@miracosta.edu"
+  },
+  {
+    "A": "McDermott, Terri",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "tmcdermott@miracosta.edu"
+  },
+  {
+    "A": "Muller, Gabriela",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "gmuller@miracosta.edu"
+  },
+  {
+    "A": "Musgrave, Alla",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "amusgrave@miracosta.edu"
+  },
+  {
+    "A": "Nugent, Kris",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "knugent@miracosta.edu"
+  },
+  {
+    "A": "Olsen, Ann",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "aolsen@miracosta.edu"
+  },
+  {
+    "A": "Picon, Matthew",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "mpicon@miracosta.edu"
+  },
+  {
+    "A": "Preston, Judith",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "jpreston@miracosta.edu"
+  },
+  {
+    "A": "Psuty, Ingrid",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "ipsuty@miracosta.edu"
+  },
+  {
+    "A": "Quesnell, Iana",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "iquesnell@miracosta.edu"
+  },
+  {
+    "A": "Quintenz-Fiedler, Amanda",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "aquintenz-fiedler@miracosta.edu"
+  },
+  {
+    "A": "Ree, Christina",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "cree@miracosta.edu"
+  },
+  {
+    "A": "Richards, Tony",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "trichards@miracosta.edu"
+  },
+  {
+    "A": "Rybicki, Michael",
+    "B": "Instructional Associate-Art",
+    "D": "6445",
+    "F": "OC2101",
+    "H": "mrybicki@miracosta.edu"
+  },
+  {
+    "A": "Skalman, Aren",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "askalman@miracosta.edu"
+  },
+  {
+    "A": "Spraul, Jeanine",
+    "B": "Instructional Assistant-Art",
+    "D": "1411",
+    "F": "OC2109",
+    "H": "jspraul@miracosta.edu"
+  },
+  {
+    "A": "Walker, Bekkah",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "bekkahwalker@miracosta.edu"
+  },
+  {
+    "A": "West, Clay",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "cwest@miracosta.edu"
+  },
+  {
+    "A": "White , David",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "dwhite@miracosta.edu"
+  },
+  {
+    "A": "Whiting, Michael",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "mwhiting@miracosta.edu"
+  },
+  {
+    "A": "Whitman, Erin",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "ewhitman@miracosta.edu"
+  },
+  {
+    "A": "Zimmerman, Cindy",
+    "B": "Associate Faculty-Art",
+    "D": "",
+    "F": "",
+    "H": "czimmerman@miracosta.edu"
+  }
+]
+}

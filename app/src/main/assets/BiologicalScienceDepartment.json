@@ -1,0 +1,304 @@
+{ "BiologicalScienceDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Bailey, Suzie",
+    "B": "Faculty-Biological Science",
+    "D": "6562",
+    "F": "OC4521",
+    "H": "sbailey@miracosta.edu"
+  },
+  {
+    "A": "Clark , Raymond",
+    "B": "Faculty-Biology",
+    "D": "6202",
+    "F": "OCT114",
+    "H": "rclark@miracosta.edu"
+  },
+  {
+    "A": "Haugsness-White, Julie",
+    "B": "Faculty-Biology",
+    "D": "7738",
+    "F": "SAN403",
+    "H": "jhwhite@miracosta.edu"
+  },
+  {
+    "A": "Hull, Stacey",
+    "B": "Faculty-Biology",
+    "D": "6391",
+    "F": "OC4520",
+    "H": "shull@miracosta.edu"
+  },
+  {
+    "A": "Ihara, Jeff",
+    "B": "Faculty-Biology",
+    "D": "6525",
+    "F": "OC4519",
+    "H": "jihara@miracosta.edu"
+  },
+  {
+    "A": "Kulkarni, Himgauri",
+    "B": "Faculty-Biology",
+    "D": "6343",
+    "F": "OC4518",
+    "H": "hkulkarni@miracosta.edu"
+  },
+  {
+    "A": "Morgado, Pedro",
+    "B": "Faculty-Biology",
+    "D": "6403",
+    "F": "OC4512",
+    "H": "pmorgado@miracosta.edu"
+  },
+  {
+    "A": "Sepulveda, Jeanine",
+    "B": "Faculty-Biology",
+    "D": "6502",
+    "F": "OC4609",
+    "H": "jsepulveda@miracosta.edu"
+  },
+  {
+    "A": "Thomford, John",
+    "B": "Faculty-Biology",
+    "D": "6410",
+    "F": "OC4518",
+    "H": "jthomford@miracosta.edu"
+  },
+  {
+    "A": "West, Janelle",
+    "B": "Faculty-Biology",
+    "D": "6145",
+    "F": "OC4811",
+    "H": "jwest@miracosta.edu"
+  },
+  {
+    "A": "Burg, Michael",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "mburg@miracosta.edu"
+  },
+  {
+    "A": "Connell, Christina",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "cconnell@miracosta.edu"
+  },
+  {
+    "A": "Esbensen, Pia",
+    "B": "Instructional Associate-Biology & Biotechnology",
+    "D": "6524",
+    "F": "OC4521",
+    "H": "pesbensen@miracosta.edu"
+  },
+  {
+    "A": "Fleming, Tim",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "tfleming@miracosta.edu"
+  },
+  {
+    "A": "Gates, Keith",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "kgates@miracosta.edu"
+  },
+  {
+    "A": "Gekakis, Nicholas",
+    "B": "Associate Faculty - Biology",
+    "D": "",
+    "F": "",
+    "H": "ngekakis@miracosta.edu"
+  },
+  {
+    "A": "Hoopes, Julia",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "jhoopes@miracosta.edu"
+  },
+  {
+    "A": "Hoos, Jennifer",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "jhoos@miracosta.edu"
+  },
+  {
+    "A": "Jones, Cory",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "cjones@miracosta.edu"
+  },
+  {
+    "A": "Klingbeil, Candice",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "cklingbeil@miracosta.edu"
+  },
+  {
+    "A": "Lee, Melissa",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "melissalee@miracosta.edu"
+  },
+  {
+    "A": "Lindgren, Johanna",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "jlindgren@miracosta.edu"
+  },
+  {
+    "A": "Marbey, Debra",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "dmarbey@miracosta.edu"
+  },
+  {
+    "A": "Messmer, Terrence",
+    "B": "Instructional Associate-Biology",
+    "D": "6819",
+    "F": "OC4515",
+    "H": "tmessmer@miracosta.edu"
+  },
+  {
+    "A": "Mitchem, Miranda",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "mmitchem@miracosta.edu"
+  },
+  {
+    "A": "Myers, Martha",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "mmyers@miracosta.edu"
+  },
+  {
+    "A": "Noble, Tallie",
+    "B": "Instructional Associate-Biology",
+    "D": "6932",
+    "F": "OC4521",
+    "H": "tnoble@miracosta.edu"
+  },
+  {
+    "A": "Osborne, Philip",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "posborne@miracosta.edu"
+  },
+  {
+    "A": "Page, Brian",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "bpage@miracosta.edu"
+  },
+  {
+    "A": "Pentek, Jozsef",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "jpentek@miracosta.edu"
+  },
+  {
+    "A": "Riccitelli, Melinda",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "mriccitelli@miracosta.edu"
+  },
+  {
+    "A": "Sanati, Givon",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "gsanati@miracosta.edu"
+  },
+  {
+    "A": "Stillinger, Denise",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "dstillinger@miracosta.edu"
+  },
+  {
+    "A": "Strauss, Justin",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "jstrauss@miracosta.edu"
+  },
+  {
+    "A": "Tamrakar, Sama",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "stamrakar@miracosta.edu"
+  },
+  {
+    "A": "Thompson, Sara",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "sthompson@miracosta.edu"
+  },
+  {
+    "A": "Tiffany, Bridget",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "btiffany@miracosta.edu"
+  },
+  {
+    "A": "Toto, Paula",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "ptoto@miracosta.edu"
+  },
+  {
+    "A": "Velazquez, Kimberly",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "kvalazquez@miracosta.edu"
+  },
+  {
+    "A": "Vu, Albert",
+    "B": "Senior Science Lab Associate-Biology",
+    "D": "7874",
+    "F": "SAN404",
+    "H": "avu@miracosta.edu"
+  },
+  {
+    "A": "Walker, Tina",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "twalker@miracosta.edu"
+  },
+  {
+    "A": "Woo, Mary",
+    "B": "Associate Faculty-Biology",
+    "D": "",
+    "F": "",
+    "H": "mwoo@miracosta.edu"
+  }
+]
+}

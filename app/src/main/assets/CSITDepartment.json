@@ -1,0 +1,128 @@
+{"CSITDepartment":[
+ {
+   "A": "Name",
+   "B": "Title",
+   "D": "Phone",
+   "F": "Location",
+   "H": "Email"
+ },
+ {
+   "A": "Alizadeh, Russ",
+   "B": "Faculty-CSIT",
+   "D": "2393",
+   "F": "OC4814",
+   "H": "ralizadeh@miracosta.edu"
+ },
+ {
+   "A": "Cassoni, Rick",
+   "B": "Faculty-CSIT",
+   "D": "6369",
+   "F": "OCT111",
+   "H": "rcassoni@miracosta.edu"
+ },
+ {
+   "A": "Isachsen, Steve",
+   "B": "Faculty-Computer Studies",
+   "D": "6392",
+   "F": "OC4812",
+   "H": "sisachsen@miracosta.edu"
+ },
+ {
+   "A": "Jones, Sandy",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "",
+   "H": "sjones@miracosta.edu"
+ },
+ {
+   "A": "McLean, Timothy",
+   "B": "Associate Faculty-CSIT",
+   "D": "--",
+   "F": "--",
+   "H": "tmclean@miracosta.edu"
+ },
+ {
+   "A": "Moebest, Will",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "OC",
+   "H": "wmoebest@miracosta.edu"
+ },
+ {
+   "A": "Nitsch, Cynthia",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "",
+   "H": "cnitsch@miracosta.edu"
+ },
+ {
+   "A": "Ornelas, Cory",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "",
+   "H": "cornelas@miracosta.edu"
+ },
+ {
+   "A": "Sayble, Debra",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "OC",
+   "H": "dsayble-thornbrugh@miracosta.edu"
+ },
+ {
+   "A": "Trzos, Thomas",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "SAN",
+   "H": "ttrzos@miracosta.edu"
+ },
+ {
+   "A": "White, Rick",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "",
+   "H": "rwhite@miracosta.edu"
+ },
+ {
+   "A": "Afzali, Abdy",
+   "B": "Associate Faculty-CSIT",
+   "D": "6731",
+   "F": "",
+   "H": "aafzali-online@miracosta.edu"
+ },
+ {
+   "A": "Andersen, Andre",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "",
+   "H": "aandersen@miracosta.edu"
+ },
+ {
+   "A": "Dean, Donald",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "",
+   "H": "ddean@miracosta.edu"
+ },
+ {
+   "A": "Edmisten, Brian",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "",
+   "H": "bedmisten@miracosta.edu"
+ },
+ {
+   "A": "Faulk, Claudia",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "OCN",
+   "H": "cfaulk@miracosta.edu"
+ },
+ {
+   "A": "Herrick, Jane",
+   "B": "Associate Faculty-CSIT",
+   "D": "",
+   "F": "OC",
+   "H": "jherrick@miracosta.edu"
+ }
+]}

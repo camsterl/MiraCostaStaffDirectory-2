@@ -1,0 +1,80 @@
+{"PhilosophyAndReligiousDepartment":[
+  {
+    "A": "Name",
+    "B": "Title",
+    "D": "Phone",
+    "F": "Location",
+    "H": "Email"
+  },
+  {
+    "A": "Luengo, Isabel",
+    "B": "Faculty-Philosophy",
+    "D": "7745",
+    "F": "SAN511",
+    "H": "iluengo@miracosta.edu"
+  },
+  {
+    "A": "Moon, Louisa",
+    "B": "Faculty-Philosophy",
+    "D": "6241",
+    "F": "OCT531",
+    "H": "lmoon@miracosta.edu"
+  },
+  {
+    "A": "Murico, Jeffrey",
+    "B": "Faculty-Philosophy, Religious Studies",
+    "D": "6551",
+    "F": "OC3121",
+    "H": "jmurico@miracosta.edu"
+  },
+  {
+    "A": "Thompson, Jessica",
+    "B": "Associate Faculty-Philosophy",
+    "D": "",
+    "F": "",
+    "H": "jthompson@miracosta.edu"
+  },
+  {
+    "A": "Thompson, Kyle",
+    "B": "Associate Faculty-Philosophy",
+    "D": "",
+    "F": "",
+    "H": "kylethompson@miracosta.edu"
+  },
+  {
+    "A": "Bradley, Jeffrey \"Craig\"",
+    "B": "Associate Faculty-Philosophy",
+    "D": "",
+    "F": "",
+    "H": "jbradley@miracosta.edu"
+  },
+  {
+    "A": "Miller, Garrett",
+    "B": "Associate Faculty-Philosophy",
+    "D": "",
+    "F": "",
+    "H": "gmiller@miracosta.edu"
+  },
+  {
+    "A": "Scott James, Michele",
+    "B": "Associate Faculty-History, Associate Faculty-Religious Studies",
+    "D": "",
+    "F": "",
+    "H": "mscottjames@miracosta.edu"
+  },
+  {
+    "A": "Way, Chase",
+    "B": "Associate Faculty-Religious Studies",
+    "D": "",
+    "F": "",
+    "H": "cway@miracosta.edu"
+  },
+  {
+    "A": "Iammarino, Darren",
+    "B": "Associate Faculty-Religious Studies",
+    "D": "",
+    "F": "",
+    "H": "diammarino@miracosta.edu"
+  }
+]
+}
