@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SingleStaffAct"
-    android:background="">
+    >
 
     <LinearLayout
         android:id="@+id/linearLayout"

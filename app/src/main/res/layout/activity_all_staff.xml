@@ -6,4 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".AllStaff">
 
+    <ListView
+        android:id="@+id/AllStaff"
+        android:layout_width="match_parent"
+        android:layout_height="611dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="goHome"
+            android:text="@string/home" />
+
+        <TextView
+            android:id="@+id/departmentsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/departments" />
+
+        <TextView
+            android:id="@+id/allStaffButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/all_staff" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
