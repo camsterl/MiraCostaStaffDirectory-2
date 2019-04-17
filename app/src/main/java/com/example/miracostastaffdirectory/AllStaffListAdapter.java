@@ -1,21 +1,65 @@
 package com.example.miracostastaffdirectory;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
 import com.example.miracostastaffdirectory.Model.StaffMember;
 
 
+public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
+
+
+    private Context ctx;
+    private int resID;
+    private List<StaffMember> allStaff;
+
+
+
+
+    public AllStaffListAdapter(Context context, int resource, List<StaffMember> staffList) {
+        super(context, resource, staffList);
+
+        ctx = context;
+        resID = resource;
+        allStaff = staffList;
+    }
+
+
+
+    // We'll use this to use a custom layout instead of the standard one
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+
+
+        // For each task in the list, inflate its view
+        StaffMember focusedStaffMember = allStaff.get(position);
+
+
+
+
+
+        // build a new inflater, and set it to this wonky function call that works with the context ( also cast it )
+        LayoutInflater inflater = (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+
+        View v = inflater.inflate(resID, null);
+
+        TextView staffName = v.findViewById(R.id.listNameTextView);
+        staffName.setText(focusedStaffMember.getName());
+
+        return v;
+    }
+}
+
+
+
+
+/**
 public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
 
     //declare member variables to store the params
@@ -27,25 +71,24 @@ public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
 
 
 
-    public AllStaffListAdapter(@NonNull Context context, int resource, @NonNull List<StaffMember> objects) {
-        super(context, resource, objects);
+    public AllStaffListAdapter(@NonNull Context context, int resource, @NonNull List<StaffMember> staffList) {
+        super(context, resource, staffList);
         mContext = context;
         mResourceId = resource;
-        mAllStaff = objects;
+        mAllStaff = staffList;
 
     }
 
 
     //in order to bridge the view (music_event_list_item) with model (MusicEvent) we override;
-    //crtl 0 = override
+    //crtl + o = override
 
 
-    @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         // inflate custom layout with data from List<MusicEvents>
 
-        StaffMember focusedEvent = mAllStaff.get(position);
+        StaffMember focusedStaffMember = mAllStaff.get(position);
 
         // manually inflate custom layout
         LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -59,8 +102,12 @@ public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
         TextView listNameTextView = customView.findViewById(R.id.listNameTextView);
 
         //put info in text views and image views
-        listNameTextView.setText(focusedEvent.getName());
+        listNameTextView.setText(focusedStaffMember.getName());
 
         return customView;
 }
 }
+*/
+
+
+

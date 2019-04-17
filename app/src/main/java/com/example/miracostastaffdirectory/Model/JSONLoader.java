@@ -10,6 +10,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,7 +38,7 @@ public class JSONLoader {
             it++;
             switch (it) {
                 case(1):
-                    is = context.getAssets().open("AdimOfJustice.json");
+                    is = context.getAssets().open("AdimOfJusticeDepartment.json");
                     break;
                 case(2):
                     is = context.getAssets().open("ArtDepartment.json");
@@ -94,7 +95,7 @@ public class JSONLoader {
                     is = context.getAssets().open("HorticultureDepartment.json");
                     break;
                 case(20):
-                    is = context.getAssets().open("IMTDDepartment.json");
+                    is = context.getAssets().open("IMTDepartment.json");
                     break;
                 case(21):
                     is = context.getAssets().open("InternationalLanguagesDepartment.json");
@@ -121,7 +122,7 @@ public class JSONLoader {
                     is = context.getAssets().open("PhysicalScienceDepartment.json");
                     break;
                 case(29):
-                    is = context.getAssets().open("PsychologyDepartment.json");
+                    is = context.getAssets().open("PyschologyDepartment.json");
                     break;
                 case(30):
                     is = context.getAssets().open("SociologyDepartment.json");
@@ -165,7 +166,9 @@ public class JSONLoader {
                     // Add object for each and add the object to the allCountriesList
                     sm = new StaffMember(name, title, phoneExt, location, email);
                     allStaffList.add(sm);
+                    is = null;
                 }
+
 
 
             } catch (JSONException e) {
@@ -173,6 +176,9 @@ public class JSONLoader {
             }
         }
 
+        System.out.println("allStaffList From JSON below");
+        System.out.println(allStaffList.toString());
+        System.out.println("allStaffList From JSON above");
         return allStaffList;
     }
 }
