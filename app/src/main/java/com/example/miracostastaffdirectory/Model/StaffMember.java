@@ -18,6 +18,10 @@ public class StaffMember implements Parcelable {
         Location = location;
         this.email = email;
     }
+    public StaffMember()
+    {
+
+    }
 
     public String getName() {
         return name;

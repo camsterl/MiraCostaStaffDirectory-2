@@ -47,22 +47,23 @@ public class JSONLoader {
 
             // To be used in loop
             JSONObject countryJSON;
-            String name, title, phoneExt, location, email;
-            StaffMember sm = null;
+
+            StaffMember sMem = null;
 
             for (int i = 0; i < numCountries; i++) {
                 countryJSON = allCountriesJSON.getJSONObject(i);
 
+              sMem = new StaffMember();
                 // Extract the name and region
-                name = countryJSON.getString("Name");
-                title = countryJSON.getString("Title");
-                phoneExt = countryJSON.getString("Phone");
-                location = countryJSON.getString("Location");
-                email = countryJSON.getString("Email");
+                sMem.setName(countryJSON.getString("Name"));
+                sMem.setTitle(countryJSON.getString("Title"));
+                sMem.setPhoneExt(countryJSON.getString("Phone"));
+                sMem.setLocation(countryJSON.getString("Location"));
+                sMem.setEmail(countryJSON.getString("Email"));
 
                 // Add object for each and add the object to the allCountriesList
-                sm = new StaffMember(name, title, phoneExt, location, email);
-                allStaffList.add(sm);
+
+                allStaffList.add(sMem);
             }
 
 

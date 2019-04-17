@@ -3,6 +3,7 @@ package com.example.miracostastaffdirectory;
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.miracostastaffdirectory.Model.JSONLoader;
@@ -15,10 +16,11 @@ public class AllStaff extends ListActivity {
 
     private ListView allStaffListView;
     List<StaffMember> allStaff;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_all_staff);
+     //  setContentView(R.layout.activity_all_staff);
 
         try {
             allStaff = JSONLoader.loadJSONFromAsset(this);
@@ -27,8 +29,8 @@ public class AllStaff extends ListActivity {
         }
 
         allStaffListView = findViewById(R.id.AllStaff);
-        setListAdapter(new AllStaffListAdapter(this, R.layout.activity_all_staff_list_view, allStaff));
-
+        ArrayAdapter<StaffMember> staffAdapter = (new AllStaffListAdapter(this, R.layout.activity_all_staff_list_item, allStaff));
+        allStaffListView.setAdapter(staffAdapter);
 
 
     }

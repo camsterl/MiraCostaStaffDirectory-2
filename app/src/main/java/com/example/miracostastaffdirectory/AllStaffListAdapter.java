@@ -24,6 +24,9 @@ public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
     private List<StaffMember> mAllStaff;
 
     //this constructor is being called  by MainActivity
+
+
+
     public AllStaffListAdapter(@NonNull Context context, int resource, @NonNull List<StaffMember> objects) {
         super(context, resource, objects);
         mContext = context;
