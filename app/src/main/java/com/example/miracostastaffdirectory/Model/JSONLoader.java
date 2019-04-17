@@ -27,114 +27,118 @@ public class JSONLoader {
      * @throws IOException If there is an error reading from the JSON file.
      */
     public static List<StaffMember> loadJSONFromAsset(Context context) throws IOException {
+
         List<StaffMember> allStaffList = new ArrayList<>();
         String json = null;
         int it=0;
-        InputStream is = null;
 
-        ReadJSONLoop:
+        assignStringLoop:
         while (true) {
+
+            InputStream is = null;
+            String JSONCollectionName;
 
             it++;
             switch (it) {
                 case(1):
-                    is = context.getAssets().open("AdimOfJusticeDepartment.json");
+                    JSONCollectionName = ("AdimOfJusticeDepartment");
                     break;
                 case(2):
-                    is = context.getAssets().open("ArtDepartment.json");
+                    JSONCollectionName = ("ArtDepartment");
                     break;
                 case(3):
-                    is = context.getAssets().open("AutomotiveTechnologyDepartment.json");
+                    JSONCollectionName = ("AutomotiveTechnologyDepartment");
                     break;
                 case(4):
-                    is = context.getAssets().open("BiologicalScienceDepartment.json");
+                    JSONCollectionName = ("BiologicalScienceDepartment");
                     break;
                 case(5):
-                    is = context.getAssets().open("BiotechnologyDepartment.json");
+                    JSONCollectionName = ("BiotechnologyDepartment");
                     break;
                 case(6):
-                    is = context.getAssets().open("BusinessDepartment.json");
+                    JSONCollectionName = ("BusinessDepartment");
                     break;
                 case(7):
-                    is = context.getAssets().open("CareerDepartment.json");
+                    JSONCollectionName = ("CareerDepartment");
                     break;
                 case(8):
-                    is = context.getAssets().open("ChemistryDepartment.json");
+                    JSONCollectionName = ("ChemistryDepartment");
                     break;
                 case(9):
-                    is = context.getAssets().open("ChildDevelopmentDepartment.json");
+                    JSONCollectionName = ("ChildDevelopmentDepartment");
                     break;
                 case(10):
-                    is = context.getAssets().open("CommunicationStudiesDepartment.json");
+                    JSONCollectionName = ("CommunicationStudiesDepartment");
                     break;
                 case(11):
-                    is = context.getAssets().open("CounselingDepartment.json");
+                    JSONCollectionName = ("CounselingDepartment");
                     break;
                 case(12):
-                    is = context.getAssets().open("CSDepartment.json");
+                    JSONCollectionName = ("CSDepartment");
                     break;
                 case(13):
-                    is = context.getAssets().open("CSITDepartment.json");
+                    JSONCollectionName = ("CSITDepartment");
                     break;
                 case(14):
-                    is = context.getAssets().open("DanceDepartment.json");
+                    JSONCollectionName = ("DanceDepartment");
                     break;
                 case(15):
-                    is = context.getAssets().open("DesignDepartment.json");
+                    JSONCollectionName = ("DesignDepartment");
                     break;
                 case(16):
-                    is = context.getAssets().open("EnglishDepartment.json");
+                    JSONCollectionName = ("EnglishDepartment");
                     break;
                 case(17):
-                    is = context.getAssets().open("ESLDepartment.json");
+                    JSONCollectionName = ("ESLDepartment");
                     break;
                 case(18):
-                    is = context.getAssets().open("HistoryDepartment.json");
+                    JSONCollectionName = ("HistoryDepartment");
                     break;
                 case(19):
-                    is = context.getAssets().open("HorticultureDepartment.json");
+                    JSONCollectionName = ("HorticultureDepartment");
                     break;
                 case(20):
-                    is = context.getAssets().open("IMTDepartment.json");
+                    JSONCollectionName = ("IMTDepartment");
                     break;
                 case(21):
-                    is = context.getAssets().open("InternationalLanguagesDepartment.json");
+                    JSONCollectionName = ("InternationalLanguagesDepartment");
                     break;
                 case(22):
-                    is = context.getAssets().open("KinesiologyDepartment.json");
+                    JSONCollectionName = ("KinesiologyDepartment");
                     break;
                 case(23):
-                    is = context.getAssets().open("LibraryScienceDepartment.json");
+                    JSONCollectionName = ("LibraryScienceDepartment");
                     break;
                 case(24):
-                    is = context.getAssets().open("MathDepartment.json");
+                    JSONCollectionName = ("MathDepartment");
                     break;
                 case(25):
-                    is = context.getAssets().open("MusicDepartment.json");
+                    JSONCollectionName = ("MusicDepartment");
                     break;
                 case(26):
-                    is = context.getAssets().open("NursingDepartment.json");
+                    JSONCollectionName = ("NursingDepartment");
                     break;
                 case(27):
-                    is = context.getAssets().open("PhilosophyAndReligiousDepartment.json");
+                    JSONCollectionName = ("PhilosophyAndReligiousDepartment");
                     break;
                 case(28):
-                    is = context.getAssets().open("PhysicalScienceDepartment.json");
+                    JSONCollectionName = ("PhysicalScienceDepartment");
                     break;
                 case(29):
-                    is = context.getAssets().open("PyschologyDepartment.json");
+                    JSONCollectionName = ("PyschologyDepartment");
                     break;
                 case(30):
-                    is = context.getAssets().open("SociologyDepartment.json");
+                    JSONCollectionName = ("SociologyDepartment");
                     break;
                 case(31):
-                    is = context.getAssets().open("TheatreAndFilmDepartment.json");
+                    JSONCollectionName = ("TheatreAndFilmDepartment");
                     break;
                 default:
-                    break ReadJSONLoop;
+                    break assignStringLoop;
             }
 
 
+            is = context.getAssets().open(JSONCollectionName + ".json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
@@ -143,10 +147,10 @@ public class JSONLoader {
 
             try {
                 JSONObject jsonRootObject = new JSONObject(json);
-                JSONArray allCountriesJSON = jsonRootObject.getJSONArray("");
+                JSONArray allStaffJSON = jsonRootObject.getJSONArray(JSONCollectionName);
 
                 // Loop through all the countries in the JSON data, create a Country
-                int numCountries = allCountriesJSON.length();
+                int numCountries = allStaffJSON.length();
 
                 // To be used in loop
                 JSONObject countryJSON;
@@ -154,25 +158,24 @@ public class JSONLoader {
                 StaffMember sm = null;
 
                 for (int i = 0; i < numCountries; i++) {
-                    countryJSON = allCountriesJSON.getJSONObject(i);
+                    countryJSON = allStaffJSON.getJSONObject(i);
 
                     // Extract the name and region
-                    name = countryJSON.getString("Name");
-                    title = countryJSON.getString("Title");
-                    phoneExt = countryJSON.getString("Phone");
-                    location = countryJSON.getString("Location");
-                    email = countryJSON.getString("Email");
+                    name = countryJSON.getString("A");
+                    title = countryJSON.getString("B");
+                    phoneExt = countryJSON.getString("D");
+                    location = countryJSON.getString("F");
+                    email = countryJSON.getString("H");
 
                     // Add object for each and add the object to the allCountriesList
                     sm = new StaffMember(name, title, phoneExt, location, email);
                     allStaffList.add(sm);
-                    is = null;
                 }
 
 
 
             } catch (JSONException e) {
-                Log.e("Flag Quiz", e.getMessage());
+                Log.e("MC Staff Dir", e.getMessage());
             }
         }
 

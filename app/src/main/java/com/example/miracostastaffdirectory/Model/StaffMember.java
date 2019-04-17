@@ -5,22 +5,18 @@ import android.os.Parcelable;
 
 public class StaffMember implements Parcelable {
 
-    String name;
-    String title;
-    String phoneExt;
-    String Location;
-    String email;
+    private String name;
+    private String title;
+    private String phoneExt;
+    private String location;
+    private String email;
 
     public StaffMember(String name, String title, String phoneExt, String location, String email) {
         this.name = name;
         this.title = title;
         this.phoneExt = phoneExt;
-        Location = location;
+        this.location = location;
         this.email = email;
-    }
-    public StaffMember()
-    {
-
     }
 
     public String getName() {
@@ -48,11 +44,11 @@ public class StaffMember implements Parcelable {
     }
 
     public String getLocation() {
-        return Location;
+        return location;
     }
 
     public void setLocation(String location) {
-        Location = location;
+        this.location = location;
     }
 
     public String getEmail() {
@@ -69,7 +65,7 @@ public class StaffMember implements Parcelable {
                 "name='" + name + '\'' +
                 ", title='" + title + '\'' +
                 ", phoneExt='" + phoneExt + '\'' +
-                ", Location='" + Location + '\'' +
+                ", location='" + location + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }
@@ -84,7 +80,7 @@ public class StaffMember implements Parcelable {
         dest.writeString(this.name);
         dest.writeString(this.title);
         dest.writeString(this.phoneExt);
-        dest.writeString(this.Location);
+        dest.writeString(this.location);
         dest.writeString(this.email);
     }
 
@@ -92,7 +88,7 @@ public class StaffMember implements Parcelable {
         this.name = in.readString();
         this.title = in.readString();
         this.phoneExt = in.readString();
-        this.Location = in.readString();
+        this.location = in.readString();
         this.email = in.readString();
     }
 

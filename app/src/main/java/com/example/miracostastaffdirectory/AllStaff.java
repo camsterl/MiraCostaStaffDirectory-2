@@ -1,6 +1,7 @@
 package com.example.miracostastaffdirectory;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -18,8 +19,8 @@ import java.util.List;
 
 public class AllStaff extends AppCompatActivity {
 
-    private ListView allStaffListView;
     private ArrayList<StaffMember> allStaff;
+    private ListView allStaffListView;
     private ArrayAdapter<StaffMember> adapter;
 
     @Override
@@ -27,12 +28,10 @@ public class AllStaff extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_all_staff);
 
-        try {
-            allStaff = (ArrayList<StaffMember>)JSONLoader.loadJSONFromAsset(this);
-        } catch (IOException e) {
-            Log.e("SD Music Events", "Error Loading JSON" + e.getMessage());
-        }
 
+
+        Intent fromMain = getIntent();
+        allStaff = fromMain.getParcelableArrayListExtra("allStaff");
         allStaffListView = findViewById(R.id.AllStaffListView);
 
 
