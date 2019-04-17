@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".AllStaff">
 
     <ListView
@@ -34,24 +35,30 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:onClick="goHome"
-            android:text="@string/home" />
+            android:text="@string/home"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/departmentsButton"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:text="@string/departments" />
+            android:text="@string/departments"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/allStaffButton"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:text="@string/all_staff" />
+            android:text="@string/all_staff"
+            android:textSize="18sp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

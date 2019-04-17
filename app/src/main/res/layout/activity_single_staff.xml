@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SingleStaffAct"
-    >
+    android:background="@drawable/background"
+    tools:context=".SingleStaffAct">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -24,27 +24,33 @@
             android:layout_width="350dp"
             android:layout_height="75dp"
             android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:text="@string/home"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/DepartmentsTextView"
             android:layout_width="350dp"
             android:layout_height="75dp"
             android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:text="@string/departments"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/AllStaffTextView"
             android:layout_width="350dp"
             android:layout_height="75dp"
             android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:text="@string/all_staff"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout

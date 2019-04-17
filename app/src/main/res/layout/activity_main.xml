@@ -24,30 +24,36 @@
             android:layout_width="350dp"
             android:layout_height="75dp"
             android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:onClick="goHomeClick"
             android:text="@string/home"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/DepartmentsTextView"
             android:layout_width="350dp"
             android:layout_height="75dp"
             android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:onClick="departmentClick"
             android:text="@string/departments"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/AllStaffTextView"
             android:layout_width="350dp"
             android:layout_height="75dp"
             android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:onClick="allStaffClick"
             android:text="@string/all_staff"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="18sp" />
     </LinearLayout>
 
     <ImageView
