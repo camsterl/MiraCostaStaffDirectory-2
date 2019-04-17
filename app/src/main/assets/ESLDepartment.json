@@ -1,12 +1,5 @@
 {"ESLDepartment":[
   {
-    "A": "Name",
-    "B": "Title",
-    "D": "Phone",
-    "F": "Location",
-    "H": "Email"
-  },
-  {
     "A": "Gross, Mary",
     "B": "Faculty-Credit ESL",
     "D": "6586",

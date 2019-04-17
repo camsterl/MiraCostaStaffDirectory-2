@@ -1,12 +1,5 @@
 {"ChemistryDepartment":[
   {
-    "A": "Name",
-    "B": "Title",
-    "D": "Phone",
-    "F": "Location",
-    "H": "Email"
-  },
-  {
     "A": "Arquero, Kristine",
     "B": "Faculty-Chemistry",
     "D": "6411",

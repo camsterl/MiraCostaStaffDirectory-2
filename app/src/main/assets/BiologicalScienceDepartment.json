@@ -1,12 +1,5 @@
 { "BiologicalScienceDepartment":[
   {
-    "A": "Name",
-    "B": "Title",
-    "D": "Phone",
-    "F": "Location",
-    "H": "Email"
-  },
-  {
     "A": "Bailey, Suzie",
     "B": "Faculty-Biological Science",
     "D": "6562",

@@ -1,12 +1,5 @@
 {"DesignDepartment":[
   {
-    "A": "Name",
-    "B": "Title",
-    "D": "Phone",
-    "F": "Location",
-    "H": "Email"
-  },
-  {
     "A": "Clarke, Paul",
     "B": "Faculty-Drafting",
     "D": "6405",

@@ -1,12 +1,5 @@
 {"CSDepartment":[
   {
-    "A": "Name",
-    "B": "Title",
-    "D": "Phone",
-    "F": "Location",
-    "H": "Email"
-  },
-  {
     "A": "Chapeton-Lamas, Nery",
     "B": "Faculty-Computer Science",
     "D": "6906",

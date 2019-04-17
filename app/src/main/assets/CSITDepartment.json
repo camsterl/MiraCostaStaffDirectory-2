@@ -1,12 +1,5 @@
 {"CSITDepartment":[
  {
-   "A": "Name",
-   "B": "Title",
-   "D": "Phone",
-   "F": "Location",
-   "H": "Email"
- },
- {
    "A": "Alizadeh, Russ",
    "B": "Faculty-CSIT",
    "D": "2393",

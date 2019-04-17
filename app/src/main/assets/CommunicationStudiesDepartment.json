@@ -1,12 +1,5 @@
 { "CommunicationStudiesDepartment":[
   {
-    "A": "Name",
-    "B": "Title",
-    "D": "Phone",
-    "F": "Location",
-    "H": "Email"
-  },
-  {
     "A": "Arenivar, Sam",
     "B": "Faculty-Communication Studies",
     "D": "7727",

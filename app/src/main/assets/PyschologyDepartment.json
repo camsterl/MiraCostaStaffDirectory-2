@@ -1,12 +1,5 @@
 { "PhysicalDepartment.json":[
   {
-    "A": "Name",
-    "B": "Title",
-    "D": "Phone",
-    "F": "Location",
-    "H": "Email"
-  },
-  {
     "A": "Byrd, Krista",
     "B": "Faculty-Psychology",
     "D": "7790",

@@ -1,12 +1,5 @@
 {"BusinessDepartment":[
   {
-    "A": "Name",
-    "B": "Title",
-    "D": "Phone",
-    "F": "Location",
-    "H": "Email"
-  },
-  {
     "A": "Carstensen, Eric",
     "B": "Faculty-Business",
     "D": "6556",

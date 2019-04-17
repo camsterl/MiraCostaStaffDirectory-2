@@ -1,12 +1,5 @@
 { "AutomotiveTechnologyDepartment":[
   {
-    "A": "Name",
-    "B": "Title",
-    "D": "Phone",
-    "F": "Location",
-    "H": "Email"
-  },
-  {
     "A": "Katson, Paul",
     "B": "Faculty-Automotive Technology",
     "D": "6356",
