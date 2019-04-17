@@ -1,20 +1,14 @@
 package com.example.miracostastaffdirectory;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import com.example.miracostastaffdirectory.Model.JSONLoader;
 import com.example.miracostastaffdirectory.Model.StaffMember;
 
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class AllStaff extends AppCompatActivity {
@@ -38,7 +32,7 @@ public class AllStaff extends AppCompatActivity {
         if (allStaffListView==null)
             System.out.println("This shit is null");
 
-        adapter = new AllStaffListAdapter(this, R.layout.activity_all_staff_list_item, allStaff);
+        adapter = new AllStaffListAdapter(this, R.layout.simple_one_text_line_item, allStaff);
         allStaffListView.setAdapter(adapter);
 
 

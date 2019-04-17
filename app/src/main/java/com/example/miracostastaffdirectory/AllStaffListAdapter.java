@@ -1,6 +1,7 @@
 package com.example.miracostastaffdirectory;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,9 @@ import android.widget.TextView;
 
 import java.util.List;
 import com.example.miracostastaffdirectory.Model.StaffMember;
+
+import static android.graphics.Color.GRAY;
+import static android.graphics.Color.YELLOW;
 
 
 public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
@@ -48,6 +52,11 @@ public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
 
 
         View v = inflater.inflate(resID, null);
+
+        if (position%2==0)
+            v.setBackgroundColor(Color.CYAN);
+        else
+            v.setBackgroundColor(Color.LTGRAY);
 
         TextView staffName = v.findViewById(R.id.listNameTextView);
         staffName.setText(focusedStaffMember.getName());
