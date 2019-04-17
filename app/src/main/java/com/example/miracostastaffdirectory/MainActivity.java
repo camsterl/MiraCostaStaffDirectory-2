@@ -20,5 +20,22 @@ public class MainActivity extends AppCompatActivity {
 
 
         startActivity(allStaffIntent);
+        this.finish();
+    }
+    public void departmentClick(View v)
+    {
+        Intent departmentIntent = new Intent(this, Departments.class);
+
+
+        startActivity(departmentIntent);
+        this.finish();
+    }
+    public void goHomeClick(View v)
+    {
+        Intent goHomeIntent = new Intent(this, MainActivity.class);
+
+
+        startActivity(goHomeIntent);
+        this.finish();
     }
 }
