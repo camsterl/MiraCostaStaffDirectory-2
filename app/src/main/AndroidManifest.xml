@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AllStaffListAdapter"></activity>
+        <activity android:name=".SingleDeptStaff"></activity>
+        <activity android:name=".AllStaffListAdapter" />
         <activity android:name=".SingleStaffAct" />
         <activity android:name=".AllStaff" />
         <activity android:name=".Departments" />

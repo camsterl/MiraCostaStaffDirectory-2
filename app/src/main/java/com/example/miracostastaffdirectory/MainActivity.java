@@ -12,11 +12,12 @@ import com.example.miracostastaffdirectory.Model.StaffMember;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicReferenceArray;
 
 public class MainActivity extends AppCompatActivity {
 
 
-    private ArrayList<StaffMember> allStaff;
+    ArrayList<StaffMember> allStaff;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,14 +30,12 @@ public class MainActivity extends AppCompatActivity {
             Log.e("MC Staff Dir", "Error Loading JSON" + e.getMessage());
         }
 
-
     }
     public void allStaffClick(View v)
     {
         Intent allStaffIntent = new Intent(this, AllStaff.class);
 
         allStaffIntent.putParcelableArrayListExtra("allStaff", allStaff);
-
 
         startActivity(allStaffIntent);
         this.finish();
@@ -46,15 +45,14 @@ public class MainActivity extends AppCompatActivity {
         Intent departmentIntent = new Intent(this, Departments.class);
 
 
+        departmentIntent.putParcelableArrayListExtra("allStaff", allStaff);
+
+
         startActivity(departmentIntent);
         this.finish();
     }
     public void goHomeClick(View v)
     {
-        Intent goHomeIntent = new Intent(this, MainActivity.class);
-
-
-        startActivity(goHomeIntent);
-        this.finish();
+        this.recreate();
     }
 }

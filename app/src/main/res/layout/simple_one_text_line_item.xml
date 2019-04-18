@@ -7,7 +7,7 @@
     tools:context=".AllStaffListAdapter">
 
     <TextView
-        android:id="@+id/listNameTextView"
+        android:id="@+id/SingleItemTextView"
         android:layout_width="410dp"
         android:layout_height="60dp"
         android:text="TextView"
