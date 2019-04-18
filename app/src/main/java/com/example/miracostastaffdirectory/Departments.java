@@ -79,7 +79,7 @@ public class Departments extends AppCompatActivity {
 
 
         // set adapter
-        deptsListView.setAdapter(new AllDepartmentsListAdapter(this, R.layout.simple_one_text_line_item, departments));
+       // deptsListView.setAdapter(new AllDepartmentsListAdapter(this, R.layout.simple_one_text_line_item, departments));
 
 
         deptsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -95,6 +95,8 @@ public class Departments extends AppCompatActivity {
     }
 
     public void goHome(View v) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
         this.finish();
     }
 
