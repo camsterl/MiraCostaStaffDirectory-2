@@ -79,6 +79,7 @@ public class AllStaff extends AppCompatActivity {
     {
         Intent singleStaff = new Intent(this, SingleStaffAct.class);
 
+        singleStaff.putParcelableArrayListExtra("allStaff", allStaff);
 
         startActivity(singleStaff);
         this.finish();
