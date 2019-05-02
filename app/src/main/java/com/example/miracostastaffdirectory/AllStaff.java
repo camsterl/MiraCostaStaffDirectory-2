@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -50,6 +51,15 @@ public class AllStaff extends AppCompatActivity {
         allStaffListView.setAdapter(adapter);
 
 
+
+        allStaffListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                singleStaffAct(position);
+            }
+        });
+
+
     }
 
 
@@ -75,11 +85,13 @@ public class AllStaff extends AppCompatActivity {
         startActivity(departmentIntent);
         this.finish();
     }
-    public void singleStaffAct(View v)
+    public void singleStaffAct(int pos)
     {
+        StaffMember sm = allStaff.get(pos);
+
         Intent singleStaff = new Intent(this, SingleStaffAct.class);
 
-        singleStaff.putParcelableArrayListExtra("allStaff", allStaff);
+        singleStaff.putExtra("sm", sm);
 
         startActivity(singleStaff);
         this.finish();

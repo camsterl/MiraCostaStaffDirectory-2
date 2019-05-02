@@ -39,6 +39,10 @@ public class StaffMember implements Parcelable {
         return phoneExt;
     }
 
+    public String getFullPhoneNumber() {
+        return "+1(760)757-2121" + getPhoneExt();
+    }
+
     public void setPhoneExt(String phoneExt) {
         this.phoneExt = phoneExt;
     }
