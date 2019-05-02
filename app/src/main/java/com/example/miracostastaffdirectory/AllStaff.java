@@ -75,4 +75,12 @@ public class AllStaff extends AppCompatActivity {
         startActivity(departmentIntent);
         this.finish();
     }
+    public void singleStaffAct(View v)
+    {
+        Intent singleStaff = new Intent(this, SingleStaffAct.class);
+
+
+        startActivity(singleStaff);
+        this.finish();
+    }
 }
