@@ -20,6 +20,7 @@ public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
     private Context ctx;
     private int resID;
     private List<StaffMember> allStaff;
+    private int highlight=-1;
 
 
 
@@ -30,6 +31,15 @@ public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
         ctx = context;
         resID = resource;
         allStaff = staffList;
+    }
+
+    public AllStaffListAdapter(Context context, int resource, List<StaffMember> staffList, int viewToHighlight) {
+        super(context, resource, staffList);
+
+        ctx = context;
+        resID = resource;
+        allStaff = staffList;
+        highlight = viewToHighlight;
     }
 
 
@@ -52,7 +62,10 @@ public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
         if (position%2==0)
             v.setBackgroundColor(Color.CYAN);
         else
-            v.setBackgroundColor(Color.LTGRAY);
+            v.setBackgroundColor(Color.WHITE);
+
+        if (position == highlight)
+            v.setBackgroundColor(Color.MAGENTA);
 
         TextView staffName = v.findViewById(R.id.SingleItemTextView);
         staffName.setText(focusedStaffMember.getName());

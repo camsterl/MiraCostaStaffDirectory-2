@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         try {
             allStaff = (ArrayList<StaffMember>) JSONLoader.loadJSONFromAsset(this);
         } catch (IOException e) {
@@ -53,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void goHomeClick(View v)
     {
-        this.recreate();
+        Intent intent = getIntent();
+        finish();
+        startActivity(intent);
     }
 }

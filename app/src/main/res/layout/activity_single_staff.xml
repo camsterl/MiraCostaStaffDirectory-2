@@ -26,6 +26,7 @@
             android:layout_weight="1"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
+            android:onClick="goHomeClick"
             android:text="@string/home"
             android:textAlignment="center"
             android:textSize="18sp" />
@@ -37,6 +38,7 @@
             android:layout_weight="1"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
+            android:onClick="departmentClick"
             android:text="@string/departments"
             android:textAlignment="center"
             android:textSize="18sp" />
@@ -48,6 +50,7 @@
             android:layout_weight="1"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
+            android:onClick="allStaffClick"
             android:text="@string/all_staff"
             android:textAlignment="center"
             android:textSize="18sp" />
@@ -56,9 +59,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="32dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,17 +74,21 @@
 
             <TextView
                 android:id="@+id/Name"
-                android:layout_width="38dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/name" />
+                android:gravity="left"
+                android:text="@string/name"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/nameTextView"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:gravity="left"
+                android:text="TextView"
+                android:textSize="18sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -91,17 +98,21 @@
 
             <TextView
                 android:id="@+id/Title"
-                android:layout_width="38dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/departments" />
+                android:gravity="left"
+                android:text="@string/title"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/titleTextView"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:gravity="left"
+                android:text="TextView"
+                android:textSize="18sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -111,17 +122,21 @@
 
             <TextView
                 android:id="@+id/Extension"
-                android:layout_width="38dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/extension" />
+                android:gravity="left"
+                android:text="@string/extension"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/phoneTextView"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:gravity="left"
+                android:text="TextView"
+                android:textSize="18sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -131,17 +146,21 @@
 
             <TextView
                 android:id="@+id/Room"
-                android:layout_width="38dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/room" />
+                android:gravity="left"
+                android:text="@string/room"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/roomTextView"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:gravity="left"
+                android:text="TextView"
+                android:textSize="18sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -151,21 +170,39 @@
 
             <TextView
                 android:id="@+id/Email"
-                android:layout_width="38dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/email" />
+                android:gravity="left"
+                android:text="@string/email"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/emailTextView"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:autoLink="email"
+                android:gravity="left"
                 android:text="Test@gmail.com"
-                android:textColorLink="#0000FF	" />
+                android:textColorLink="#0000FF	"
+                android:textSize="18sp" />
         </LinearLayout>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:elevation="@android:dimen/app_icon_size"
+        android:onClick="back"
+        android:text="Return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

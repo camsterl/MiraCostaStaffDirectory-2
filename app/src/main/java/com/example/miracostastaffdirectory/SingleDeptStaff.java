@@ -1,5 +1,6 @@
 package com.example.miracostastaffdirectory;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,14 +13,16 @@ public class SingleDeptStaff extends AppCompatActivity {
 
     private ArrayList<StaffMember> staffInDept;
     private ArrayList<StaffMember> allStaff;
+    public static Activity singleDeptStaffAct;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_single_dept_staff);
 
-        staffInDept = new ArrayList<>();
+        singleDeptStaffAct = this;
 
+        staffInDept = new ArrayList<>();
 
         Intent fromDepartmentsAct = getIntent();
         String deptToLoad = fromDepartmentsAct.getStringExtra("department");
@@ -39,8 +42,6 @@ public class SingleDeptStaff extends AppCompatActivity {
         // okey dokey so there are some that require 3............
         boolean thereAreThreeFuckingWords = false;
         String thirdSearchKey="";
-
-
 
 
         switch (deptToLoad) {
@@ -164,7 +165,6 @@ public class SingleDeptStaff extends AppCompatActivity {
                 System.exit(0);
         }
 
-
         // if we are searching for three words
         if (thereAreThreeFuckingWords) {
 
@@ -208,9 +208,6 @@ public class SingleDeptStaff extends AppCompatActivity {
                 }
             }
         }
-
-
-
 
     }
 }

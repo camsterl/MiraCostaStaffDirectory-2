@@ -1,5 +1,6 @@
 package com.example.miracostastaffdirectory;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,11 +22,14 @@ public class Departments extends AppCompatActivity {
     private ArrayList<StaffMember> allStaff;
     private ArrayList<String> departments;
     private ArrayAdapter<String> adapter;
+    public static Activity dept;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_departments);
+
+        dept = this;
 
         Intent fromMain = getIntent();
 
@@ -33,7 +37,7 @@ public class Departments extends AppCompatActivity {
 
         // This will happen if we don't go to this activity from the Main Page
         //      So we have to load the JSON again (not sure about how to get around this)
-        if (allStaff.isEmpty()) {
+        if (allStaff == null) {
             try {
                 allStaff = (ArrayList<StaffMember>) JSONLoader.loadJSONFromAsset(this);
             } catch (IOException e) {
@@ -118,7 +122,6 @@ public class Departments extends AppCompatActivity {
 
         intent.putExtra("department", dept);
         intent.putParcelableArrayListExtra("allStaff", allStaff);
-
 
         startActivity(intent);
         this.finish();
