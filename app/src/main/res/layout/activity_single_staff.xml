@@ -136,6 +136,8 @@
                 android:layout_weight="1"
                 android:gravity="left"
                 android:text="TextView"
+                android:textColorLink="#0000FF	"
+                android:autoLink="phone"
                 android:textSize="18sp" />
         </LinearLayout>
 
