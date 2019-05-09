@@ -50,6 +50,7 @@
             android:layout_weight="1"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
+            android:onClick="goToDepartments"
             android:text="@string/departments"
             android:textSize="18sp" />
 
@@ -60,6 +61,7 @@
             android:layout_weight="1"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
+            android:onClick="goToAllStaff"
             android:text="@string/all_staff"
             android:textSize="18sp" />
     </LinearLayout>
