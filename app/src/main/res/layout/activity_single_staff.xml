@@ -139,6 +139,7 @@
                 android:textColorLink="#0000FF	"
                 android:autoLink="phone"
                 android:textSize="18sp" />
+            //te
         </LinearLayout>
 
         <LinearLayout
