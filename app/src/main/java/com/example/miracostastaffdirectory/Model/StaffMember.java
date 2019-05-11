@@ -74,6 +74,10 @@ public class StaffMember implements Parcelable {
                 '}';
     }
 
+    public String contentsString() {
+        return name + " " + title + " " + phoneExt + " " + location + " " + email;
+    }
+
     @Override
     public int describeContents() {
         return 0;

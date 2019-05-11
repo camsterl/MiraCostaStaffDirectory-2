@@ -12,6 +12,7 @@ public class SingleStaffAct extends AppCompatActivity {
 
     private StaffMember sm;
     private int prevScroll;
+    private String prevSearch;
     private String sourceAct;
 
     @Override
@@ -23,6 +24,7 @@ public class SingleStaffAct extends AppCompatActivity {
         Intent from = getIntent();
         sm = from.getParcelableExtra("sm");
         prevScroll = from.getIntExtra("prevScroll", 0);
+        prevSearch = from.getStringExtra("prevSearch");
         sourceAct = from.getStringExtra("sourceAct");
 
 

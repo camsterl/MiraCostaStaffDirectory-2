@@ -4,10 +4,13 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import com.example.miracostastaffdirectory.Model.JSONLoader;
@@ -22,9 +25,12 @@ import java.util.Comparator;
 public class AllStaff extends AppCompatActivity {
 
     private ArrayList<StaffMember> allStaff;
+    private ArrayList<StaffMember> filteredStaff;
     private ListView allStaffListView;
     private ArrayAdapter<StaffMember> adapter;
+    private EditText searchET;
     int prevScroll=-1;
+    String prevSearch="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,9 +39,11 @@ public class AllStaff extends AppCompatActivity {
         setContentView(R.layout.activity_all_staff);
 
         Intent from = getIntent();
-
         allStaff = from.getParcelableArrayListExtra("allStaff");
         prevScroll = from.getIntExtra("prevScroll", -1);
+        prevSearch = from.getStringExtra("prevSearch");
+        if (prevSearch==null || prevSearch.equals(""))
+            prevSearch="";
 
         // This will happen if we don't go to this activity from the Main Page
         //      So we have to load the JSON again (not sure about how to get around this)
@@ -55,12 +63,9 @@ public class AllStaff extends AppCompatActivity {
 
         allStaffListView = findViewById(R.id.AllStaffListView);
 
-        if (allStaffListView ==null)
-            System.out.println("This shit is null");
+        filteredStaff = allStaff;
 
-
-
-        adapter = new AllStaffListAdapter(this, R.layout.simple_one_text_line_item, allStaff, prevScroll);
+        adapter = new AllStaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
         allStaffListView.setAdapter(adapter);
 
         allStaffListView.setSelection(prevScroll-6);
@@ -74,8 +79,50 @@ public class AllStaff extends AppCompatActivity {
 
         allStaffListView.setOnItemClickListener(onItemClickListener);
 
+        // the list is taken care of, now lets do the search edit text
+        searchET = findViewById(R.id.searchEditText);
+        searchET.setText(prevSearch);
+
+        searchET.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                filterForSearch(searchET.getText().toString());
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+            }
+        });
+
     }
 
+
+    public void filterForSearch(String s) {
+
+        adapter.clear();
+        prevSearch = s;
+        String searchKey = s.toLowerCase();
+
+        if (s.equals("") || s == null) {
+            for (StaffMember sm: allStaff) {
+                adapter.add(sm);
+                adapter.notifyDataSetChanged();
+            }
+        }
+        else {
+            for (StaffMember sm : allStaff) {
+                if (sm.contentsString().toLowerCase().contains(searchKey)) {
+                    adapter.add(sm);
+                    adapter.notifyDataSetChanged();
+                }
+            }
+        }
+    }
 
     public void goHome(View v) {
         Intent intent = new Intent(this, MainActivity.class);
@@ -102,12 +149,13 @@ public class AllStaff extends AppCompatActivity {
 
     public void singleStaffAct(int pos)
     {
-        StaffMember sm = allStaff.get(pos);
+        StaffMember sm = filteredStaff.get(pos);
 
         Intent singleStaff = new Intent(this, SingleStaffAct.class);
 
         singleStaff.putExtra("sm", sm);
         singleStaff.putExtra("prevScroll", pos);
+        singleStaff.putExtra("prevSearch", prevSearch);
         singleStaff.putExtra("sourceAct", "allStaff");
 
         startActivity(singleStaff);

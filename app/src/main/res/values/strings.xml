@@ -8,5 +8,6 @@
     <string name="extension">Phone Extension:</string>
     <string name="room">Room Number:</string>
     <string name="email">Email:</string>
+    <string name="search">Search: </string>
     <string name="WelcomeMessage">Welcome to the MiraCosta Staff Directory</string>
 </resources>
