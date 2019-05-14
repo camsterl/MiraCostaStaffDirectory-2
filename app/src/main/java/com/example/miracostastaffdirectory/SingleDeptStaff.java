@@ -229,8 +229,8 @@ public class SingleDeptStaff extends AppCompatActivity {
 
         // allStaff should be populated
         // make a filtered list for searching
-        Log.i("MCC Staff Dir", "allStaff size = " + allStaff.size());
-        Collections.sort(allStaff, new Comparator<StaffMember>() {
+        Log.i("MCC Staff Dir", "staffInDept size = " + staffInDept.size());
+        Collections.sort(staffInDept, new Comparator<StaffMember>() {
             public int compare(StaffMember s1, StaffMember s2) {
                 return s1.getName().compareTo(s2.getName());
             }

@@ -22,15 +22,12 @@ public class Departments extends AppCompatActivity {
     private ArrayList<StaffMember> allStaff;
     private ArrayList<String> departments;
     private ArrayAdapter<String> adapter;
-    public static Activity dept;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_departments);
-
-        dept = this;
 
         Intent fromMain = getIntent();
 
@@ -42,7 +39,7 @@ public class Departments extends AppCompatActivity {
             try {
                 allStaff = (ArrayList<StaffMember>) JSONLoader.loadJSONFromAsset(this);
             } catch (IOException e) {
-                Log.e("MC Staff Dir", "Error Loading JSON" + e.getMessage());
+                Log.e("MCC Staff Dir", "Error Loading JSON" + e.getMessage());
             }
         }
 
