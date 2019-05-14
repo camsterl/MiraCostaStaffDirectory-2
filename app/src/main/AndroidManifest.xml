@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SingleDeptStaff"></activity>
-        <activity android:name=".AllStaffListAdapter" />
+        <activity android:name=".StaffListAdapter" />
         <activity android:name=".SingleStaffAct" />
         <activity android:name=".AllStaff" />
         <activity android:name=".Departments" />

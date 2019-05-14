@@ -1,7 +1,6 @@
 package com.example.miracostastaffdirectory;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
@@ -20,7 +19,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
 
 
 public class AllStaff extends AppCompatActivity {
@@ -72,7 +70,7 @@ public class AllStaff extends AppCompatActivity {
 
         Log.i("MCC Staff Dir", "Size = " + allStaff.size());
 
-        adapter = new AllStaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
+        adapter = new StaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
         allStaffListView.setAdapter(adapter);
 
         allStaffListView.setSelection(prevScroll-6);

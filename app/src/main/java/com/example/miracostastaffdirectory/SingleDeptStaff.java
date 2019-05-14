@@ -1,9 +1,15 @@
 package com.example.miracostastaffdirectory;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.EditText;
+import android.widget.ListView;
 
 import com.example.miracostastaffdirectory.Model.StaffMember;
 
@@ -13,14 +19,17 @@ public class SingleDeptStaff extends AppCompatActivity {
 
     private ArrayList<StaffMember> staffInDept;
     private ArrayList<StaffMember> allStaff;
-    public static Activity singleDeptStaffAct;
+    private ArrayList<StaffMember> filteredStaff;
+    private EditText searchET;
+    private ListView staffListView;
+    private StaffListAdapter adapter;
+    int prevScroll = -1;
+    String prevSearch = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_single_dept_staff);
-
-        singleDeptStaffAct = this;
+        setContentView(R.layout.activity_all_staff);
 
         staffInDept = new ArrayList<>();
 
@@ -209,5 +218,120 @@ public class SingleDeptStaff extends AppCompatActivity {
             }
         }
 
+        // allStaff should be populated
+        // make a filtered list for searching
+        filteredStaff = new ArrayList<>();
+        filteredStaff.addAll(allStaff);
+
+        adapter = new StaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
+        staffListView.setAdapter(adapter);
+
+        staffListView.setSelection(prevScroll-6);
+
+        AdapterView.OnItemClickListener onItemClickListener = (new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                singleStaffAct(position);
+            }
+        });
+
+        staffListView.setOnItemClickListener(onItemClickListener);
+
+        // the list is taken care of, now lets do the search edit text
+        searchET = findViewById(R.id.searchEditText);
+        //searchET.setText(prevSearch);
+        Log.i("MCC Staff Dir", "Size2 = " + allStaff.size());
+        searchET.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                filterForSearch(searchET.getText().toString());
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+            }
+        });
+
     }
+
+
+    public void filterForSearch(String s) {
+        prevSearch = s;
+        String searchKey = s.toLowerCase();
+        adapter.clear();
+        Log.i("MCC Staff Dir", "Entered filterForSearch");
+        if (!searchKey.isEmpty()) {
+            Log.i("MCC Staff Dir", "Search key is NOT empty");
+            Log.i("MCC Staff Dir", "Size6 = " + allStaff.size());
+            Log.i("MCC Staff Dir", "Size of allStaff is = " + allStaff.size());
+            for (Object o : allStaff) {
+                StaffMember sm = (StaffMember) o;
+                if (sm.contentsString().toLowerCase().contains(searchKey)) {
+                    Log.i("MCC Staff Dir", sm.contentsString().toLowerCase());
+                    adapter.add(sm);
+                }
+            }
+        }
+        else {
+            for (StaffMember sm: allStaff) {
+                adapter.add(sm);
+            }
+        }
+
+
+        adapter.notifyDataSetChanged();
+
+
+    }
+
+    public void goHome(View v) {
+        Intent intent = new Intent(this, MainActivity.class);
+
+        startActivity(intent);
+        this.finish();
+    }
+
+    public void departmentClick(View v) {
+        Intent departmentIntent = new Intent(this, Departments.class);
+
+        startActivity(departmentIntent);
+        this.finish();
+    }
+
+    public void allStaffClick(View v)
+    {
+        Intent intent = getIntent();
+        finish();
+        startActivity(intent);
+    }
+
+
+    public void singleStaffAct(int pos)
+    {
+        StaffMember sm = filteredStaff.get(pos);
+
+        Intent singleStaff = new Intent(this, SingleStaffAct.class);
+
+        singleStaff.putExtra("sm", sm);
+        singleStaff.putExtra("prevScroll", pos);
+        singleStaff.putExtra("prevSearch", prevSearch);
+        singleStaff.putExtra("sourceAct", "deptStaff");
+
+        startActivity(singleStaff);
+
+        finish();
+    }
+
+
+
+
+
+
+
 }

@@ -14,7 +14,7 @@ import java.util.List;
 import com.example.miracostastaffdirectory.Model.StaffMember;
 
 
-public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
+public class StaffListAdapter extends ArrayAdapter<StaffMember> {
 
 
     private Context ctx;
@@ -25,7 +25,7 @@ public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
 
 
 
-    public AllStaffListAdapter(Context context, int resource, List<StaffMember> staffList) {
+    public StaffListAdapter(Context context, int resource, List<StaffMember> staffList) {
         super(context, resource, staffList);
 
         ctx = context;
@@ -33,7 +33,7 @@ public class AllStaffListAdapter extends ArrayAdapter<StaffMember> {
         allStaff = staffList;
     }
 
-    public AllStaffListAdapter(Context context, int resource, List<StaffMember> staffList, int viewToHighlight) {
+    public StaffListAdapter(Context context, int resource, List<StaffMember> staffList, int viewToHighlight) {
         super(context, resource, staffList);
 
         ctx = context;
