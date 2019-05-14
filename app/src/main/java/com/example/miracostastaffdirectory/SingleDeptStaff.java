@@ -182,6 +182,8 @@ public class SingleDeptStaff extends AppCompatActivity {
                     System.exit(0);
             }
 
+            System.out.println(searchKey);
+
             // if we are searching for three words
             if (thereAreThreeFuckingWords) {
 
@@ -222,6 +224,7 @@ public class SingleDeptStaff extends AppCompatActivity {
                 for (StaffMember sm: allStaff) {
                     if (sm.getTitle().contains(searchKey)) {
                         staffInDept.add(sm);
+                        System.out.println(sm.toString());
                     }
                 }
             }

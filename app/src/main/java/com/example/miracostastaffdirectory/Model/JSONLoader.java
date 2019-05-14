@@ -126,7 +126,7 @@ public class JSONLoader {
                     JSONCollectionName = ("PhysicalScienceDepartment");
                     break;
                 case(29):
-                    JSONCollectionName = ("PyschologyDepartment");
+                    JSONCollectionName = ("PsychologyDepartment");
                     break;
                 case(30):
                     JSONCollectionName = ("SociologyDepartment");
