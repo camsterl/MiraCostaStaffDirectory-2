@@ -24,6 +24,7 @@ public class Departments extends AppCompatActivity {
     private ArrayAdapter<String> adapter;
     public static Activity dept;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -83,7 +84,7 @@ public class Departments extends AppCompatActivity {
 
 
         // set adapter
-       // deptsListView.setAdapter(new AllDepartmentsListAdapter(this, R.layout.simple_one_text_line_item, departments));
+        deptsListView.setAdapter(new AllDepartmentListAdapter(this, R.layout.simple_one_text_line_item, departments));
 
 
         deptsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
