@@ -20,17 +20,19 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
 
 
 public class AllStaff extends AppCompatActivity {
 
-    private ArrayList<StaffMember> allStaff;
-    private ArrayList<StaffMember> filteredStaff;
+    private static ArrayList<StaffMember> allStaff;
+    private static ArrayList<StaffMember> filteredStaff;
     private ListView allStaffListView;
-    private ArrayAdapter<StaffMember> adapter;
+    private static ArrayAdapter<StaffMember> adapter;
     private EditText searchET;
     int prevScroll=-1;
     String prevSearch="";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,8 +64,13 @@ public class AllStaff extends AppCompatActivity {
         });
 
         allStaffListView = findViewById(R.id.AllStaffListView);
+        filteredStaff = new ArrayList<>();
 
-        filteredStaff = allStaff;
+        for (StaffMember sm: allStaff) {
+            filteredStaff.add(sm);
+        }
+
+        Log.i("MCC Staff Dir", "Size = " + allStaff.size());
 
         adapter = new AllStaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
         allStaffListView.setAdapter(adapter);
@@ -81,8 +88,8 @@ public class AllStaff extends AppCompatActivity {
 
         // the list is taken care of, now lets do the search edit text
         searchET = findViewById(R.id.searchEditText);
-        searchET.setText(prevSearch);
-
+        //searchET.setText(prevSearch);
+        Log.i("MCC Staff Dir", "Size2 = " + allStaff.size());
         searchET.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -92,6 +99,7 @@ public class AllStaff extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 filterForSearch(searchET.getText().toString());
+
             }
 
             @Override
@@ -103,25 +111,32 @@ public class AllStaff extends AppCompatActivity {
 
 
     public void filterForSearch(String s) {
-
-        adapter.clear();
         prevSearch = s;
         String searchKey = s.toLowerCase();
-
-        if (s.equals("") || s == null) {
-            for (StaffMember sm: allStaff) {
-                adapter.add(sm);
-                adapter.notifyDataSetChanged();
-            }
-        }
-        else {
-            for (StaffMember sm : allStaff) {
+        adapter.clear();
+        Log.i("MCC Staff Dir", "Entered filterForSearch");
+        if (!searchKey.isEmpty()) {
+            Log.i("MCC Staff Dir", "Search key is NOT empty");
+            Log.i("MCC Staff Dir", "Size6 = " + allStaff.size());
+            Log.i("MCC Staff Dir", "Size of allStaff is = " + allStaff.size());
+            for (Object o : allStaff) {
+                StaffMember sm = (StaffMember) o;
                 if (sm.contentsString().toLowerCase().contains(searchKey)) {
+                    Log.i("MCC Staff Dir", sm.contentsString().toLowerCase());
                     adapter.add(sm);
-                    adapter.notifyDataSetChanged();
                 }
             }
         }
+        else {
+            for (StaffMember sm: allStaff) {
+                adapter.add(sm);
+            }
+        }
+
+
+        adapter.notifyDataSetChanged();
+
+
     }
 
     public void goHome(View v) {
