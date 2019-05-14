@@ -186,15 +186,15 @@ public class SingleDeptStaff extends AppCompatActivity {
             if (thereAreThreeFuckingWords) {
 
                 // loop through all staff
-                for (int i = 0; i < allStaff.size(); i++) {
+                for (StaffMember sm : allStaff) {
 
                     // if it contains one of the three search keys
-                    if (allStaff.get(i).getTitle().contains(searchKey)
-                            || allStaff.get(i).getTitle().contains(secondSearchKey)
-                            || allStaff.get(i).getTitle().contains(thirdSearchKey)) {
+                    if (sm.getTitle().contains(searchKey)
+                            || sm.getTitle().contains(secondSearchKey)
+                            || sm.getTitle().contains(thirdSearchKey)) {
 
                         // add it to the list
-                        staffInDept.add(allStaff.get(i));
+                        staffInDept.add(sm);
                     }
                 }
             }
@@ -203,14 +203,14 @@ public class SingleDeptStaff extends AppCompatActivity {
             if (thereAreTwoWordsToSearchFor) {
 
                 // loop through all staff
-                for (int i = 0; i < allStaff.size(); i++) {
+                for (StaffMember sm: allStaff) {
 
                     //if the title contains one of the two search words
-                    if (allStaff.get(i).getTitle().contains(searchKey)
-                            || allStaff.get(i).getTitle().contains(secondSearchKey)) {
+                    if (sm.getTitle().contains(searchKey)
+                            || sm.getTitle().contains(secondSearchKey)) {
 
                         // add it to the list
-                        staffInDept.add(allStaff.get(i));
+                        staffInDept.add(sm);
                     }
 
                 }
@@ -219,9 +219,9 @@ public class SingleDeptStaff extends AppCompatActivity {
 
             // else we are only searching for one search keyword
             else {
-                for (int i = 0; i < allStaff.size(); i++) {
-                    if (allStaff.get(i).getTitle().contains(searchKey)) {
-                        staffInDept.add(allStaff.get(i));
+                for (StaffMember sm: allStaff) {
+                    if (sm.getTitle().contains(searchKey)) {
+                        staffInDept.add(sm);
                     }
                 }
             }
@@ -235,8 +235,9 @@ public class SingleDeptStaff extends AppCompatActivity {
                 return s1.getName().compareTo(s2.getName());
             }
         });
+
         filteredStaff = new ArrayList<>();
-        filteredStaff.addAll(allStaff);
+        filteredStaff.addAll(staffInDept);
 
         // create adapter, define list view, and set them
         adapter = new StaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
@@ -286,10 +287,9 @@ public class SingleDeptStaff extends AppCompatActivity {
         Log.i("MCC Staff Dir", "Entered filterForSearch");
         if (!searchKey.isEmpty()) {
             Log.i("MCC Staff Dir", "Search key is NOT empty");
-            Log.i("MCC Staff Dir", "Size6 = " + allStaff.size());
-            Log.i("MCC Staff Dir", "Size of allStaff is = " + allStaff.size());
-            for (Object o : allStaff) {
-                StaffMember sm = (StaffMember) o;
+            Log.i("MCC Staff Dir", "Size6 = " + staffInDept.size());
+            Log.i("MCC Staff Dir", "Size of allStaff is = " + staffInDept.size());
+            for (StaffMember sm : staffInDept) {
                 if (sm.contentsString().toLowerCase().contains(searchKey)) {
                     Log.i("MCC Staff Dir", sm.contentsString().toLowerCase());
                     adapter.add(sm);

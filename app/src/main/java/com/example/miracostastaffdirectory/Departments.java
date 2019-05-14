@@ -83,9 +83,8 @@ public class Departments extends AppCompatActivity {
         departments.add("Theatre And Film Department");
 
 
-        // set adapter
-        deptsListView.setAdapter(new AllDepartmentListAdapter(this, R.layout.simple_one_text_line_item, departments));
-
+        adapter = (new AllDepartmentListAdapter(this, R.layout.simple_one_text_line_item, departments));
+        deptsListView.setAdapter(adapter);
 
         deptsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
