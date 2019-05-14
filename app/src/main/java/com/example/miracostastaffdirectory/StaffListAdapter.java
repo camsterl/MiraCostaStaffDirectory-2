@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -64,8 +65,11 @@ public class StaffListAdapter extends ArrayAdapter<StaffMember> {
         else
             v.setBackgroundColor(Color.WHITE);
 
-        if (position == highlight)
+        if (position == highlight) {
+            String focusedStaffMember2 = allStaff.get(position).getName();
+            Log.i("MCC Course test", "Here: " + allStaff.get(position).getName());
             v.setBackgroundColor(Color.MAGENTA);
+        }
 
         TextView staffName = v.findViewById(R.id.SingleItemTextView);
         staffName.setText(focusedStaffMember.getName());
