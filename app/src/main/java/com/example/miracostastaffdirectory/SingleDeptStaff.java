@@ -336,8 +336,8 @@ public class SingleDeptStaff extends AppCompatActivity {
     }
 
     public void allStaffClick(View v) {
-        Intent intent = getIntent();
         finish();
+        Intent intent = getIntent();
         startActivity(intent);
     }
 
