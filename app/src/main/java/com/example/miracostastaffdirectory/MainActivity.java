@@ -59,5 +59,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void mapChange(View v) {
+        Intent mapIntent = new Intent(this, MapActivity.class);
 
+
+        startActivity(mapIntent);
+        this.finish();
+    }
 }

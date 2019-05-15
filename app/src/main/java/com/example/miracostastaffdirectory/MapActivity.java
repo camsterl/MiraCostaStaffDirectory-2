@@ -68,7 +68,7 @@ public class MapActivity extends AppCompatActivity {
     }
     public void goHomeClick(View v)
     {
-        Intent intent = getIntent();
+        Intent intent = new Intent(this, MainActivity.class);
         finish();
         startActivity(intent);
     }
