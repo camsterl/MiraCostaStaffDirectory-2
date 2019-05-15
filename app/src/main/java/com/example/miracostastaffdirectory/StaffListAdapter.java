@@ -45,7 +45,7 @@ public class StaffListAdapter extends ArrayAdapter<StaffMember> {
     }
 
     public void resetHighlight() {
-        highlightedSM.setBackgroundColor(Color.MAGENTA);
+//        highlightedSM.setBackgroundColor(Color.MAGENTA);
     }
 
 
