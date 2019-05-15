@@ -83,7 +83,7 @@
 
         <Button
             android:id="@+id/ocMap"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="ocChange"
@@ -92,7 +92,7 @@
 
         <Button
             android:id="@+id/seMap"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="seChange"
@@ -101,7 +101,7 @@
 
         <Button
             android:id="@+id/clcMap"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="clcChange"
