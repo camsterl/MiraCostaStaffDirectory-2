@@ -12,5 +12,6 @@
     <string name="WelcomeMessage">Welcome to the MiraCosta Staff Directory</string>
     <string name="oc">Oceanside</string>
     <string name="se">San Elijo</string>
+    <string name="map">Campus Maps</string>
     <string name="clc">Community Learning Center</string>
 </resources>
