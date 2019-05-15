@@ -85,11 +85,12 @@ public class AllStaff extends AppCompatActivity {
         });
 
 
-        allStaffListView = findViewById(R.id.GeneralListView);
+
         filteredStaff = new ArrayList<>();
         filteredStaff.addAll(allStaff);
 
         adapter = new StaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
+        allStaffListView = findViewById(R.id.GeneralListView);
         allStaffListView.setAdapter(adapter);
 
 
