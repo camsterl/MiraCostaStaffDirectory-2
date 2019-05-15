@@ -35,6 +35,9 @@ public class AllStaff extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        Intent intent = new Intent(this, SplashActivity.class);
+        startActivity(intent);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_activity);
 

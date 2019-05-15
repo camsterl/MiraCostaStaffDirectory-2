@@ -33,6 +33,9 @@ public class Departments extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_activity);
 
+        Intent intent = new Intent(this, SplashActivity.class);
+        startActivity(intent);
+
         Intent fromMain = getIntent();
 
         allStaff = fromMain.getParcelableArrayListExtra("allStaff");

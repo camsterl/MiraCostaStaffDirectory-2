@@ -21,6 +21,8 @@ public class SingleStaffAct extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_single_staff);
 
+
+
         Intent from = getIntent();
         sm = from.getParcelableExtra("sm");
         prevScroll = from.getIntExtra("prevScroll", 0);

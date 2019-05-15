@@ -12,7 +12,7 @@ import com.example.miracostastaffdirectory.Model.StaffMember;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.concurrent.atomic.AtomicReferenceArray;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
 
         try {
