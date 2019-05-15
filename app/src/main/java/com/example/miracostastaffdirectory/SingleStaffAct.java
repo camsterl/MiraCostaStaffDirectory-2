@@ -53,7 +53,11 @@ public class SingleStaffAct extends AppCompatActivity {
     public void allStaffClick(View v)
     {
         Intent toAllStaff = new Intent(this, AllStaff.class);
-        toAllStaff.putExtra("prevScroll", prevScroll);
+        if (sourceAct.equals("allStaff")) {
+            toAllStaff.putExtra("prevScroll", prevScroll);
+            toAllStaff.putExtra("prevSearch", prevSearch);
+            toAllStaff.putExtra("prevSM", sm);
+        }
         startActivity(toAllStaff);
         finish();
     }
@@ -61,7 +65,7 @@ public class SingleStaffAct extends AppCompatActivity {
     public void back(View v) {
         if (sourceAct.equals("allStaff"))
             allStaffClick(v);
-        else if (sourceAct.equals("singleStaffDept")) {
+        else if (sourceAct.equals("deptStaff")) {
             Intent goBack = new Intent(this, Departments.class);
             // TODO: finish this up. Go back to Departments.java to get the list again, then call on the function that goes to SingleDeptStaff.java using a String extra passed here
         }

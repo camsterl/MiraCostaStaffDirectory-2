@@ -8,7 +8,6 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 
@@ -26,10 +25,11 @@ public class AllStaff extends AppCompatActivity {
     private static ArrayList<StaffMember> allStaff;
     private static ArrayList<StaffMember> filteredStaff;
     private ListView allStaffListView;
-    private static ArrayAdapter<StaffMember> adapter;
+    private StaffListAdapter adapter;
     private EditText searchET;
     int prevScroll=-1;
     String prevSearch="";
+    StaffMember prevSM =null;
 
 
     @Override
@@ -44,6 +44,7 @@ public class AllStaff extends AppCompatActivity {
         prevSearch = from.getStringExtra("prevSearch");
         if (prevSearch==null || prevSearch.equals(""))
             prevSearch="";
+        prevSM = from.getParcelableExtra("prevSM");
 
         // This will happen if we don't go to this activity from the Main Page
         //      So we have to load the JSON again (not sure about how to get around this)
@@ -61,28 +62,6 @@ public class AllStaff extends AppCompatActivity {
             }
         });
 
-        allStaffListView = findViewById(R.id.GeneralListView);
-        filteredStaff = new ArrayList<>();
-
-        for (StaffMember sm: allStaff) {
-            filteredStaff.add(sm);
-        }
-
-        Log.i("MCC Staff Dir", "Size = " + allStaff.size());
-
-        adapter = new StaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
-        allStaffListView.setAdapter(adapter);
-
-        allStaffListView.setSelection(prevScroll-6);
-
-        AdapterView.OnItemClickListener onItemClickListener = (new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                singleStaffAct(position);
-            }
-        });
-
-        allStaffListView.setOnItemClickListener(onItemClickListener);
 
         // the list is taken care of, now lets do the search edit text
         searchET = findViewById(R.id.searchEditText);
@@ -105,6 +84,34 @@ public class AllStaff extends AppCompatActivity {
             }
         });
 
+
+        allStaffListView = findViewById(R.id.GeneralListView);
+        filteredStaff = new ArrayList<>();
+        filteredStaff.addAll(allStaff);
+
+        Log.i("MCC Staff Dir", "Size = " + allStaff.size());
+
+        adapter = new StaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
+        allStaffListView.setAdapter(adapter);
+
+
+        if (!prevSearch.equals("")) {
+            searchET.setText(prevSearch);
+            filterForSearch(searchET.getText().toString());
+        }
+
+        allStaffListView.setSelection(prevScroll-6);
+
+        AdapterView.OnItemClickListener onItemClickListener = (new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                singleStaffAct(position);
+            }
+        });
+
+        allStaffListView.setOnItemClickListener(onItemClickListener);
+
+
     }
 
 
@@ -112,14 +119,9 @@ public class AllStaff extends AppCompatActivity {
         prevSearch = s;
         String searchKey = s.toLowerCase();
         adapter.clear();
-        Log.i("MCC Staff Dir", "Entered filterForSearch");
         if (!searchKey.isEmpty()) {
-            Log.i("MCC Staff Dir", "Search key is NOT empty");
-            Log.i("MCC Staff Dir", "Size6 = " + allStaff.size());
-            Log.i("MCC Staff Dir", "Size of allStaff is = " + allStaff.size());
             for (StaffMember sm : allStaff) {
                 if (sm.contentsString().toLowerCase().contains(searchKey)) {
-                    Log.i("MCC Staff Dir", sm.contentsString().toLowerCase());
                     adapter.add(sm);
                 }
             }
@@ -131,6 +133,7 @@ public class AllStaff extends AppCompatActivity {
         }
 
 
+        adapter.resetHighlight();
         adapter.notifyDataSetChanged();
 
 

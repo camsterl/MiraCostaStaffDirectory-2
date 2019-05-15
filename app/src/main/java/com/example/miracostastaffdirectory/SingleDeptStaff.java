@@ -242,6 +242,11 @@ public class SingleDeptStaff extends AppCompatActivity {
         filteredStaff = new ArrayList<>();
         filteredStaff.addAll(staffInDept);
 
+        if (!prevSearch.equals("")) {
+            searchET.setText(prevSearch);
+            filterForSearch(searchET.getText().toString());
+        }
+
         // create adapter, define list view, and set them
         adapter = new StaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
         staffListView = findViewById(R.id.GeneralListView);
