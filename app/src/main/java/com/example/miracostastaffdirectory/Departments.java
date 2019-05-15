@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -15,6 +17,8 @@ import com.example.miracostastaffdirectory.Model.StaffMember;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class Departments extends AppCompatActivity {
 
@@ -63,7 +67,7 @@ public class Departments extends AppCompatActivity {
         departments.add("Dance Department");
         departments.add("Design Department");
         departments.add("English Department");
-        departments.add("ESLD Department");
+        departments.add("ESL Department");
         departments.add("History Department");
         departments.add("Horticulture Department");
         departments.add("IMTD Department");
@@ -89,7 +93,6 @@ public class Departments extends AppCompatActivity {
                 goToSingleDeptStaff(view, position);
             }
         });
-
 
 
 
