@@ -1,8 +1,8 @@
 package com.example.miracostastaffdirectory;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -19,6 +19,7 @@ import java.util.Comparator;
 
 public class SingleDeptStaff extends AppCompatActivity {
 
+    private String deptToLoad;
     private ArrayList<StaffMember> staffInDept;
     private ArrayList<StaffMember> allStaff;
     private ArrayList<StaffMember> filteredStaff;
@@ -39,7 +40,8 @@ public class SingleDeptStaff extends AppCompatActivity {
         staffInDept = new ArrayList<>();
 
         Intent from = getIntent();
-        String deptToLoad = from.getStringExtra("department");
+        deptToLoad = from.getStringExtra("deptToLoad");
+        if (deptToLoad==null) deptToLoad ="";
         // this will get an arrayList regardless of which activity it comes from since they have the same key
         allStaff = from.getParcelableArrayListExtra("allStaff");
         prevScroll = from.getIntExtra("prevScroll", -1);
@@ -178,63 +180,64 @@ public class SingleDeptStaff extends AppCompatActivity {
                     thirdSearchKey = "Drama";
                     break;
                 default:
-                    System.out.println("ERROR CODE: 000000x5556732222x90");
-                    System.out.println("Something went terribly wrong, we didn't get a matching string " +
-                            "\nfrom the Departments Activity in the Intent");
-                    System.exit(0);
+                    break;
             }
 
             System.out.println(searchKey);
 
-            // if we are searching for three words
-            if (thereAreThreeFuckingWords) {
+            if (allStaff!=null) {
+                // if we are searching for three words
+                if (thereAreThreeFuckingWords) {
 
-                // loop through all staff
-                for (StaffMember sm : allStaff) {
+                    // loop through all staff
+                    for (StaffMember sm : allStaff) {
 
-                    // if it contains one of the three search keys
-                    if (sm.getTitle().contains(searchKey)
-                            || sm.getTitle().contains(secondSearchKey)
-                            || sm.getTitle().contains(thirdSearchKey)) {
+                        // if it contains one of the three search keys
+                        if (sm.getTitle().contains(searchKey)
+                                || sm.getTitle().contains(secondSearchKey)
+                                || sm.getTitle().contains(thirdSearchKey)) {
 
-                        // add it to the list
-                        staffInDept.add(sm);
+                            // add it to the list
+                            staffInDept.add(sm);
+                        }
+                    }
+                }
+
+                // if we are searching for two words
+                if (thereAreTwoWordsToSearchFor) {
+
+                    // loop through all staff
+                    for (StaffMember sm : allStaff) {
+
+                        //if the title contains one of the two search words
+                        if (sm.getTitle().contains(searchKey)
+                                || sm.getTitle().contains(secondSearchKey)) {
+
+                            // add it to the list
+                            staffInDept.add(sm);
+                        }
+
+                    }
+
+                }
+
+                // else we are only searching for one search keyword
+                else {
+                    for (StaffMember sm : allStaff) {
+                        if (sm.getTitle().contains(searchKey)) {
+                            staffInDept.add(sm);
+                            System.out.println(sm.toString());
+                        }
                     }
                 }
             }
-
-            // if we are searching for two words
-            if (thereAreTwoWordsToSearchFor) {
-
-                // loop through all staff
-                for (StaffMember sm: allStaff) {
-
-                    //if the title contains one of the two search words
-                    if (sm.getTitle().contains(searchKey)
-                            || sm.getTitle().contains(secondSearchKey)) {
-
-                        // add it to the list
-                        staffInDept.add(sm);
-                    }
-
-                }
-
-            }
-
-            // else we are only searching for one search keyword
             else {
-                for (StaffMember sm: allStaff) {
-                    if (sm.getTitle().contains(searchKey)) {
-                        staffInDept.add(sm);
-                        System.out.println(sm.toString());
-                    }
-                }
+                staffInDept = getIntent().getParcelableArrayListExtra("staffInDept");
             }
         }
 
         // allStaff should be populated
         // make a filtered list for searching
-        Log.i("MCC Staff Dir", "staffInDept size = " + staffInDept.size());
         Collections.sort(staffInDept, new Comparator<StaffMember>() {
             public int compare(StaffMember s1, StaffMember s2) {
                 return s1.getName().compareTo(s2.getName());
@@ -244,15 +247,36 @@ public class SingleDeptStaff extends AppCompatActivity {
         filteredStaff = new ArrayList<>();
         filteredStaff.addAll(staffInDept);
 
-        if (!prevSearch.equals("")) {
-            searchET.setText(prevSearch);
-            filterForSearch(searchET.getText().toString());
-        }
+
+        // the list is taken care of, now lets do the search edit text
+        searchET = findViewById(R.id.searchEditText);
+        searchET.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                filterForSearch(searchET.getText().toString());
+                adapter.resetHighlight();
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+            }
+        });
+
 
         // create adapter, define list view, and set them
         adapter = new StaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
         staffListView = findViewById(R.id.GeneralListView);
         staffListView.setAdapter(adapter);
+
+        if (!prevSearch.equals("")) {
+            searchET.setText(prevSearch);
+            filterForSearch(searchET.getText().toString());
+        }
 
         // highlight previous thing
         staffListView.setSelection(prevScroll-6);
@@ -266,26 +290,6 @@ public class SingleDeptStaff extends AppCompatActivity {
 
         staffListView.setOnItemClickListener(onItemClickListener);
 
-        // the list is taken care of, now lets do the search edit text
-        searchET = findViewById(R.id.searchEditText);
-        //searchET.setText(prevSearch);
-        Log.i("MCC Staff Dir", "Size2 = " + allStaff.size());
-        searchET.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                filterForSearch(searchET.getText().toString());
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-            }
-        });
 
     }
 
@@ -294,7 +298,6 @@ public class SingleDeptStaff extends AppCompatActivity {
         prevSearch = s;
         String searchKey = s.toLowerCase();
         adapter.clear();
-        Log.i("MCC Staff Dir", "Entered filterForSearch");
         if (!searchKey.isEmpty()) {
             Log.i("MCC Staff Dir", "Search key is NOT empty");
             Log.i("MCC Staff Dir", "Size6 = " + staffInDept.size());
@@ -307,7 +310,7 @@ public class SingleDeptStaff extends AppCompatActivity {
             }
         }
         else {
-            for (StaffMember sm: allStaff) {
+            for (StaffMember sm: staffInDept) {
                 adapter.add(sm);
             }
         }
@@ -332,8 +335,7 @@ public class SingleDeptStaff extends AppCompatActivity {
         this.finish();
     }
 
-    public void allStaffClick(View v)
-    {
+    public void allStaffClick(View v) {
         Intent intent = getIntent();
         finish();
         startActivity(intent);
@@ -350,6 +352,8 @@ public class SingleDeptStaff extends AppCompatActivity {
         singleStaff.putExtra("prevScroll", pos);
         singleStaff.putExtra("prevSearch", prevSearch);
         singleStaff.putExtra("sourceAct", "deptStaff");
+        singleStaff.putExtra("deptToLoad", deptToLoad);
+        singleStaff.putParcelableArrayListExtra("staffInDept", staffInDept);
 
         startActivity(singleStaff);
 

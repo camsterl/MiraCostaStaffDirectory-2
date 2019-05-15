@@ -167,7 +167,7 @@ public class Departments extends AppCompatActivity {
 
         String dept = filteredDepts.get(pos);
 
-        intent.putExtra("department", dept);
+        intent.putExtra("deptToLoad", dept);
         intent.putParcelableArrayListExtra("allStaff", allStaff);
 
         startActivity(intent);

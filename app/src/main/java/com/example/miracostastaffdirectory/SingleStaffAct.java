@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import com.example.miracostastaffdirectory.Model.StaffMember;
 
+import java.util.ArrayList;
+
 public class SingleStaffAct extends AppCompatActivity {
 
     private StaffMember sm;
@@ -42,10 +44,6 @@ public class SingleStaffAct extends AppCompatActivity {
         roomTextView.setText(sm.getLocation());
         emailTextView.setText(sm.getEmail());
 
-        TextView homeTV = findViewById(R.id.HomeTextView);
-        TextView deptsTV = findViewById(R.id.DepartmentsTextView);
-        TextView allStaffTV = findViewById(R.id.AllStaffTextView);
-
     }
 
 
@@ -58,7 +56,6 @@ public class SingleStaffAct extends AppCompatActivity {
         if (sourceAct.equals("allStaff")) {
             toAllStaff.putExtra("prevScroll", prevScroll);
             toAllStaff.putExtra("prevSearch", prevSearch);
-            toAllStaff.putExtra("prevSM", sm);
         }
         startActivity(toAllStaff);
         finish();
@@ -68,7 +65,13 @@ public class SingleStaffAct extends AppCompatActivity {
         if (sourceAct.equals("allStaff"))
             allStaffClick(v);
         else if (sourceAct.equals("deptStaff")) {
-            Intent goBack = new Intent(this, Departments.class);
+            Intent goBack = new Intent(this, SingleDeptStaff.class);
+            goBack.putExtra("prevScroll", prevScroll);
+            goBack.putExtra("prevSearch", prevSearch);
+            ArrayList<StaffMember> staffFromDept = getIntent().getParcelableArrayListExtra("staffInDept");
+            goBack.putParcelableArrayListExtra("staffInDept", staffFromDept);
+            startActivity(goBack);
+            finish();
             // TODO: finish this up. Go back to Departments.java to get the list again, then call on the function that goes to SingleDeptStaff.java using a String extra passed here
         }
     }

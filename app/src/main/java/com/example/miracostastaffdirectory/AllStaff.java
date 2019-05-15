@@ -29,7 +29,6 @@ public class AllStaff extends AppCompatActivity {
     private EditText searchET;
     int prevScroll=-1;
     String prevSearch="";
-    StaffMember prevSM =null;
 
 
     @Override
@@ -47,7 +46,6 @@ public class AllStaff extends AppCompatActivity {
         prevSearch = from.getStringExtra("prevSearch");
         if (prevSearch==null || prevSearch.equals(""))
             prevSearch="";
-        prevSM = from.getParcelableExtra("prevSM");
 
         // This will happen if we don't go to this activity from the Main Page
         //      So we have to load the JSON again (not sure about how to get around this)
@@ -68,8 +66,6 @@ public class AllStaff extends AppCompatActivity {
 
         // the list is taken care of, now lets do the search edit text
         searchET = findViewById(R.id.searchEditText);
-        //searchET.setText(prevSearch);
-        Log.i("MCC Staff Dir", "Size2 = " + allStaff.size());
         searchET.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -92,8 +88,6 @@ public class AllStaff extends AppCompatActivity {
         allStaffListView = findViewById(R.id.GeneralListView);
         filteredStaff = new ArrayList<>();
         filteredStaff.addAll(allStaff);
-
-        Log.i("MCC Staff Dir", "Size = " + allStaff.size());
 
         adapter = new StaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
         allStaffListView.setAdapter(adapter);
