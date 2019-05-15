@@ -59,7 +59,6 @@ public class StaffListAdapter extends ArrayAdapter<StaffMember> {
 
         @SuppressLint("ViewHolder")
         View v = inflater.inflate(resID, null);
-       // String focusedStaffMember2 = allStaff.get(position).getName();
 
         if (position%2==0)
             v.setBackgroundColor(Color.CYAN);
@@ -67,8 +66,8 @@ public class StaffListAdapter extends ArrayAdapter<StaffMember> {
             v.setBackgroundColor(Color.WHITE);
 
         if (position == highlight) {
-
-         //   Log.i("MCC Course test", "Here: " + allStaff.get(position).getName());
+            String focusedStaffMember2 = allStaff.get(position).getName();
+            Log.i("MCC Course test", "Here: " + allStaff.get(position).getName());
             v.setBackgroundColor(Color.MAGENTA);
         }
 

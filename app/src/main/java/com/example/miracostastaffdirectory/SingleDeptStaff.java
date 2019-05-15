@@ -64,7 +64,7 @@ public class SingleDeptStaff extends AppCompatActivity {
             switch (deptToLoad) {
 
                 case ("Administration Of Justice Department"):
-                    searchKey = "Administration";
+                    searchKey = "Justice";
                     break;
                 case ("Art Department"):
                     searchKey = "Art";
