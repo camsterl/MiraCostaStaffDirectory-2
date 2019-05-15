@@ -79,6 +79,7 @@ public class AllStaff extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 filterForSearch(searchET.getText().toString());
+                adapter.resetHighlight();
 
             }
 
@@ -136,7 +137,6 @@ public class AllStaff extends AppCompatActivity {
         }
 
 
-        adapter.resetHighlight();
         adapter.notifyDataSetChanged();
 
 
