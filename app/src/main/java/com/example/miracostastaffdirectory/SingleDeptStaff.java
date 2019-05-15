@@ -35,7 +35,6 @@ public class SingleDeptStaff extends AppCompatActivity {
         setContentView(R.layout.list_activity);
 
 
-
         // og arrayList
         staffInDept = new ArrayList<>();
 
