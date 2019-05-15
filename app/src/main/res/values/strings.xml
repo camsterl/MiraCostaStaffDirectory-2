@@ -10,4 +10,7 @@
     <string name="email">Email:</string>
     <string name="search">Search: </string>
     <string name="WelcomeMessage">Welcome to the MiraCosta Staff Directory</string>
+    <string name="oc">Oceanside</string>
+    <string name="se">San Elijo</string>
+    <string name="clc">Community Learning Center</string>
 </resources>

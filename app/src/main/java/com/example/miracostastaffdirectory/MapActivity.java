@@ -1,37 +1,51 @@
 package com.example.miracostastaffdirectory;
 
 import android.content.Intent;
-import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 
-import com.example.miracostastaffdirectory.Model.JSONLoader;
 import com.example.miracostastaffdirectory.Model.StaffMember;
 
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.concurrent.atomic.AtomicReferenceArray;
 
-public class MainActivity extends AppCompatActivity {
-
+public class MapActivity extends AppCompatActivity {
 
     ArrayList<StaffMember> allStaff;
+    ImageView mapImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_map);
+
+        mapImage = findViewById(R.id.map);
+
+        mapImage.setImageResource(R.drawable.oc_map);
 
 
-        try {
-            allStaff = (ArrayList<StaffMember>) JSONLoader.loadJSONFromAsset(this);
-        } catch (IOException e) {
-            Log.e("MC Staff Dir", "Error Loading JSON" + e.getMessage());
-        }
 
     }
+
+
+    public void seChange(View v)
+    {
+        mapImage.setImageResource(R.drawable.se_map);
+    }
+
+    public void clcChange(View v)
+    {
+        mapImage.setImageResource(R.drawable.clc_map);
+    }
+
+    public void ocChange(View v)
+    {
+        mapImage.setImageResource(R.drawable.oc_map);
+    }
+
+
+
     public void allStaffClick(View v)
     {
         Intent allStaffIntent = new Intent(this, AllStaff.class);
@@ -58,6 +72,4 @@ public class MainActivity extends AppCompatActivity {
         finish();
         startActivity(intent);
     }
-
-
 }
