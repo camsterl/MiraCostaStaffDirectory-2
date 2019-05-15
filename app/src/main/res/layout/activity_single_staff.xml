@@ -86,8 +86,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:focusable="auto"
+                android:focusableInTouchMode="true"
                 android:gravity="left"
                 android:text="TextView"
+                android:textIsSelectable="true"
                 android:textSize="18sp" />
         </LinearLayout>
 
@@ -114,6 +117,7 @@
                 android:gravity="left"
                 android:paddingBottom="20dp"
                 android:text="TextView"
+                android:textIsSelectable="true"
                 android:textSize="18sp" />
         </LinearLayout>
 
@@ -137,9 +141,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:autoLink="phone"
+                android:focusable="auto"
+                android:focusableInTouchMode="true"
                 android:gravity="left"
                 android:text="TextView"
                 android:textColorLink="#0000FF	"
+                android:textIsSelectable="true"
                 android:textSize="18sp" />
             //te
         </LinearLayout>
@@ -165,6 +172,7 @@
                 android:layout_weight="1"
                 android:gravity="left"
                 android:text="TextView"
+                android:textIsSelectable="true"
                 android:textSize="18sp" />
         </LinearLayout>
 
@@ -188,9 +196,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:autoLink="email"
+                android:focusable="auto"
+                android:focusableInTouchMode="true"
                 android:gravity="left"
                 android:text="Test@gmail.com"
                 android:textColorLink="#0000FF	"
+                android:textIsSelectable="true"
                 android:textSize="18sp" />
         </LinearLayout>
 
