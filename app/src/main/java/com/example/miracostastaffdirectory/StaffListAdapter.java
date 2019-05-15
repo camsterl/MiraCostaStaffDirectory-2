@@ -22,6 +22,7 @@ public class StaffListAdapter extends ArrayAdapter<StaffMember> {
     private int resID;
     private List<StaffMember> allStaff;
     private int highlight=-1;
+    private View highlightedSM;
 
 
 
@@ -41,6 +42,10 @@ public class StaffListAdapter extends ArrayAdapter<StaffMember> {
         resID = resource;
         allStaff = staffList;
         highlight = viewToHighlight;
+    }
+
+    public void resetHighlight() {
+        highlightedSM.setBackgroundColor(Color.MAGENTA);
     }
 
 
@@ -66,9 +71,8 @@ public class StaffListAdapter extends ArrayAdapter<StaffMember> {
             v.setBackgroundColor(Color.WHITE);
 
         if (position == highlight) {
-            String focusedStaffMember2 = allStaff.get(position).getName();
-            Log.i("MCC Course test", "Here: " + allStaff.get(position).getName());
             v.setBackgroundColor(Color.MAGENTA);
+            highlightedSM=v;
         }
 
         TextView staffName = v.findViewById(R.id.SingleItemTextView);
