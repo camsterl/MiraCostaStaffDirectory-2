@@ -1,13 +1,15 @@
 package com.example.miracostastaffdirectory;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import com.example.miracostastaffdirectory.Model.JSONLoader;
@@ -21,13 +23,15 @@ public class Departments extends AppCompatActivity {
     private ListView deptsListView;
     private ArrayList<StaffMember> allStaff;
     private ArrayList<String> departments;
+    private ArrayList<String> filteredDepts;
     private ArrayAdapter<String> adapter;
+    private EditText searchET;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_departments);
+        setContentView(R.layout.list_activity);
 
         Intent fromMain = getIntent();
 
@@ -43,7 +47,7 @@ public class Departments extends AppCompatActivity {
             }
         }
 
-        deptsListView = findViewById(R.id.departments);
+        deptsListView = findViewById(R.id.GeneralListView);
         departments = new ArrayList<>();
 
         // I'm hoping this was necessary
@@ -79,8 +83,10 @@ public class Departments extends AppCompatActivity {
         departments.add("Sociology Department");
         departments.add("Theatre And Film Department");
 
+        filteredDepts = new ArrayList<>();
+        filteredDepts.addAll(departments);
 
-        adapter = (new AllDepartmentListAdapter(this, R.layout.simple_one_text_line_item, departments));
+        adapter = (new AllDepartmentListAdapter(this, R.layout.simple_one_text_line_item, filteredDepts));
         deptsListView.setAdapter(adapter);
 
         deptsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -90,8 +96,48 @@ public class Departments extends AppCompatActivity {
             }
         });
 
+        searchET = findViewById(R.id.searchEditText);
+        searchET.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                filterForSearch(s.toString());
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
 
 
+
+
+    }
+
+    public void filterForSearch(String S) {
+        String searchKey = S.toLowerCase();
+        adapter.clear();
+
+        if (!searchKey.isEmpty()) {
+
+            for (String s: departments) {
+                if (s.toLowerCase().contains(searchKey)) {
+                    adapter.add(s);
+                }
+            }
+        }
+        else {
+            for (String s: departments) {
+                adapter.add(s);
+            }
+        }
+
+        adapter.notifyDataSetChanged();
 
     }
 
@@ -101,11 +147,11 @@ public class Departments extends AppCompatActivity {
         this.finish();
     }
 
-    public void goToDepartments(View v) {
+    public void departmentClick(View v) {
         this.recreate();
     }
 
-    public void goToAllStaff(View v) {
+    public void allStaffClick(View v) {
         Intent intent = new Intent(this, AllStaff.class);
         startActivity(intent);
         this.finish();
@@ -115,7 +161,7 @@ public class Departments extends AppCompatActivity {
 
         Intent intent = new Intent(this, SingleDeptStaff.class);
 
-        String dept = departments.get(pos);
+        String dept = filteredDepts.get(pos);
 
         intent.putExtra("department", dept);
         intent.putParcelableArrayListExtra("allStaff", allStaff);

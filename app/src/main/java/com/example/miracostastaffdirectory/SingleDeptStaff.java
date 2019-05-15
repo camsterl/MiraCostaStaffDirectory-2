@@ -31,7 +31,7 @@ public class SingleDeptStaff extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_all_staff);
+        setContentView(R.layout.list_activity);
 
         // og arrayList
         staffInDept = new ArrayList<>();
@@ -244,7 +244,7 @@ public class SingleDeptStaff extends AppCompatActivity {
 
         // create adapter, define list view, and set them
         adapter = new StaffListAdapter(this, R.layout.simple_one_text_line_item, filteredStaff, prevScroll);
-        staffListView = findViewById(R.id.AllStaffListView);
+        staffListView = findViewById(R.id.GeneralListView);
         staffListView.setAdapter(adapter);
 
         // highlight previous thing

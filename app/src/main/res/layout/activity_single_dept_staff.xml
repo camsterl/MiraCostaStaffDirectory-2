@@ -62,7 +62,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginBottom="8dp"
         android:text="@string/search"
-        app:layout_constraintBottom_toTopOf="@+id/AllStaffListView"
+        app:layout_constraintBottom_toTopOf="@+id/GeneralListView"
         app:layout_constraintEnd_toStartOf="@+id/searchEditText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
@@ -81,7 +81,7 @@
         android:nextFocusLeft="@id/searchEditText"/>
 
     <ListView
-        android:id="@+id/AllStaffListView"
+        android:id="@+id/GeneralListView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="32dp"

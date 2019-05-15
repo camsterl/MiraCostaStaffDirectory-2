@@ -36,7 +36,7 @@ public class AllStaff extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_all_staff);
+        setContentView(R.layout.list_activity);
 
         Intent from = getIntent();
         allStaff = from.getParcelableArrayListExtra("allStaff");
@@ -61,7 +61,7 @@ public class AllStaff extends AppCompatActivity {
             }
         });
 
-        allStaffListView = findViewById(R.id.AllStaffListView);
+        allStaffListView = findViewById(R.id.GeneralListView);
         filteredStaff = new ArrayList<>();
 
         for (StaffMember sm: allStaff) {
@@ -117,8 +117,7 @@ public class AllStaff extends AppCompatActivity {
             Log.i("MCC Staff Dir", "Search key is NOT empty");
             Log.i("MCC Staff Dir", "Size6 = " + allStaff.size());
             Log.i("MCC Staff Dir", "Size of allStaff is = " + allStaff.size());
-            for (Object o : allStaff) {
-                StaffMember sm = (StaffMember) o;
+            for (StaffMember sm : allStaff) {
                 if (sm.contentsString().toLowerCase().contains(searchKey)) {
                     Log.i("MCC Staff Dir", sm.contentsString().toLowerCase());
                     adapter.add(sm);

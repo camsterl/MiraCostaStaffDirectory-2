@@ -10,11 +10,12 @@
         android:id="@+id/SingleItemTextView"
         android:layout_width="0dp"
         android:layout_height="60dp"
+        android:gravity="center_vertical"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
         android:text="TextView"
         android:textColor="#000000"
-        android:textSize="36sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
