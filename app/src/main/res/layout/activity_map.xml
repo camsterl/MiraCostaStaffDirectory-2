@@ -81,29 +81,29 @@
 
         <Button
             android:id="@+id/ocMap"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="ocChange"
-            android:text="Button"
+            android:text="@string/oc"
             tools:text="@string/oc" />
 
         <Button
             android:id="@+id/seMap"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="seChange"
-            android:text="Button"
+            android:text="@string/se"
             tools:text="@string/se" />
 
         <Button
             android:id="@+id/clcMap"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="clcChange"
-            android:text="Button"
+            android:text="@string/clc"
             tools:text="@string/clc" />
     </LinearLayout>
 
