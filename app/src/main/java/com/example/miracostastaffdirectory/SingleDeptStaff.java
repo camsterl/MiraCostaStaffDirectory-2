@@ -318,6 +318,7 @@ public class SingleDeptStaff extends AppCompatActivity {
         adapter.notifyDataSetChanged();
 
 
+
     }
 
     public void goHome(View v) {
@@ -335,14 +336,17 @@ public class SingleDeptStaff extends AppCompatActivity {
     }
 
     public void allStaffClick(View v) {
+
+
         finish();
-        Intent intent = getIntent();
+        Intent intent = new Intent(this, AllStaff.class);
         startActivity(intent);
     }
 
 
     public void singleStaffAct(int pos)
     {
+
         StaffMember sm = filteredStaff.get(pos);
 
         Intent singleStaff = new Intent(this, SingleStaffAct.class);
