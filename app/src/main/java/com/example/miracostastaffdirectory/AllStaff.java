@@ -49,7 +49,7 @@ public class AllStaff extends AppCompatActivity {
 
         // This will happen if we don't go to this activity from the Main Page
         //      So we have to load the JSON again (not sure about how to get around this)
-        //allStaff = new ArrayList<>();
+
         if (allStaff == null) {
             try {
                 allStaff = (ArrayList<StaffMember>) JSONLoader.loadJSONFromAsset(this);
