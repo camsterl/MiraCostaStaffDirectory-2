@@ -19,6 +19,9 @@ public class StaffMember implements Parcelable {
         this.email = email;
     }
 
+    // test purposes
+    StaffMember() {}
+
     public String getName() {
         return name;
     }
