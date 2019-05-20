@@ -44,7 +44,9 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         mapImage = findViewById(R.id.map);
         mapImage.setImageResource(R.drawable.oc_map);
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.mapFragment);
-        mapFragment.getMapAsync(this);
+        if (mapFragment != null) {
+            mapFragment.getMapAsync(this);
+        }
 
         // set list view
         locationsListView = findViewById(R.id.locationsListView);
