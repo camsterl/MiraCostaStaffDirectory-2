@@ -14,10 +14,10 @@ import com.example.miracostastaffdirectory.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LocationListAdapter  extends ArrayAdapter<Location> {
+public class LocationListAdapter extends ArrayAdapter<Location> {
 
     private Context mContext;
-    private List<Location> mLocationsList = new ArrayList<>();
+    private List<Location> mLocationsList;
     private int mResourceId;
 
 
@@ -46,7 +46,7 @@ public class LocationListAdapter  extends ArrayAdapter<Location> {
     @Override
     public View getView(int pos, View convertView, ViewGroup parent)
     {
-        final Location selectedLocation = mLocationsList.get(pos);
+        final Location focusedLocation = mLocationsList.get(pos);
 
 
         LayoutInflater inflater =
@@ -58,8 +58,10 @@ public class LocationListAdapter  extends ArrayAdapter<Location> {
         TextView locationListNameTextView =
                 view.findViewById(R.id.SingleItemTextView);
 
+        locationListNameTextView.setText(focusedLocation.getName());
 
-        view.setTag(selectedLocation);
+
+        view.setTag(focusedLocation);
 
 
         return view;

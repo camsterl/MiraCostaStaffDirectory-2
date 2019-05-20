@@ -3,12 +3,14 @@ package com.example.miracostastaffdirectory;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.example.miracostastaffdirectory.Model.Location;
 import com.example.miracostastaffdirectory.Model.LocationListAdapter;
+import com.example.miracostastaffdirectory.Model.LocationsJSONLoader;
 import com.example.miracostastaffdirectory.Model.StaffMember;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -20,6 +22,7 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,13 +40,26 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
+        // map stuff
         mapImage = findViewById(R.id.map);
-
         mapImage.setImageResource(R.drawable.oc_map);
-
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.mapFragment);
         mapFragment.getMapAsync(this);
 
+        // set list view
+        locationsListView = findViewById(R.id.locationsListView);
+        //TODO: idk where we get the values for allLocationsList  ----- Didn't we make a locations.json??
+        try {
+            allLocationsList = LocationsJSONLoader.loadJSONFromAsset(this);
+        } catch (IOException e) {
+            Log.e("Miracosta Staff Dir", "Couldn't find JSONFile with list of locations (locations.json)");
+            e.printStackTrace();
+        }
+
+
+        // set adapter
+        locationListAdapter = new LocationListAdapter(this, R.layout.simple_one_text_line_item, allLocationsList);
+        locationsListView.setAdapter(locationListAdapter);
 
 
     }
