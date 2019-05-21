@@ -16,8 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Class loads Country data from a formatted JSON (JavaScript Object Notation) file.
- * Populates data model (Country) with data.
+ * Class loads Location data from a formatted JSON (JavaScript Object Notation) file.
+ * Populates data model  Location) with data.
  */
 public class LocationsJSONLoader {
 
@@ -45,7 +45,7 @@ public class LocationsJSONLoader {
             JSONObject jsonRootObject = new JSONObject(json);
             JSONArray allLocJSON = jsonRootObject.getJSONArray("locations");
 
-            // Loop through all the countries in the JSON data, create a Country
+            // Loop through all the countries in the JSON data, create a Location
             int numLocations = allLocJSON.length();
 
             // To be used in loop

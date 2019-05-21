@@ -16,8 +16,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Class loads Country data from a formatted JSON (JavaScript Object Notation) file.
- * Populates data model (Country) with data.
+ * Class loads StaffMember
+ *data from a formatted JSON (JavaScript Object Notation) file.
+ * Populates data model (StaffMember
+ *) with data.
  */
 public class JSONLoader {
 
@@ -30,7 +32,7 @@ public class JSONLoader {
     public static List<StaffMember> loadJSONFromAsset(Context context) throws IOException {
 
         List<StaffMember> allStaffList = new ArrayList<>();
-        String json = null;
+        String json;
         int it=0;
 
         assignStringLoop:
@@ -150,23 +152,23 @@ public class JSONLoader {
                 JSONObject jsonRootObject = new JSONObject(json);
                 JSONArray allStaffJSON = jsonRootObject.getJSONArray(JSONCollectionName);
 
-                // Loop through all the countries in the JSON data, create a Country
-                int numCountries = allStaffJSON.length();
+                // Loop through all the countries in the JSON data, create a StaffMember
+                int numStaff = allStaffJSON.length();
 
                 // To be used in loop
-                JSONObject countryJSON;
+                JSONObject staffJSON;
                 String name, title, phoneExt, location, email;
                 StaffMember sm = null;
 
-                for (int i = 0; i < numCountries; i++) {
-                    countryJSON = allStaffJSON.getJSONObject(i);
+                for (int i = 0; i < numStaff; i++) {
+                    staffJSON = allStaffJSON.getJSONObject(i);
 
                     // Extract the name and region
-                    name = countryJSON.getString("A");
-                    title = countryJSON.getString("B");
-                    phoneExt = countryJSON.getString("D");
-                    location = countryJSON.getString("F");
-                    email = countryJSON.getString("H");
+                    name = staffJSON.getString("A");
+                    title = staffJSON.getString("B");
+                    phoneExt = staffJSON.getString("D");
+                    location = staffJSON.getString("F");
+                    email = staffJSON.getString("H");
 
                     // Add object for each and add the object to the allCountriesList
                     sm = new StaffMember(name, title, phoneExt, location, email);
