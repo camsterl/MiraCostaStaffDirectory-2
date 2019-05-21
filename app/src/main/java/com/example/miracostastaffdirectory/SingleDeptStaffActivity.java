@@ -11,13 +11,14 @@ import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import com.example.miracostastaffdirectory.Model.StaffListAdapter;
 import com.example.miracostastaffdirectory.Model.StaffMember;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class SingleDeptStaff extends AppCompatActivity {
+public class SingleDeptStaffActivity extends AppCompatActivity {
 
     private String deptToLoad;
     private ArrayList<StaffMember> staffInDept;
@@ -49,7 +50,7 @@ public class SingleDeptStaff extends AppCompatActivity {
             prevSearch="";
 
 
-        // we will assign this string based on what department we're passed from Departments.java
+        // we will assign this string based on what department we're passed from DepartmentsActivity.java
         //      then we'll use it in a for loop to only pull out the staff members that have this in their TITLE
         //          just have to make sure that every staff member in the JSON has this word in their title first
         //          before I go blindly assigning this (the word must also be unique to that department's staff)
@@ -329,7 +330,7 @@ public class SingleDeptStaff extends AppCompatActivity {
     }
 
     public void departmentClick(View v) {
-        Intent departmentIntent = new Intent(this, Departments.class);
+        Intent departmentIntent = new Intent(this, DepartmentsActivity.class);
 
         startActivity(departmentIntent);
         this.finish();
@@ -339,7 +340,7 @@ public class SingleDeptStaff extends AppCompatActivity {
 
 
         finish();
-        Intent intent = new Intent(this, AllStaff.class);
+        Intent intent = new Intent(this, AllStaffActivity.class);
         startActivity(intent);
     }
 

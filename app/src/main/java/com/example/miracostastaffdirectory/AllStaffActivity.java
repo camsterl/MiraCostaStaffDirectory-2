@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import com.example.miracostastaffdirectory.Model.JSONLoader;
+import com.example.miracostastaffdirectory.Model.StaffListAdapter;
 import com.example.miracostastaffdirectory.Model.StaffMember;
 
 import java.io.IOException;
@@ -20,7 +21,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 
-public class AllStaff extends AppCompatActivity {
+public class AllStaffActivity extends AppCompatActivity {
 
     private static ArrayList<StaffMember> allStaff;
     private static ArrayList<StaffMember> filteredStaff;
@@ -155,7 +156,7 @@ public class AllStaff extends AppCompatActivity {
 
     public void departmentClick(View v)
     {
-        Intent departmentIntent = new Intent(this, Departments.class);
+        Intent departmentIntent = new Intent(this, DepartmentsActivity.class);
 
         startActivity(departmentIntent);
         this.finish();

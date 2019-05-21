@@ -1,7 +1,6 @@
 package com.example.miracostastaffdirectory;
 
 import android.content.Intent;
-import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void allStaffClick(View v)
     {
-        Intent allStaffIntent = new Intent(this, AllStaff.class);
+        Intent allStaffIntent = new Intent(this, AllStaffActivity.class);
 
         allStaffIntent.putParcelableArrayListExtra("allStaff", allStaff);
 
@@ -44,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void departmentClick(View v)
     {
-        Intent departmentIntent = new Intent(this, Departments.class);
+        Intent departmentIntent = new Intent(this, DepartmentsActivity.class);
 
 
         departmentIntent.putParcelableArrayListExtra("allStaff", allStaff);

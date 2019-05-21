@@ -12,13 +12,14 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import com.example.miracostastaffdirectory.Model.AllDepartmentListAdapter;
 import com.example.miracostastaffdirectory.Model.JSONLoader;
 import com.example.miracostastaffdirectory.Model.StaffMember;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class Departments extends AppCompatActivity {
+public class DepartmentsActivity extends AppCompatActivity {
 
     private ListView deptsListView;
     private ArrayList<StaffMember> allStaff;
@@ -156,14 +157,14 @@ public class Departments extends AppCompatActivity {
     }
 
     public void allStaffClick(View v) {
-        Intent intent = new Intent(this, AllStaff.class);
+        Intent intent = new Intent(this, AllStaffActivity.class);
         startActivity(intent);
         this.finish();
     }
 
     public void goToSingleDeptStaff(View v, int pos) {
 
-        Intent intent = new Intent(this, SingleDeptStaff.class);
+        Intent intent = new Intent(this, SingleDeptStaffActivity.class);
 
         String dept = filteredDepts.get(pos);
 

@@ -14,11 +14,11 @@
         <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBeMJI7fNgS3mBLpiCAPJcgklZKGGuH09c"/>
         <activity android:name=".SplashActivity" />
         <activity android:name=".MapActivity" />
-        <activity android:name=".SingleDeptStaff" />
-        <activity android:name=".StaffListAdapter" />
+        <activity android:name=".SingleDeptStaffActivity" />
+        <activity android:name=".Model.StaffListAdapter" />
         <activity android:name=".SingleStaffAct" />
-        <activity android:name=".AllStaff" />
-        <activity android:name=".Departments" />
+        <activity android:name=".AllStaffActivity" />
+        <activity android:name=".DepartmentsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

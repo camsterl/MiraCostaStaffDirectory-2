@@ -1,4 +1,4 @@
-package com.example.miracostastaffdirectory;
+package com.example.miracostastaffdirectory.Model;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.example.miracostastaffdirectory.Model.StaffMember;
+import com.example.miracostastaffdirectory.R;
 
 import java.util.List;
 

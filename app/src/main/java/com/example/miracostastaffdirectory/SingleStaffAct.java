@@ -52,7 +52,7 @@ public class SingleStaffAct extends AppCompatActivity {
 
     public void allStaffClick(View v)
     {
-        Intent toAllStaff = new Intent(this, AllStaff.class);
+        Intent toAllStaff = new Intent(this, AllStaffActivity.class);
         if (sourceAct.equals("allStaff")) {
             toAllStaff.putExtra("prevScroll", prevScroll);
             toAllStaff.putExtra("prevSearch", prevSearch);
@@ -65,20 +65,20 @@ public class SingleStaffAct extends AppCompatActivity {
         if (sourceAct.equals("allStaff"))
             allStaffClick(v);
         else if (sourceAct.equals("deptStaff")) {
-            Intent goBack = new Intent(this, SingleDeptStaff.class);
+            Intent goBack = new Intent(this, SingleDeptStaffActivity.class);
             goBack.putExtra("prevScroll", prevScroll);
             goBack.putExtra("prevSearch", prevSearch);
             ArrayList<StaffMember> staffFromDept = getIntent().getParcelableArrayListExtra("staffInDept");
             goBack.putParcelableArrayListExtra("staffInDept", staffFromDept);
             startActivity(goBack);
             finish();
-            // TODO: finish this up. Go back to Departments.java to get the list again, then call on the function that goes to SingleDeptStaff.java using a String extra passed here
+            // TODO: finish this up. Go back to DepartmentsActivity.java to get the list again, then call on the function that goes to SingleDeptStaffActivity.java using a String extra passed here
         }
     }
 
     public void departmentClick(View v)
     {
-        Intent goToDeptsAct = new Intent (this, Departments.class);
+        Intent goToDeptsAct = new Intent (this, DepartmentsActivity.class);
         startActivity(goToDeptsAct);
         this.finish();
     }
