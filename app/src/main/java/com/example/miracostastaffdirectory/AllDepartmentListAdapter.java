@@ -24,7 +24,7 @@ public class AllDepartmentListAdapter extends ArrayAdapter<String> {
         private int highlight=-1;
 
 
-
+//test
 
     public AllDepartmentListAdapter(Context context, int resource, List<String> departmentList) {
             super(context, resource, departmentList);
