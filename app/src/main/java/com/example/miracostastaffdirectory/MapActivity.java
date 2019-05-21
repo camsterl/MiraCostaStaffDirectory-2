@@ -117,10 +117,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         map = googleMap;
         LatLng myPostion = new LatLng(33.190802, -117.301805);
 
-        //add position to map
-        map.addMarker(new MarkerOptions().position(myPostion).title("Current Location").icon(BitmapDescriptorFactory.fromResource(R.drawable.my_marker)));
-
-
         //lets move camera to our position
         CameraPosition cameraPosition = new CameraPosition.Builder().target(myPostion).zoom(15.0f).build();
 
