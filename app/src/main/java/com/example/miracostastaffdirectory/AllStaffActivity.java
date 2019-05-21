@@ -166,7 +166,7 @@ public class AllStaffActivity extends AppCompatActivity {
     {
         StaffMember sm = filteredStaff.get(pos);
 
-        Intent singleStaff = new Intent(this, SingleStaffAct.class);
+        Intent singleStaff = new Intent(this, SingleStaffActivity.class);
 
         singleStaff.putExtra("sm", sm);
         singleStaff.putExtra("prevScroll", pos);

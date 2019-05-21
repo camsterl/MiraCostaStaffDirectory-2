@@ -10,7 +10,7 @@ import com.example.miracostastaffdirectory.Model.StaffMember;
 
 import java.util.ArrayList;
 
-public class SingleStaffAct extends AppCompatActivity {
+public class SingleStaffActivity extends AppCompatActivity {
 
     private StaffMember sm;
     private int prevScroll;

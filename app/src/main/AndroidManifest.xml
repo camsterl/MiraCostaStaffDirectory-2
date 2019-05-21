@@ -16,7 +16,7 @@
         <activity android:name=".MapActivity" />
         <activity android:name=".SingleDeptStaffActivity" />
         <activity android:name=".Model.StaffListAdapter" />
-        <activity android:name=".SingleStaffAct" />
+        <activity android:name=".SingleStaffActivity" />
         <activity android:name=".AllStaffActivity" />
         <activity android:name=".DepartmentsActivity" />
         <activity android:name=".MainActivity">
