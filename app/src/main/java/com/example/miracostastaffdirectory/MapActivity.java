@@ -78,11 +78,13 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
     public void seChange(View v)
     {
+        mapImage.setVisibility(View.VISIBLE);
         mapImage.setImageResource(R.drawable.se_map);
     }
 
     public void clcChange(View v)
     {
+        mapImage.setVisibility(View.VISIBLE);
         mapImage.setImageResource(R.drawable.clc_map);
     }
 
@@ -138,7 +140,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         LatLng myPostion = new LatLng(33.190802, -117.301805);
 
         //lets move camera to our position
-        CameraPosition cameraPosition = new CameraPosition.Builder().target(myPostion).zoom(16.5f).build();
+        CameraPosition cameraPosition = new CameraPosition.Builder().target(myPostion).zoom(15.0f).build();
 
         //update postition of camera
         CameraUpdate cameraUpdate = CameraUpdateFactory.newCameraPosition(cameraPosition);
