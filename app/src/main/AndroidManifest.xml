@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBeMJI7fNgS3mBLpiCAPJcgklZKGGuH09c"/>
         <activity android:name=".SplashActivity" />
         <activity android:name=".MapActivity" />
         <activity android:name=".SingleDeptStaff" />

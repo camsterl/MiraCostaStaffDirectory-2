@@ -34,7 +34,7 @@ public class LocationsJSONLoader {
 
         InputStream is = null;
 
-        is = context.getAssets().open("locations.json");
+        is = context.getAssets().open("Locations/locations.json");
         int size = is.available();
         byte[] buffer = new byte[size];
         is.read(buffer);
@@ -58,12 +58,13 @@ public class LocationsJSONLoader {
                 LocJSON = allLocJSON.getJSONObject(i);
 
                 // Extract the name and region
-                name = LocJSON.getString("name");
-                lattd = LocJSON.getDouble("lat");
-                longtd = LocJSON.getDouble("long");
+                name = LocJSON.getString("Name");
+                lattd = LocJSON.getDouble("Lat");
+                longtd = LocJSON.getDouble("Long");
 
                 // Add object for each and add the object to the allCountriesList
                 loc = new Location(name, lattd, longtd);
+                System.out.println(loc.toString());
                 allLocList.add(loc);
             }
 
