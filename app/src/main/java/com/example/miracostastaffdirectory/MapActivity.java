@@ -16,6 +16,7 @@ import com.example.miracostastaffdirectory.Model.StaffMember;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -31,6 +32,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 //  d
     ArrayList<StaffMember> allStaff;
     ImageView mapImage;
+    private SupportMapFragment mapFrag;
     private GoogleMap map;
     private List<Location> allLocationsList;
     private ListView locationsListView;
@@ -44,14 +46,14 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         // map stuff
         mapImage = findViewById(R.id.map);
         mapImage.setImageResource(R.drawable.oc_map);
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.mapFragment);
-        if (mapFragment != null) {
-            mapFragment.getMapAsync(this);
+        mapFrag = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.mapFragment);
+        if (mapFrag != null) {
+            mapFrag.getMapAsync(this);
         }
 
         // set list view
         locationsListView = findViewById(R.id.locationsListView);
-        //TODO: idk where we get the values for allLocationsList  ----- Didn't we make a locations.json??
+        //done: idk where we get the values for allLocationsList  ----- Didn't we make a locations.json??
         try {
             allLocationsList = LocationsJSONLoader.loadJSONFromAsset(this);
         } catch (IOException e) {
@@ -78,18 +80,24 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
     public void seChange(View v)
     {
+        mapFrag.getView().setVisibility(View.INVISIBLE);
+        locationsListView.setVisibility(View.INVISIBLE);
         mapImage.setVisibility(View.VISIBLE);
         mapImage.setImageResource(R.drawable.se_map);
     }
 
     public void clcChange(View v)
     {
+        mapFrag.getView().setVisibility(View.INVISIBLE);
+        locationsListView.setVisibility(View.INVISIBLE);
         mapImage.setVisibility(View.VISIBLE);
         mapImage.setImageResource(R.drawable.clc_map);
     }
 
     public void ocChange(View v)
     {
+        mapFrag.getView().setVisibility(View.VISIBLE);
+        locationsListView.setVisibility(View.VISIBLE);
         mapImage.setVisibility(View.INVISIBLE);
     }
 
