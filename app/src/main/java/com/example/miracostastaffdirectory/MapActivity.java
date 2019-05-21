@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 
@@ -63,6 +64,14 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         locationListAdapter = new LocationListAdapter(this, R.layout.simple_one_text_line_item, allLocationsList);
         locationsListView.setAdapter(locationListAdapter);
 
+        locationsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Location l = (Location)view.getTag();
+                focusOn(l);
+            }
+        });
+
 
     }
 
@@ -82,7 +91,18 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         mapImage.setVisibility(View.INVISIBLE);
     }
 
+    public void focusOn(Location l) {
+        LatLng pos = new LatLng(l.getLatitude(), l.getLongitude());
 
+        //lets move camera to our position
+        CameraPosition cameraPosition = new CameraPosition.Builder().target(pos).zoom(19f).build();
+
+        //update postition of camera
+        CameraUpdate cameraUpdate = CameraUpdateFactory.newCameraPosition(cameraPosition);
+
+        //instruct map to move to this position
+        map.moveCamera(cameraUpdate);
+    }
 
     public void allStaffClick(View v)
     {
@@ -118,7 +138,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         LatLng myPostion = new LatLng(33.190802, -117.301805);
 
         //lets move camera to our position
-        CameraPosition cameraPosition = new CameraPosition.Builder().target(myPostion).zoom(15.0f).build();
+        CameraPosition cameraPosition = new CameraPosition.Builder().target(myPostion).zoom(16.5f).build();
 
         //update postition of camera
         CameraUpdate cameraUpdate = CameraUpdateFactory.newCameraPosition(cameraPosition);
